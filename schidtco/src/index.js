@@ -74,6 +74,12 @@ class Board extends React.Component {
 
 class Game extends React.Component {
   render() {
+return (
+     <img 
+      src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/smaller.jpg"
+      alt="hosted on ipfs"
+      />
+   );
     return (
       <div className="game">
         <div className="game-board">
