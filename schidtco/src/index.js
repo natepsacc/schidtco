@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import fleekStorage from '@fleekhq/fleek-storage-js';
 import './index.css';
 
 function Square(props) {
