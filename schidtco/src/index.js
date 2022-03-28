@@ -2,6 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import fleekStorage from '@fleekhq/fleek-storage-js';
 import './index.css';
+import image from 'https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/smaller.jpg';
+
+function Header() {
+  // Import result is the URL of your image
+  return <img src={image} alt="image hosted on ipfs" />;
+}
 
 function Square(props) {
 	return (
