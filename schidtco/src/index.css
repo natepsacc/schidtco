@@ -1,9 +1,18 @@
 body {
+  display: inline-block;
   background-color: #000000;
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
-}
 
+}
+#inline{
+display:inline-block;
+width:auto;
+}
+a, a:active, a:visited {
+text-decoration: none;
+color:red;
+}
 ol, ul {
   padding-left: 30px;
 }
@@ -49,5 +58,22 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
+#centerdiv{
+	display: flex;
+	text-align:center;
+	align:center;
+}
 
+#mainImage{
+align:center;
+ width:800px;
+ height:auto;
+ margin-left: auto;
+ margin-right:auto;
+}
 
+#mImageDesc {
+display:inline-block;
+	float: right;
+	color:#ffffff;
+}
