@@ -1,13 +1,25 @@
 body {
   display: inline-block;
-  background-color: #000000;
+  background-repeat: no-repeat;
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 
 }
-#inline{
-display:inline-block;
-width:auto;
+#bgImg{
+padding:0;
+margin-top:-20px;
+padding-top:-20px;
+margin-right:-20px;
+z-index: 1;
+height:auto;
+width:100vw;
+
+}
+
+#everything{
+position:absolute;
+width:100%;
+height: auto;
 }
 a, a:active, a:visited {
 text-decoration: none;
@@ -58,22 +70,32 @@ ol, ul {
 .game-info {
   margin-left: 20px;
 }
-#centerdiv{
+#centerDiv{
+	position:fixed;
+	top:5vh;
+	left:5vw;
+	z-index:2;
+	background-color: black;
 	display: flex;
-	text-align:center;
-	align:center;
 }
 
 #mainImage{
+position:fixed;
+top:5vh;
+left:10vw;
+z-index:2;
 align:center;
- width:800px;
- height:auto;
+ width:600px;
+ height: auto;
+ height-max:60%;
  margin-left: auto;
  margin-right:auto;
 }
 
 #mImageDesc {
-display:inline-block;
-	float: right;
+position:fixed;
+top:45vh;
+left:10vw;
+z-index:3;
 	color:#ffffff;
 }
