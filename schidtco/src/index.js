@@ -4,9 +4,10 @@ import fleekStorage from '@fleekhq/fleek-storage-js';
 import './index.css';
 import useImageColor from 'use-image-color';
 import App from './app.js';
+import WebCam from './reactwebcam.js';
 
 ReactDOM.render(
-  <App />,
+  <WebCam />,
   document.getElementById('root')
 );
 
