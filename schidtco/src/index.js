@@ -7,7 +7,10 @@ import App from './app.js';
 import WebCam from './reactwebcam.js';
 
 ReactDOM.render(
-  <WebCam />,
+  <App />
+  
   document.getElementById('root')
+  document.getElementById('toor')
+
 );
 
