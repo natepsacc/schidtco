@@ -30,6 +30,8 @@ document.getElementById("schidtco").style.color = colors[6];
 		<img id="secondImage" alt="oneone.NFT" src = {imgSrctwo}/>		
 </div>
 		<div id="mImageDesc">
+<h2><a href="https://www.motors.schidt.co">MOTORS.SCHIDT.CO</a></h2>
+
 			<h1>this file is hosted on IPFS</h1>
 			<p> The link to the container is <a href={imgSrc}> {imgSrc} </a></p> 
 		</div>
