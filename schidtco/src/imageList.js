@@ -40,6 +40,7 @@ export default function StandardImageList() {
            src={`${item.img}`}
            srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
            alt={item.title}
+           loading="lazy"
               />
        </ImageListItem>
      ))}

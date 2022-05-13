@@ -41,8 +41,3 @@ list-style: none;
   color: #F0C0C9;
   transition: 1s;
 }
-#EOP{
-  opacity: 0%;
-  position: absolute;
-  top: 24600;
-}
