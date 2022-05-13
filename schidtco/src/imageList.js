@@ -2,26 +2,45 @@ import * as React from 'react';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 
-function fuck(){
+var widthL = 768;
 
-}
 export default function StandardImageList() {
-  return (
-    <ImageList sx={{ width: 500, height: 600 }} cols={3} rowHeight={1000}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          <img
-            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-            alt={item.title}
-            loading="lazy"
-            onClick={console.log("working")}
-          />
-        </ImageListItem>
-      ))}
-    </ImageList>
-  );
+  if (x.matches) { // If media query matches
+    return (
+      <ImageList sx={{ width: 100, height: 400 }} cols={3} rowHeight={800}>
+        {itemData.map((item) => (
+          <ImageListItem key={item.img}>
+            <img
+              src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+              srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+              alt={item.title}
+              loading="lazy"
+              onClick={console.log("working")}
+            />
+          </ImageListItem>
+        ))}
+      </ImageList>
+    );  } else {
+      return (
+        <ImageList sx={{ width: 500, height: 600 }} cols={3} rowHeight={1000}>
+          {itemData.map((item) => (
+            <ImageListItem key={item.img}>
+              <img
+                src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                alt={item.title}
+                loading="lazy"
+                onClick={console.log("working")}
+              />
+            </ImageListItem>
+          ))}
+        </ImageList>
+      );  }
 }
+
+var x = window.matchMedia("(max-width: 768)")
+x.addListener(StandardImageList)
+
 const itemData = [
   {
     img: 'https://i.ibb.co/vzyp5wG/a7exp-2.jpg',
