@@ -15,6 +15,21 @@ function scrollFunction() {
   } else {
     document.getElementById("TitleLogo").style.height = "20vh";
   }
+	if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+		document.body.style.backgroundColor = "#F0C0C9";
+	} else {
+		document.body.style.backgroundColor = "#d8e8ef";
+	}
+	if (document.body.scrollTop > 3000 || document.documentElement.scrollTop > 3000) {
+		document.body.style.backgroundColor = "#d8e8ef";
+	} else {
+		document.body.style.backgroundColor = "#F0C0C9";
+	}
+	if (document.body.scrollTop > 5000 || document.documentElement.scrollTop > 5000) {
+		document.body.style.backgroundColor = "#F0C0C9";
+	} else {
+		document.body.style.backgroundColor = "#d8e8ef";
+	}
 }
 
 
