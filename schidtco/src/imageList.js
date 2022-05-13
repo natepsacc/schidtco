@@ -7,7 +7,7 @@ var widthL = 768;
 export default function StandardImageList() {
   if (x.matches) { // If media query matches
     return (
-      <ImageList sx={{ width: 100, height: 400 }} cols={3} rowHeight={800}>
+      <ImageList sx={{ width: 100, height: 400 }} cols={3} rowHeight={100}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
