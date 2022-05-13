@@ -68,7 +68,7 @@ const itemData = [
     title: 'My Well Dressed Neighbor',
   },
   {
-    img: 'https://i.ibb.co/vVM956D/a7exp-1-9.jpg',
+    img: 'https://i.imgur.com/5T0538n.jpg',
     title: 'Nick at Brain Sweat Practice',
   },
 
@@ -102,7 +102,7 @@ const itemData = [
   },
 
   {
-    img: 'https://i.ibb.co/4s7Dx0f/a7exp-1.jpg',
+    img: 'https://i.imgur.com/JvRhPS4.jpg',
     title: 'SUNDAY',
   },
   {
@@ -114,25 +114,25 @@ const itemData = [
     title: 'Early Morning Merc',
   },
   {
-    img: 'https://i.ibb.co/7bmBYcN/ian-4.jpg',
+    img: 'https://i.imgur.com/j8dCHXg.jpg',
     title: 'Ian 1',
   },
   {
-    img: 'https://i.ibb.co/Y8g5G64/a7exp-1-3.jpg',
+    img: 'https://i.imgur.com/HdRd0mx.jpg',
     title: 'Earl Morning Pink Wagon',
   },
 
   {
-    img: 'https://i.ibb.co/JKSYS80/a7exp-1-6.jpg',
+    img: 'https://i.imgur.com/5ulDYpX.jpg',
     title: 'BHAMBAY',
   },
   {
-    img: 'https://i.ibb.co/8zxBxWD/a7exp-1-16.jpg',
+    img: 'https://i.imgur.com/pCosJIP.jpg',
     title: 'SUNDAY AGAIN',
   },
 
   {
-    img: 'https://i.ibb.co/F3wGF3p/kleo-10-19.jpg',
+    img: 'https://i.imgur.com/4TUjQqW.jpg',
     title: 'Halloween',
   },
   {
@@ -144,11 +144,11 @@ const itemData = [
     title: 'Surfer 2',
   },
   {
-    img: 'https://i.ibb.co/Vw91rnW/a7exp-3-3.jpg',
+    img: 'https://i.imgur.com/pnbVTTH.jpg',
     title: 'Docs at Brain Sweat practice',
   },
   {
-    img: 'https://i.ibb.co/ggkhGgx/a7exp-1-2c.jpg',
+    img: 'https://i.imgur.com/ga6th2f.jpg',
     title: 'Chevys Night',
   },
   {
