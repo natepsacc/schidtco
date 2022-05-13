@@ -171,7 +171,22 @@ const itemData = [
     title: 'How Their House Looks',
   },
   {
+    img: 'https://i.ibb.co/pr7yTXd/a7exp-1-4.jpg',
+    title: 'LUNG',
+  },  {
+      img: 'https://i.ibb.co/XyQh7Gp/a7exp-2.jpg',
+      title: 'HONDA',
+    },
+    {
+      img: 'https://i.ibb.co/wYSgKvr/a7exp-1-10-copy-2.jpg',
+      title: 'HONDA 2',
+    },
+  {
     img: 'https://i.ibb.co/MDPJJsL/a7exp-1-6.jpg',
+    title: 'Edging Winter',
+  },
+  {
+    img: 'https://i.ibb.co/W0cQkW6/a7exp-1-5.jpg',
     title: 'Edging Winter',
   },
   {
@@ -220,6 +235,10 @@ const itemData = [
     title: 'Schidt Company Experiments',
   },
   {
+    img: 'https://i.ibb.co/rbrtp1n/a7exp-1-5-2.jpg',
+    title: 'R&D AGAIN',
+  },
+  {
     img: 'https://i.ibb.co/3SmnJkD/schidtcomo2.jpg',
     title: 'Schidt Company Experiments',
   },
@@ -231,6 +250,11 @@ const itemData = [
       img: 'https://i.ibb.co/X3qSkrv/integalactic1.jpg',
       title: 'R&D',
     },
+
+    {
+          img: 'https://i.ibb.co/9w3bMvS/a7exp-3-2.jpg',
+          title: 'Co. Glowies',
+        },
     {
           img: 'https://i.ibb.co/s1VpGTR/a7exp-1-5.jpg',
           title: 'Co. Church',
