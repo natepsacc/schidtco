@@ -260,7 +260,7 @@ const itemData = [
           title: 'Co. Church',
         },
 {
-      img: 'https://ibb.co/ThBJXyx',
+      img: 'https://i.ibb.co/C054dL3/a7exp-15.jpg',
       title: 'Xmas in Vail',
     },
         {
