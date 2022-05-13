@@ -15,3 +15,14 @@ object-fit: cover;
 padding: none;
 margin: none;
 }
+
+
+#TitleLogo{
+  z-index: 5;
+  position: fixed;
+  top: 3vh;
+  left: auto;
+  height:20vh;
+  width: auto;
+  transition: 0.3s ;
+}
