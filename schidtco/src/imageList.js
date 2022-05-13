@@ -56,7 +56,7 @@ export default function StandardImageList() {
 
 const itemData = [
   {
-    img: 'https://i.ibb.co/vzyp5wG/a7exp-2.jpg',
+    img: 'https://i.imgur.com/rBvylVO.jpg',
     title: 'Couple on an Oregon Beach',
   },
   {
@@ -73,7 +73,7 @@ const itemData = [
   },
 
   {
-    img: 'https://i.ibb.co/qx9GkP4/a7exp-1-3.jpg',
+    img: 'https://i.imgur.com/6JEQOoq.jpg',
     title: 'Nice House',
   },
   {
@@ -175,11 +175,11 @@ const itemData = [
     img: 'https://i.ibb.co/pr7yTXd/a7exp-1-4.jpg',
     title: 'LUNG',
   },  {
-      img: 'https://i.ibb.co/XyQh7Gp/a7exp-2.jpg',
+      img: 'https://i.imgur.com/5AjGztW.jpg',
       title: 'HONDA',
     },
     {
-      img: 'https://i.ibb.co/wYSgKvr/a7exp-1-10-copy-2.jpg',
+      img: 'https://i.imgur.com/BXb3XQD.jpeg',
       title: 'HONDA 2',
     },
   {
