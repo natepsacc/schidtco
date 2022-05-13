@@ -52,22 +52,22 @@ const WebcamStreamCapture = () => {
     }
   }, [recordedChunks]);
 
-  return (
-    <>
-      <Webcam audio={false} ref={webcamRef} />
-      {capturing ? (
-        <button onClick={handleStopCaptureClick}>Stop Capture</button>
-      ) : (
-        <button onClick={handleStartCaptureClick}>Start Capture</button>
-      )}
-      {recordedChunks.length > 0 && (
-        <button onClick={handleDownload}>Download</button>
-      )}
-    </>
+const videoConstraints = {
+    width: { min: 1024, ideal: 1920, max: 1920 },
+    height: { min: 576, ideal: 1080, max: 1080 },
+  facingMode: "user"
+};
+
+  return (    
+<>
+	<div id="move">
+      <Webcam audio={false} ref={webcamRef} videoConstraints={videoConstraints} />
+     </div>
+</>    
   );
 };
 
-ReactDOM.render(<WebcamStreamCapture />, document.getElementById("root"));
+ReactDOM.render(<WebcamStreamCapture />, document.getElementById("toor"));
 }
 // https://www.npmjs.com/package/react-webcam
 

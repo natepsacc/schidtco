@@ -6,7 +6,11 @@ import useImageColor from 'use-image-color';
 import App from './app.js';
 
 ReactDOM.render(
-<App />,
-document.getElementById('root'),
-document.getElementById('toor')
+  <App />,
+  document.getElementById('root')
 );
+
+
+
+
+
