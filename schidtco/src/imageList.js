@@ -1,45 +1,60 @@
 import * as React from 'react';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
+import Box from '@mui/material/Box';
+import imageListItemClasses from "@material-ui/core/ImageListItem";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-var widthL = 768;
-
+const theme = createTheme({
+  breakpoints: {
+    values: {
+      mobile: 0,
+      bigMobile: 350,
+      tablet: 650,
+      desktop: 1000
+    }
+  }
+});
 export default function StandardImageList() {
-  if (x.matches) { // If media query matches
     return (
-      <ImageList sx={{ width: 100, height: 400 }} cols={3} rowHeight={100}>
-        {itemData.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-              srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-              alt={item.title}
-              loading="lazy"
-              onClick={console.log("working")}
+      <ThemeProvider theme={theme}>
+   <Box
+     sx={{
+       height: "100%",
+       backgroundColor: "black",
+       display: "grid",
+       gridTemplateColumns: {
+         mobile: "repeat(1, 100%)",
+         bigMobile: "repeat(2, 50%)",
+         tablet: "repeat(3, 33.33%)",
+         desktop: "repeat(2, 50%)"
+       },
+       [`& .${imageListItemClasses.root}`]: {
+         display: "flex",
+         flexDirection: "column"
+       }
+     }}
+   >
+     {itemData.map((item) => (
+       <ImageListItem key={item.img}            onclick = {"location.href = '${item.img}'"}
+>
+         <img
+           src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+           srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+           alt={item.title}
+           onclick = {"location.href = '${item.img}'"}
             />
-          </ImageListItem>
-        ))}
-      </ImageList>
-    );  } else {
-      return (
-        <ImageList sx={{ width: 500, height: 600 }} cols={3} rowHeight={1000}>
-          {itemData.map((item) => (
-            <ImageListItem key={item.img}>
-              <img
-                src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                alt={item.title}
-                loading="lazy"
-                onClick={console.log("working")}
-              />
-            </ImageListItem>
-          ))}
-        </ImageList>
-      );  }
+       </ImageListItem>
+     ))}
+   </Box>
+ </ThemeProvider>
+
+      );
 }
 
-var x = window.matchMedia("(max-width: 768)")
-x.addListener(StandardImageList)
+
+
+
 
 const itemData = [
   {
