@@ -60,11 +60,11 @@ const itemData = [
     title: 'Couple on an Oregon Beach',
   },
   {
-    img: 'https://i.ibb.co/JBrVY6Z/a7exp-4.jpg',
+    img: 'https://i.imgur.com/9rf7Rto.jpg',
     title: '325I',
   },
   {
-    img: 'https://i.ibb.co/WnRg42m/a7exp-1-2.jpg',
+    img: 'https://i.imgur.com/MZqh1kU.jpg',
     title: 'My Well Dressed Neighbor',
   },
   {
@@ -136,11 +136,11 @@ const itemData = [
     title: 'Halloween',
   },
   {
-    img: 'https://i.ibb.co/nbF26dY/a7exp-1-9.jpg',
+    img: 'https://i.imgur.com/vzENpQu.jpg',
     title: 'Surfer 1',
   },
   {
-    img: 'https://i.ibb.co/FhBmJcy/a7exp-1-8.jpg',
+    img: 'https://i.imgur.com/tH38LlF.jpg',
     title: 'Surfer 2',
   },
   {
@@ -172,7 +172,7 @@ const itemData = [
     title: 'How Their House Looks',
   },
   {
-    img: 'https://i.ibb.co/pr7yTXd/a7exp-1-4.jpg',
+    img: 'https://i.imgur.com/MCGQ7GF.jpg',
     title: 'LUNG',
   },  {
       img: 'https://i.imgur.com/5AjGztW.jpg',
@@ -199,7 +199,7 @@ const itemData = [
     title: 'Explorer',
   },
   {
-    img: 'https://i.ibb.co/r51Ctbr/a7exp-1-7.jpg',
+    img: 'https://i.imgur.com/PMNcCtk.jpg',
     title: 'PCH',
   },
   {
@@ -212,7 +212,7 @@ const itemData = [
          title: 'caddy',
        },
 {
-  img: 'https://i.ibb.co/m81QCXf/a7exp-8.jpg',
+  img: 'https://i.imgur.com/KFNlKaz.jpg',
   title: 'Vail, Co. Patriot',
 },
   {
