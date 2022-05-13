@@ -157,7 +157,7 @@ const itemData = [
   },
 
   {
-    img: 'https://i.ibb.co/VNTHrsR/a7exp-1-9.jpg',
+    img: 'https://i.ibb.co/CPvnwCx/a7exp-1-10.jpg',
     title: 'How Their House Looks',
   },
   {
