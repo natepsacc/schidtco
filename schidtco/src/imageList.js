@@ -163,7 +163,7 @@ const itemData = [
     title: 'Private Beach 3',
   },
   {
-         img: 'https://ibb.co/1ZSX6Jv',
+         img: 'https://i.ibb.co/5T7jFxM/a7exp-1-7.jpg',
          title: 'WINNER',
        },
   {
@@ -183,6 +183,11 @@ const itemData = [
     title: 'Explorer',
   },
   {
+    img: 'https://i.ibb.co/r51Ctbr/a7exp-1-7.jpg',
+    title: 'PCH',
+  },
+  {
+
     img: 'https://i.ibb.co/Kj2xLBQ/bitch-9-2.jpg',
     title: 'Feb. Whatcom Falls',
   },
@@ -190,6 +195,10 @@ const itemData = [
          img: 'https://i.ibb.co/YRVTsB2/a7exp-3.jpg',
          title: 'caddy',
        },
+{
+  img: 'https://i.ibb.co/m81QCXf/a7exp-8.jpg',
+  title: 'Vail, Co. Patriot',
+},
   {
     img: 'https://i.ibb.co/WxjK4br/bitch-10-2.jpg',
     title: 'Feb. Whatcom Falls',
@@ -225,7 +234,12 @@ const itemData = [
     {
           img: 'https://i.ibb.co/s1VpGTR/a7exp-1-5.jpg',
           title: 'Co. Church',
-        },    {
+        },
+{
+      img: 'https://ibb.co/ThBJXyx',
+      title: 'Xmas in Vail',
+    },
+        {
               img: 'https://i.ibb.co/vX4hj3T/a7exp-1-42.jpg',
               title: 'Wyoming Cemetery',
             },    {
