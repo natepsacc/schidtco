@@ -77,27 +77,27 @@ const itemData = [
     title: 'Nice House',
   },
   {
-    img: 'https://i.ibb.co/HH6qYK5/a7exp-1-2.jpg',
+    img: 'https://i.imgur.com/oxHyVyb.jpg',
     title: 'Washington Beach',
   },
   {
-    img: 'https://i.ibb.co/sVNMkKb/a7exp-1-7.jpg',
+    img: 'https://i.imgur.com/yW3X6HK.jpg',
     title: 'Near Devils Gulch',
   },
   {
-    img: 'https://i.ibb.co/LhjP0Wm/a7exp-1-4.jpg',
+    img: 'https://i.imgur.com/1FUCUkF.jpg',
     title: 'Mary and Chevy',
   },
   {
-    img: 'https://i.ibb.co/hgtvbgW/a7exp-1.jpg',
+    img: 'https://i.imgur.com/Ratasd3.jpg',
     title: 'Nick at Practice',
   },
   {
-    img: 'https://i.ibb.co/qFLHW9c/a7exp-1.jpg',
+    img: 'https://i.imgur.com/qh2ZHE4.jpgjpg',
     title: 'Bunny',
   },
   {
-    img: 'https://i.ibb.co/qJGVTm6/a7exp-6.jpg',
+    img: 'https://i.imgur.com/FPZnn0t.jpg',
     title: 'Nick at Brain Sweat Practice',
   },
 
@@ -106,11 +106,11 @@ const itemData = [
     title: 'SUNDAY',
   },
   {
-    img: 'https://i.ibb.co/4Y76X5Q/a7exp-1-10-copy.jpg',
+    img: 'https://i.imgur.com/sl1CUwB.jpg',
     title: 'Isaac and his Honda',
   },
   {
-    img: 'https://i.ibb.co/gy5brHS/a7exp-1-7.jpg',
+    img: 'https://i.imgur.com/EUWHrkj.jpg',
     title: 'Early Morning Merc',
   },
   {
