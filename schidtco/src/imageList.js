@@ -134,7 +134,14 @@ const itemData = [
     img: 'https://i.ibb.co/F3wGF3p/kleo-10-19.jpg',
     title: 'Halloween',
   },
-
+  {
+    img: 'https://i.ibb.co/nbF26dY/a7exp-1-9.jpg',
+    title: 'Surfer 1',
+  },
+  {
+    img: 'https://i.ibb.co/FhBmJcy/a7exp-1-8.jpg',
+    title: 'Surfer 2',
+  },
   {
     img: 'https://i.ibb.co/Vw91rnW/a7exp-3-3.jpg',
     title: 'Docs at Brain Sweat practice',
@@ -155,7 +162,10 @@ const itemData = [
     img: 'https://i.ibb.co/WFwfHMM/a7exp-1-15.jpg',
     title: 'Private Beach 3',
   },
-
+  {
+         img: 'https://ibb.co/1ZSX6Jv',
+         title: 'WINNER',
+       },
   {
     img: 'https://i.ibb.co/CPvnwCx/a7exp-1-10.jpg',
     title: 'How Their House Looks',
@@ -169,9 +179,17 @@ const itemData = [
     title: 'Morning',
   },
   {
+    img: 'https://i.ibb.co/SrQ0JTh/qs-HDR-1-3.jpg',
+    title: 'Explorer',
+  },
+  {
     img: 'https://i.ibb.co/Kj2xLBQ/bitch-9-2.jpg',
     title: 'Feb. Whatcom Falls',
   },
+  {
+         img: 'https://i.ibb.co/YRVTsB2/a7exp-3.jpg',
+         title: 'caddy',
+       },
   {
     img: 'https://i.ibb.co/WxjK4br/bitch-10-2.jpg',
     title: 'Feb. Whatcom Falls',
