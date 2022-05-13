@@ -63,15 +63,15 @@ const itemData = [
     img: 'https://i.ibb.co/JBrVY6Z/a7exp-4.jpg',
     title: '325I',
   },
-
-  {
-    img: 'https://i.ibb.co/vVM956D/a7exp-1-9.jpg',
-    title: 'Nick at Brain Sweat Practice',
-  },
   {
     img: 'https://i.ibb.co/WnRg42m/a7exp-1-2.jpg',
     title: 'My Well Dressed Neighbor',
   },
+  {
+    img: 'https://i.ibb.co/vVM956D/a7exp-1-9.jpg',
+    title: 'Nick at Brain Sweat Practice',
+  },
+
   {
     img: 'https://i.ibb.co/qx9GkP4/a7exp-1-3.jpg',
     title: 'Nice House',
@@ -91,6 +91,10 @@ const itemData = [
   {
     img: 'https://i.ibb.co/hgtvbgW/a7exp-1.jpg',
     title: 'Nick at Practice',
+  },
+  {
+    img: 'https://i.ibb.co/qFLHW9c/a7exp-1.jpg',
+    title: 'Bunny',
   },
   {
     img: 'https://i.ibb.co/qJGVTm6/a7exp-6.jpg',
@@ -126,10 +130,7 @@ const itemData = [
     img: 'https://i.ibb.co/8zxBxWD/a7exp-1-16.jpg',
     title: 'SUNDAY AGAIN',
   },
-  {
-    img: 'https://i.ibb.co/qFLHW9c/a7exp-1.jpg',
-    title: 'Bunny',
-  },
+
   {
     img: 'https://i.ibb.co/F3wGF3p/kleo-10-19.jpg',
     title: 'Halloween',
