@@ -25,7 +25,7 @@ export default function StandardImageList() {
        gridTemplateColumns: {
          mobile: "repeat(1, 100%)",
          bigMobile: "repeat(1, 100%)",
-         tablet: "repeat(3, 33.33%)",
+         tablet: "repeat(2, 50%)",
          desktop: "repeat(2, 50%)"
        },
        [`& .${imageListItemClasses.root}`]: {
