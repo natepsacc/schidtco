@@ -21,7 +21,6 @@ export default function StandardImageList() {
    <Box
      sx={{
        height: "900px",
-       backgroundColor: "black",
        display: "grid",
        gridTemplateColumns: {
          mobile: "repeat(1, 100%)",
@@ -41,7 +40,7 @@ export default function StandardImageList() {
            src={`${item.img}`}
            srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
            alt={item.title}
-              role="button"            />
+              />
        </ImageListItem>
      ))}
    </Box>
