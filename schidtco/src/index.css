@@ -28,3 +28,15 @@ list-style: none;
   width: auto;
   transition: 0.3s ;
 }
+#footer{
+  z-index: 5;
+  text-align: center;
+  position: fixed;
+  top: 95vh;
+  left: auto;
+  width: 100%;
+  font-size: 0.8vw;
+  opacity: 0%;
+  color: #F0C0C9;
+  transition: 1s;
+}

@@ -20,16 +20,22 @@ function scrollFunction() {
 	} else {
 		document.body.style.backgroundColor = "#d8e8ef";
 	}
-	if (document.body.scrollTop > 3000 || document.documentElement.scrollTop > 3000) {
-		document.body.style.backgroundColor = "#d8e8ef";
-	} else {
+
+	if (document.body.scrollTop > 3500 || document.documentElement.scrollTop > 3500) {
 		document.body.style.backgroundColor = "#F0C0C9";
-	}
-	if (document.body.scrollTop > 5000 || document.documentElement.scrollTop > 5000) {
-		document.body.style.backgroundColor = "#F0C0C9";
+		document.getElementById("footer").style.opacity = "75%";
 	} else {
 		document.body.style.backgroundColor = "#d8e8ef";
+		document.getElementById("footer").style.opacity = "0%";
+
 	}
+	if (document.body.scrollTop > 22000 || document.documentElement.scrollTop > 22000) {
+		document.getElementById("footer").style.opacity = "75%";
+	} else {
+		document.getElementById("footer").style.opacity = "0%";
+
+	}
+
 }
 
 
@@ -40,16 +46,16 @@ function App() {
 
 <span>
 <Logo/>
+<Footer/>
 <StandardImageList/>
 
 </span>
+
 	);
 
 }
 
-function Menu(){
 
-}
 function Logo(){
 	return(
 		<a href="https://schidt.co">
@@ -58,5 +64,15 @@ function Logo(){
 );
 }
 
+function Footer(){
+	return(
+<div id="footer">
+<span style={{backgroundColor: "#d8e8ef"}}>
+natepsacc@gmail.com, @schidtery, @schidt.co
+<br/>Schidt.co is a Web3 site.
+</span>
+</div>
+);
+}
 
 export default App;
