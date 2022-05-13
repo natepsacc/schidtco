@@ -41,8 +41,7 @@ export default function StandardImageList() {
            src={`${item.img}`}
            srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
            alt={item.title}
-           onClick = {"location.href = '${item.img}'"}
-            />
+              role="button"            />
        </ImageListItem>
      ))}
    </Box>
@@ -69,10 +68,17 @@ const itemData = [
     img: 'https://i.ibb.co/vVM956D/a7exp-1-9.jpg',
     title: 'Nick at Brain Sweat Practice',
   },
-
   {
     img: 'https://i.ibb.co/WnRg42m/a7exp-1-2.jpg',
     title: 'My Well Dressed Neighbor',
+  },
+  {
+    img: 'https://i.ibb.co/qx9GkP4/a7exp-1-3.jpg',
+    title: 'Nice House',
+  },
+  {
+    img: 'https://i.ibb.co/HH6qYK5/a7exp-1-2.jpg',
+    title: 'Washington Beach',
   },
   {
     img: 'https://i.ibb.co/sVNMkKb/a7exp-1-7.jpg',
@@ -104,13 +110,14 @@ const itemData = [
     title: 'Early Morning Merc',
   },
   {
+    img: 'https://i.ibb.co/7bmBYcN/ian-4.jpg',
+    title: 'Ian 1',
+  },
+  {
     img: 'https://i.ibb.co/Y8g5G64/a7exp-1-3.jpg',
     title: 'Earl Morning Pink Wagon',
   },
-  {
-    img: 'https://i.ibb.co/qx9GkP4/a7exp-1-3.jpg',
-    title: 'Nice House',
-  },
+
   {
     img: 'https://i.ibb.co/JKSYS80/a7exp-1-6.jpg',
     title: 'BHAMBAY',
@@ -118,6 +125,10 @@ const itemData = [
   {
     img: 'https://i.ibb.co/8zxBxWD/a7exp-1-16.jpg',
     title: 'SUNDAY AGAIN',
+  },
+  {
+    img: 'https://i.ibb.co/qFLHW9c/a7exp-1.jpg',
+    title: 'Bunny',
   },
   {
     img: 'https://i.ibb.co/F3wGF3p/kleo-10-19.jpg',
@@ -194,9 +205,6 @@ const itemData = [
       title: 'R&D',
     },
     {
-      img: 'https://i.ibb.co/qFLHW9c/a7exp-1.jpg',
-      title: 'Bunny',
-    },    {
           img: 'https://i.ibb.co/s1VpGTR/a7exp-1-5.jpg',
           title: 'Co. Church',
         },    {
@@ -218,10 +226,7 @@ const itemData = [
       img: 'https://i.ibb.co/Gnr6qpS/qs-HDR-1-2-5s.jpg',
       title: 'Trail',
     },
-    {
-      img: 'https://i.ibb.co/7bmBYcN/ian-4.jpg',
-      title: 'Ian 1',
-    },
+
     {
       img: 'https://i.ibb.co/fHwDZBX/ian-6.jpg',
       title: 'Ian 2',
@@ -235,8 +240,5 @@ const itemData = [
       title: 'Trail',
     },
 
-    {
-      img: 'https://i.ibb.co/HH6qYK5/a7exp-1-2.jpg',
-      title: 'Washington Beach',
-    },
+
 ];
