@@ -6,4 +6,12 @@ body {
 }
 img{
 height: inherit;
+object-fit: cover;
+
+}
+
+#height{
+  height: inherit;
+padding: none;
+margin: none;
 }

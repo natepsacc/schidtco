@@ -20,7 +20,7 @@ export default function StandardImageList() {
       <ThemeProvider theme={theme}>
    <Box
      sx={{
-       height: "100%",
+       height: "900px",
        backgroundColor: "black",
        display: "grid",
        gridTemplateColumns: {
@@ -36,13 +36,12 @@ export default function StandardImageList() {
      }}
    >
      {itemData.map((item) => (
-       <ImageListItem key={item.img}            onclick = {"location.href = '${item.img}'"}
->
+       <ImageListItem key={item.img} id="height">
          <img
-           src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+           src={`${item.img}`}
            srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
            alt={item.title}
-           onclick = {"location.href = '${item.img}'"}
+           onClick = {"location.href = '${item.img}'"}
             />
        </ImageListItem>
      ))}
