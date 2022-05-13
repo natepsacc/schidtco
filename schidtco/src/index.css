@@ -1,6 +1,7 @@
 body {
+  font-family: 'Courier New', monospace;
 
-  font-family: "Times New Roman", Times, serif;
+
   background-color: #d8e8ef;
   transition: 5s ;
 
@@ -35,8 +36,13 @@ list-style: none;
   top: 95vh;
   left: auto;
   width: 100%;
-  font-size: 0.8vw;
+  font-size: 9pt;
   opacity: 0%;
   color: #F0C0C9;
   transition: 1s;
+}
+#EOP{
+  opacity: 0%;
+  position: absolute;
+  top: 24600;
 }
