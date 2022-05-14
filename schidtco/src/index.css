@@ -47,11 +47,13 @@ img {
     filter: brightness(100%);
     filter: saturate(1);
     filter: invert(0);
+    filter: drop-shadow(0);
   }
   100% {
     opacity: 100;
     filter: brightness(200%);
-    filter: invert(1);
+    filter: invert(0.7);
+    filter: drop-shadow(1);
   }
 }
 
