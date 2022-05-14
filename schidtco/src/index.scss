@@ -1,34 +1,39 @@
 body {
-  font-family: "Courier New", monospace;
+  font-family: 'Courier New', monospace;
+
+
   background-color: #d8e8ef;
-  transition: 5s;
+  transition: 5s ;
+
+}
+img{
+height: inherit;
+object-fit: cover;
+
 }
 
-img {
+#height{
   height: inherit;
-  object-fit: cover;
+padding: none;
+margin: none;
+list-style: none;
 }
 
-#height {
-  height: inherit;
-  padding: none;
-  margin: none;
-  list-style: none;
-}
 
-#TitleLogo {
+#TitleLogo{
   z-index: 5;
   position: fixed;
   top: 4vh;
   left: 3vw;
   right: auto;
-  height: 20vh;
-  width: auto;
-  transition: 0.3s;
-  animation: pulsefade 4s ease-in-out infinite alternate;
-}
 
-#footer {
+ height:20vh;
+  width: auto;
+  transition: 0.3s ;
+  animation:pulsefade 4s ease-in-out infinite alternate;
+
+}
+#footer{
   z-index: 5;
   text-align: center;
   position: fixed;
@@ -40,19 +45,17 @@ img {
   color: #F0C0C9;
   transition: 1s;
 }
-
 @keyframes pulsefade {
   0% {
     opacity: 20;
     filter: brightness(100%);
     filter: saturate(1);
-    filter: invert(0);
+    filter:invert(0);
+
   }
   100% {
-    opacity: 100;
-    filter: brightness(200%);
-    filter: invert(1);
+opacity: 100;
+filter: brightness(200%);
+filter:invert(1);
   }
 }
-
-/*# sourceMappingURL=index.css.map */

@@ -77,7 +77,7 @@ const itemData = [
     title: 'Nice House',
   },
   {
-    img: 'https://i.imgur.com/oxHyVyb.jpg',
+    img: 'https://i.imgur.com/1XZe0Vm.jpg',
     title: 'Washington Beach',
   },
   {
@@ -85,7 +85,7 @@ const itemData = [
     title: 'Near Devils Gulch',
   },
   {
-    img: 'https://i.imgur.com/1FUCUkF.jpg',
+    img: 'https://i.imgur.com/Gila5Ll.jpg',
     title: 'Mary and Chevy',
   },
   {
@@ -93,7 +93,7 @@ const itemData = [
     title: 'Nick at Practice',
   },
   {
-    img: 'https://i.imgur.com/qh2ZHE4.jpgjpg',
+    img: 'https://i.imgur.com/HuIWMCV.jpg',
     title: 'Bunny',
   },
   {
@@ -132,8 +132,8 @@ const itemData = [
   },
 
   {
-    img: 'https://i.imgur.com/4TUjQqW.jpg',
-    title: 'Halloween',
+    img: 'https://i.imgur.com/TZEhq50.jpg',
+    title: 'KV 10/19',
   },
   {
     img: 'https://i.imgur.com/vzENpQu.jpg',
@@ -220,12 +220,16 @@ const itemData = [
     title: 'Feb. Whatcom Falls',
   },
   {
-         img: 'https://i.imgur.com/FqVaXiV.jpg',
+         img: 'https://i.imgur.com/zZlxplW.jpg',
          title: 'caddy',
        },
 {
-  img: 'https://i.imgur.com/KFNlKaz.jpg',
+  img: 'https://i.imgur.com/pVbtOgH.jpg',
   title: 'Vail, Co. Patriot',
+},
+{
+  img: 'https://i.imgur.com/xfa3AMV.jpg',
+  title: 'Glacier, Co. An hour from rolling my truck:)',
 },
 {
   img: 'https://i.imgur.com/iH4cllZ.jpg',
@@ -316,8 +320,8 @@ const itemData = [
       title: 'Ian 2',
     },
     {
-      img: 'https://i.imgur.com/pVbtOgH.jpg',
-      title: 'Trail',
+      img: 'https://i.imgur.com/EWpUfVK.jpg',
+      title: 'milky',
     },
     {
       img: 'https://i.imgur.com/GPHEKLk.jpg',
