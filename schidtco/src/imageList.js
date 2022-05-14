@@ -20,7 +20,12 @@ export default function StandardImageList() {
       <ThemeProvider theme={theme}>
    <Box
      sx={{
-       height: "900px",
+       height: {
+         mobile: "600px",
+         bigMobile: "600px",
+         tablet: "900px",
+         desktop: "900px"
+       },
        display: "grid",
        gridTemplateColumns: {
          mobile: "repeat(1, 100%)",
