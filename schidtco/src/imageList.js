@@ -81,7 +81,7 @@ const itemData = [
     title: 'Washington Beach',
   },
   {
-    img: 'https://i.imgur.com/yW3X6HK.jpg',
+    img: 'https://i.imgur.com/VwupETD.jpg',
     title: 'Near Devils Gulch',
   },
   {
@@ -144,8 +144,16 @@ const itemData = [
     title: 'Surfer 2',
   },
   {
+    img: '  https://i.imgur.com/hy9rxg6.jpg',
+    title: '(s)explorer on the beach',
+  },
+  {
     img: 'https://i.imgur.com/pnbVTTH.jpg',
     title: 'Docs at Brain Sweat practice',
+  },
+  {
+    img: '  https://i.imgur.com/56ZvGbQ.jpg',
+    title: 'DustStorm On the Beach',
   },
   {
     img: 'https://i.imgur.com/ga6th2f.jpg',
@@ -164,7 +172,11 @@ const itemData = [
     title: 'Private Beach 3',
   },
   {
-         img: 'https://i.imgur.com/HIv0SwE.jpg',
+    img: '  https://i.imgur.com/LKLy1bu.jpg',
+    title: 'CO Matte Merc',
+  },
+  {
+         img: 'https://i.imgur.com/iFhaZFG.jpg',
          title: 'WINNER',
        },
   {
@@ -215,6 +227,10 @@ const itemData = [
   img: 'https://i.imgur.com/KFNlKaz.jpg',
   title: 'Vail, Co. Patriot',
 },
+{
+  img: 'https://i.imgur.com/iH4cllZ.jpg',
+  title: '(s)explorer on the beach',
+},
   {
     img: 'https://i.imgur.com/TsjhqGN.jpg',
     title: 'Feb. Whatcom Falls',
@@ -230,6 +246,10 @@ const itemData = [
   {
     img: 'https://i.imgur.com/JUUxiPu.jpg',
     title: 'Morning',
+  },
+  {
+    img: '  https://i.imgur.com/zmlgVEP.jpg',
+    title: 'Mother and child',
   },
   {
     img: 'https://i.imgur.com/qiAHwaG.jpg',
@@ -251,7 +271,10 @@ const itemData = [
       img: 'https://i.imgur.com/Gm11VkA.jpg',
       title: 'R&D',
     },
-
+    {
+      img: '    https://i.imgur.com/lr4RSXV.jpg',
+      title: 'Cannon Beach',
+    },
     {
           img: 'https://i.imgur.com/jctrv8O.jpg',
           title: 'Co. Glowies',
@@ -278,6 +301,10 @@ const itemData = [
     {
       img: 'https://i.imgur.com/3fG3mfq.jpg',
       title: 'Shroom',
+    },
+    {
+      img: 'https://i.imgur.com/3FGCzcl.jpg',
+      title: 'theatre',
     },
     {
       img: 'https://i.imgur.com/o5Dy82p.jpg',
