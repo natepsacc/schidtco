@@ -16,7 +16,7 @@ a, a.visited, a.active {
 
 div.nav {
   position: fixed;
-  top: 12vh;
+  top: 25vh;
   left: 3.5vw;
   z-index: 5;
   background-color: white;
