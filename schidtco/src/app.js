@@ -18,14 +18,12 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "8vh";
 		document.getElementById("nav").style.top = "14vh";
-		document.getElementById("nav").style.fontSize = "0.5vw";
 
 
 
   } else {
     document.getElementById("TitleLogo").style.height = "20vh";
 		document.getElementById("nav").style.top = "25vh";
-		document.getElementById("nav").style.fontSize = "1vw";
 
 
   }
