@@ -279,7 +279,23 @@ const itemData = [
     title: 'LUNG',
     tag: 'out',
 
-  },  {
+  },
+  {
+    img: 'https://i.imgur.com/SnNIDl1.jpg',
+    title: 'Corner Office',
+    tag: 'out',
+    tag2: "USA",
+    tag3: "bldng"
+
+  },
+  {
+    img: 'https://i.imgur.com/lpKGwa5.jpg',
+    title: 'PNW',
+    tag: 'out',
+    tag2: "USA",
+
+  },
+  {
       img: 'https://i.imgur.com/5AjGztW.jpg',
       title: 'HONDA',
       tag: 'CAR',
