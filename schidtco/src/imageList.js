@@ -160,7 +160,7 @@ const itemData = [
 
   },
   {
-    img: 'https://i.imgur.com/EUWHrkj.jpg',
+    img: 'https://i.imgur.com/Xg7jSZT.jpg',
     title: 'Early Morning Merc',
     tag: 'CAR',
 
