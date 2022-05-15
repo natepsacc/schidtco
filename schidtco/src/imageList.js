@@ -523,12 +523,7 @@ const itemData = [
       tag: 'out',
     },
 
-    {
-      img: 'https://i.imgur.com/zrYdXWS.jpg',
-      title: 'Ian 2',
-      tag: 'ppl',
 
-    },
     {
       img: 'https://i.imgur.com/EWpUfVK.jpg',
       title: 'milky',
@@ -595,4 +590,13 @@ const itemData = [
 
                         },
 
+];
+
+const unused = [
+  {
+    img: 'https://i.imgur.com/zrYdXWS.jpg',
+    title: 'Ian 2',
+    tag: 'undisplay',
+
+  },
 ];
