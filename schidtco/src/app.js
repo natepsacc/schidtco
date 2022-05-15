@@ -17,12 +17,15 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "8vh";
-		document.getElementById("nav").style.top = "12vh";
+		document.getElementById("nav").style.top = "14vh";
+		document.getElementById("nav").style.fontSize = "0.5vw";
+
 
 
   } else {
     document.getElementById("TitleLogo").style.height = "20vh";
 		document.getElementById("nav").style.top = "25vh";
+		document.getElementById("nav").style.fontSize = "1vw";
 
 
   }
@@ -149,7 +152,7 @@ function Footer(){
 <span style={{backgroundColor: "#d8e8ef"}}>
 natepsacc@gmail.com, @schidtery, @schidt.co
 <br/>Schidt.co is a """Web3""" site.
-<br/>i hope mark zuclerberg dies very soon.  ReactJS is cancer, the most aids way to do anytinh
+
 </span>
 </div>
 );
