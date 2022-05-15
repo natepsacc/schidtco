@@ -14,9 +14,9 @@ a,a.visited,a.active{
   text-decoration: none;
 }
 div.nav{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 12vh;
+  left: 3.5vw;
   z-index: 5;
   background-color: white;
   width: fit-content;
@@ -39,7 +39,6 @@ list-style: none;
   top: 4vh;
   left: 3vw;
   right: auto;
-
  height:20vh;
   width: auto;
   transition: 0.3s ;

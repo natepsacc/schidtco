@@ -17,8 +17,14 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "8vh";
+		document.getElementById("nav").style.top = "12vh";
+
+
   } else {
     document.getElementById("TitleLogo").style.height = "20vh";
+		document.getElementById("nav").style.top = "25vh";
+
+
   }
 	if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
 		document.body.style.backgroundColor = "#F0C0C9";
@@ -124,7 +130,7 @@ function Logo(){
 	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/schidtcoLogo.png"/>
 		</a>
 
-		<div class="nav">
+		<div id="nav" class="nav">
 		<a href="#/cars" >Cars</a>
 		<a href="#/usa"> USA</a>
 		<a href="#/ppl"> People</a>
