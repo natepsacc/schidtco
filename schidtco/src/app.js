@@ -17,7 +17,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "8vh";
-		document.getElementById("nav").style.top = "14vh";
+		document.getElementById("nav").style.top = "2vh";
 
 
 
