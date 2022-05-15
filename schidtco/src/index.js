@@ -4,8 +4,12 @@ import fleekStorage from '@fleekhq/fleek-storage-js';
 import './index.css';
 import useImageColor from 'use-image-color';
 import App from './app.js';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 ReactDOM.render(
+  <BrowserRouter>
 <App />,
-document.getElementById('root'),
+</BrowserRouter>,
+
+document.getElementById('root')
 );
