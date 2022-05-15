@@ -97,7 +97,7 @@ const itemData = [
     tag: 'ppl',
   },
   {
-    img: 'https://i.imgur.com/5T0538n.jpg',
+    img: 'https://i.imgur.com/a5o0zro.jpg',
     title: 'Nick at Brain Sweat Practice',
     tag: 'ppl',
   },
