@@ -304,6 +304,45 @@ const itemData = [
     tag: 'out',
 
   },
+
+
+
+  {
+    img: 'https://i.imgur.com/9xCk0Ia.jpg',
+    title: 'Navy',
+    tag: 'out',
+
+  },
+  {
+    img: 'https://i.imgur.com/bzd2Y4T.jpg',
+    title: 'Twin Sisters?',
+    tag: 'out',
+
+  },
+  {
+    img: 'https://i.imgur.com/HJUFpJ4.jpg',
+    title: 'McDongals',
+    tag: 'out',
+    tag2: "USA"
+
+  },
+  {
+    img: 'https://i.imgur.com/HcJnmcA.jpg',
+    title: 'beach again',
+    tag: 'out',
+
+  },
+  {
+    img: 'https://i.imgur.com/6sAwkYg.jpg',
+    title: 'waterfall',
+    tag: 'out',
+    tag2: 'USA',
+
+
+  },
+
+
+
   {
     img: 'https://i.imgur.com/lwVyOMr.jpg',
     title: 'Morning',
