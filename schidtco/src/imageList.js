@@ -45,8 +45,8 @@ export default function StandardImageList(props) {
        height: {
          mobile: "600px",
          bigMobile: "600px",
-         tablet: "900px",
-         desktop: "900px"
+         tablet: "100vh",
+         desktop: "100vh"
        },
        display: "grid",
        gridTemplateColumns: {
