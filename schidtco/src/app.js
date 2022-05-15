@@ -96,11 +96,11 @@ function App() {
 		<span>
 
 		<Routes>
-       <Route path='/cars' element={<Cars />} />
-       <Route path='/' element={<Home />} />
+       <Route path='/cars' element={<Cars /> } />
+       <Route  path='/' element={<Home/> } />
 			 <Route path='/usa' element={<USA />} />
 			 <Route path='/ppl' element={<Ppl />} />
-			 <Route path='/out' element={<Out />} />
+			 <Route path='/out' element={<Out/> } />
 
     </Routes>
 </span>
@@ -125,10 +125,10 @@ function Logo(){
 		</a>
 
 		<div class="nav">
-		<a href="/cars" >Cars</a>
-		<a href="/usa"> USA</a>
-		<a href="/ppl"> People</a>
-		<a href="/out"> Outside</a>
+		<a href="#/cars" >Cars</a>
+		<a href="#/usa"> USA</a>
+		<a href="#/ppl"> People</a>
+		<a href="#/out"> Outside</a>
 
 		</div>
 		</span>
