@@ -56,7 +56,7 @@ function Home(){
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="all"/>
+	<StandardImageList tag="all" gridColumns="2"/>
 	</span>
 );
 }
@@ -65,7 +65,7 @@ function Cars(){
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="CAR"/>
+	<StandardImageList tag="CAR" gridColumns="2"/>
 	</span>
 );
 }
@@ -74,7 +74,7 @@ function USA(){
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="USA"/>
+	<StandardImageList tag="USA" gridColumns="2"/>
 	</span>
 );
 }
@@ -83,7 +83,7 @@ function Ppl(){
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="ppl"/>
+	<StandardImageList tag="ppl"gridColumns="2"/>
 	</span>
 );
 }
@@ -92,7 +92,7 @@ function Out(){
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="out"/>
+	<StandardImageList tag="out"gridColumns="2"/>
 	</span>
 );
 }

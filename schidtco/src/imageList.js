@@ -34,12 +34,13 @@ export default function StandardImageList(props) {
       }
   });
 
-  console.log(sort);
-
+var gridNum = props.gridColumns;
+console.log(gridNum);
 
 
       return (
       <ThemeProvider theme={theme}>
+
    <Box
      sx={{
        height: {
@@ -49,11 +50,11 @@ export default function StandardImageList(props) {
          desktop: "100vh"
        },
        display: "grid",
-       gridTemplateColumns: {
+       gridTemplateColumns:{
          mobile: "repeat(1, 100%)",
          bigMobile: "repeat(1, 100%)",
-         tablet: "repeat(2, 50%)",
-         desktop: "repeat(2, 50%)"
+         tablet: "repeat(1, 100%)",
+         desktop: 'repeat(2, 50%)'
        },
        [`& .${imageListItemClasses.root}`]: {
          display: "flex",
