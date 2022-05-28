@@ -75,6 +75,7 @@ function USA(){
 	<Logo/>
 	<Footer/>
 	<StandardImageList tag="USA" gridColumns="2"/>
+
 	</span>
 );
 }
@@ -116,12 +117,36 @@ function App() {
 
 }
 
+function BionicText(){
+	const params = {
+	content: "",
+	response_type: "html",
+	request_type: "html",
+	fixation: "1",
+  saccade: "10"
+};
+	const encodedParams = new URLSearchParams(Object.entries(params)).toString();
+
+	console.log(encodedParams);
 
 
+	const options = {
+		method: 'POST',
+		headers: {
+			'content-type': 'application/x-www-form-urlencoded',
+			'X-RapidAPI-Host': 'bionic-reading1.p.rapidapi.com',
+			'X-RapidAPI-Key': 'a3905a4f1bmshe4f8491817bfe99p16f93djsn524e64b46ca7'
+		},
+		body: encodedParams
+	};
 
+	fetch('https://bionic-reading1.p.rapidapi.com/convert', options)
+		.then(response => response.text())
+		.then(data => console.log(data))
 
-
-
+		.catch(err => console.error(err));
+return(<span></span>);
+}
 
 function Logo(){
 
@@ -132,10 +157,10 @@ function Logo(){
 		</a>
 
 		<div id="nav" class="nav">
-		<a href="#/cars" >Cars</a>
-		<a href="#/usa"> USA</a>
-		<a href="#/ppl"> People</a>
-		<a href="#/out"> Outside</a>
+		<a href="#/cars" ><b class="b bionic">Car</b>s </a>
+		<a href="#/usa"> <b class="b bionic">US</b>A </a>
+		<a href="#/ppl"> <b class="b bionic">Peop</b>le</a>
+		<a href="#/out"> <b class="b bionic">Outsi</b>de</a>
 
 		</div>
 		</span>
