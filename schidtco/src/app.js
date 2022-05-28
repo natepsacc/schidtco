@@ -97,6 +97,16 @@ function Out(){
 	</span>
 );
 }
+function Commod(){
+	return(
+		<span>
+	<Logo/>
+	<Footer/>
+	<StandardImageList tag="commod"gridColumns="2"/>
+	<BionicText/>
+	</span>
+);
+}
 function App() {
 
 
@@ -109,6 +119,7 @@ function App() {
 			 <Route path='/usa' element={<USA />} />
 			 <Route path='/ppl' element={<Ppl />} />
 			 <Route path='/out' element={<Out/> } />
+			 <Route path='/commod' element={<Commod/> } />
 
     </Routes>
 </span>
@@ -119,7 +130,7 @@ function App() {
 
 function BionicText(){
 	const params = {
-	content: "",
+	content: "Commodity",
 	response_type: "html",
 	request_type: "html",
 	fixation: "1",
@@ -157,10 +168,11 @@ function Logo(){
 		</a>
 
 		<div id="nav" class="nav">
-		<a href="#/cars" ><b class="b bionic">Car</b>s </a>
+		<a href="#/cars" ><b class="b bionic">car</b>s </a>
 		<a href="#/usa"> <b class="b bionic">US</b>A </a>
-		<a href="#/ppl"> <b class="b bionic">Peop</b>le</a>
-		<a href="#/out"> <b class="b bionic">Outsi</b>de</a>
+		<a href="#/ppl"> <b class="b bionic">peop</b>le</a>
+		<a href="#/out"> <b class="b bionic">outsi</b>de</a>
+		<a href="#/commod"> <b class="b bionic">commodi</b>ty</a>
 
 		</div>
 		</span>
