@@ -1,6 +1,6 @@
 body {
   font-family: "Courier New", monospace;
-  background-color: #d8e8ef;
+  animation: bgchange 4s ease-in-out infinite alternate;
   transition: 5s;
 }
 
@@ -61,7 +61,23 @@ div.nav {
   color: #F0C0C9;
   transition: 1s;
 }
+@keyframes bgchange {
+  0%{
+    background-color: #D3F8EF;
+}
+  25%{
+    background-color: #B8D8D9;
 
+  }
+  50%{
+    background-color: #D8E8EF;
+
+  }
+  100%{
+    background-color: #B8C6D9;
+
+  }
+}
 @keyframes pulsefade {
   0% {
     opacity: 20;
