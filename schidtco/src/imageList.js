@@ -6,7 +6,6 @@ import imageListItemClasses from "@material-ui/core/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
-  spacing: 2,
   breakpoints: {
     values: {
       mobile: 0,
@@ -44,7 +43,6 @@ console.log(gridNum);
 
    <Box
      sx={{
-       m:0,
        height: {
          mobile: "600px",
          bigMobile: "600px",
@@ -55,7 +53,7 @@ console.log(gridNum);
        gridTemplateColumns:{
          mobile: "repeat(1, 100%)",
          bigMobile: "repeat(1, 100%)",
-         tablet: "repeat(1, 100%)",
+         tablet: "repeat(2, 50%)",
          desktop: 'repeat(2, 50%)'
        },
        [`& .${imageListItemClasses.root}`]: {
@@ -65,7 +63,7 @@ console.log(gridNum);
      }}
    >
      {sort.map((item) => (
-       <ImageListItem key={item.img} id="height" sx={{m:20}}>
+       <ImageListItem key={item.img} id="height" sx={{m:0}}>
          <img
            src={`${item.img}`}
            srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
@@ -475,6 +473,12 @@ const itemData = [
       title: 'R&D',
       tag2: 'RAD',
     },
+    {
+      img: 'https://i.imgur.com/vZuERf2.jpg',
+      title: 'R&D',
+      tag2: 'RAD',
+    },
+
     {
       img: '    https://i.imgur.com/lr4RSXV.jpg',
       title: 'Cannon Beach',

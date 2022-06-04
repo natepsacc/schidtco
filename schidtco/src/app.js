@@ -107,6 +107,16 @@ function Commod(){
 	</span>
 );
 }
+function Rad(){
+	return(
+		<span>
+	<Logo/>
+	<Footer/>
+	<StandardImageList tag="RAD"gridColumns="2"/>
+	<BionicText/>
+	</span>
+);
+}
 function App() {
 
 
@@ -120,6 +130,7 @@ function App() {
 			 <Route path='/ppl' element={<Ppl />} />
 			 <Route path='/out' element={<Out/> } />
 			 <Route path='/commod' element={<Commod/> } />
+       <Route path='/rad' element={<Rad/> } />
 
     </Routes>
 </span>
@@ -172,6 +183,7 @@ function Logo(){
 		<a href="#/usa"> <b class="b bionic">US</b>A </a>
 		<a href="#/ppl"> <b class="b bionic">peop</b>le</a>
 		<a href="#/out"> <b class="b bionic">outsi</b>de</a>
+    <a href="#/rad"> <b class="b bionic">R&</b>D</a>
 		<a href="#/commod"> <b class="b bionic">commodi</b>ty</a>
 
 		</div>
