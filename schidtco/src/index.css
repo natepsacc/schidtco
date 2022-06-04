@@ -22,7 +22,7 @@ div.nav {
   z-index: 5;
   background-color: white;
   width: fit-content;
-  font-size: 8pt;
+  font-size: 1.5vw;
   text-decoration: none;
   color: #F0C0C9;
   transition: 1s;
