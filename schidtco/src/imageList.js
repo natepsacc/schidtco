@@ -321,9 +321,30 @@ const itemData = [
     tag: 'out',
 
   },
+  {
+    img: 'https://i.imgur.com/QejXnFt.jpg',
+    title: 'Strange mornings',
+    date: '06-05-22',
+    tag: '',
+    tag2: '',
 
+  },
+{
+  img: 'https://i.imgur.com/Wsuom31.jpg',
+  title: 'The Alaskan',
+  date: '06-05-22',
+  tag: 'USA',
+  tag2: '',
 
+},
+{
+  img: 'https://i.imgur.com/fzXGxAX.jpg',
+  title: 'Minturn, Co.',
+  date: '12-06-21',
+  tag: 'USA',
+  tag2: '',
 
+},
   {
     img: 'https://i.imgur.com/9xCk0Ia.jpg',
     title: 'Navy',
