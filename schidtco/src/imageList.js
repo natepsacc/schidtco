@@ -345,6 +345,23 @@ const itemData = [
   tag2: '',
 
 },
+{
+  img: 'https://i.imgur.com/3FGCzcl.jpg',
+  title: 'theatre',
+  tag: 'out',
+},
+{
+  img: 'https://i.imgur.com/6t0vbI9.jpg',
+  title: 'Trail',
+  tag: 'out',
+},
+
+
+{
+  img: 'https://i.imgur.com/EWpUfVK.jpg',
+  title: 'milky',
+  tag: 'out',
+},
   {
     img: 'https://i.imgur.com/9xCk0Ia.jpg',
     title: 'Navy',
@@ -540,23 +557,7 @@ const itemData = [
       title: 'Shroom',
       tag: 'out',
     },
-    {
-      img: 'https://i.imgur.com/3FGCzcl.jpg',
-      title: 'theatre',
-      tag: 'out',
-    },
-    {
-      img: 'https://i.imgur.com/o5Dy82p.jpg',
-      title: 'Trail',
-      tag: 'out',
-    },
 
-
-    {
-      img: 'https://i.imgur.com/EWpUfVK.jpg',
-      title: 'milky',
-      tag: 'out',
-    },
     {
       img: 'https://i.imgur.com/GPHEKLk.jpg',
       title: 'Trail',
