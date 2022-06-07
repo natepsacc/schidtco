@@ -102,21 +102,28 @@ const itemData = [
   {
     img: 'https://i.imgur.com/rBvylVO.jpg',
     title: 'Couple on an Oregon Beach',
+    date: '011421',
     tag: 'USA',
   },
   {
     img: 'https://i.imgur.com/9rf7Rto.jpg',
     title: '325I',
+    date: '042922',
+
     tag: 'CAR',
   },
   {
     img: 'https://i.imgur.com/MZqh1kU.jpg',
     title: 'My Well Dressed Neighbor',
+    date: '042822',
+
     tag: 'ppl',
   },
   {
     img: 'https://i.imgur.com/a5o0zro.jpg',
     title: 'Nick at Brain Sweat Practice',
+    date: '021022',
+
     tag: 'ppl',
   },
 
