@@ -41,12 +41,12 @@ div.nav {
   z-index: 5;
   position: fixed;
   top: 4vh;
-  left: 3vw;
+  left: 3.5vw;
   right: auto;
   height: 20vh;
   width: auto;
   transition: 0.3s;
-  animation: pulsefade 4s ease-in-out infinite alternate;
+  animation: pulsefade 2s ease-in-out infinite alternate;
 }
 
 #footer {

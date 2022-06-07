@@ -17,12 +17,21 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "8vh";
+    document.getElementById("TitleLogo").style.top = "6vh";
+  //  document.getElementById("TitleLogo").style.backgroundColor = "white";
+  //  document.getElementById("TitleLogo").style.animation = "";
+
 		document.getElementById("nav").style.top = "2vh";
 
 
 
   } else {
     document.getElementById("TitleLogo").style.height = "20vh";
+    document.getElementById("TitleLogo").style.top = "4vh";
+    //document.getElementById("TitleLogo").style.backgroundColor = "";
+    //document.getElementById("TitleLogo").style.animation = "pulsefade 4s ease-in-out infinite alternate";
+
+
 		document.getElementById("nav").style.top = "25vh";
 
 

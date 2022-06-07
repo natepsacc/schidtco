@@ -1,7 +1,9 @@
 import * as React from 'react';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
 import Box from '@mui/material/Box';
+import { typography } from '@mui/system';
 import imageListItemClasses from "@material-ui/core/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
@@ -13,7 +15,11 @@ const theme = createTheme({
       tablet: 650,
       desktop: 1000
     }
-  }
+  },
+  palette: {
+    background: {
+      paper: 'rgba(0,0,0,0.2)'
+    }}
 });
 
 export default function StandardImageList(props) {
@@ -70,6 +76,17 @@ console.log(gridNum);
            alt={item.title}
            loading="lazy"
               />
+              <ImageListItemBar
+              sx={{
+                bgcolor:'background.paper',
+                width:'20%',
+                textAlign: 'center',
+                fontFamily: 'Courier New',
+                  }}
+            title={item.date}
+            subtitle={item.tit}
+
+          />
        </ImageListItem>
      ))}
    </Box>
