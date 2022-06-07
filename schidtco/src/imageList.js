@@ -348,7 +348,7 @@ const itemData = [
   {
     img: 'https://i.imgur.com/QejXnFt.jpg',
     title: 'Strange mornings',
-    date: '06-05-22',
+    date: '060522',
     tag: '',
     tag2: '',
 
@@ -356,7 +356,7 @@ const itemData = [
 {
   img: 'https://i.imgur.com/Wsuom31.jpg',
   title: 'The Alaskan',
-  date: '06-05-22',
+  date: '060522',
   tag: 'USA',
   tag2: '',
 
@@ -364,7 +364,7 @@ const itemData = [
 {
   img: 'https://i.imgur.com/fzXGxAX.jpg',
   title: 'Minturn, Co.',
-  date: '12-06-21',
+  date: '120621',
   tag: 'USA',
   tag2: '',
 
