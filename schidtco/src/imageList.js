@@ -80,10 +80,11 @@ console.log(gridNum);
               sx={{
                 bgcolor:'background.paper',
                 width:{
-                mobile: "25%",
-                bigMobile: "25%",
+                mobile: "50%",
+                bigMobile: "50%",
                 tablet: "20%",
                 desktop: "20%"},
+
                 textAlign: 'center',
                 fontFamily: 'Courier New',
                 fontSize: {
