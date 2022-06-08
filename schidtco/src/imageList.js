@@ -79,9 +79,18 @@ console.log(gridNum);
               <ImageListItemBar
               sx={{
                 bgcolor:'background.paper',
-                width:'20%',
+                width:{
+                mobile: "25%",
+                bigMobile: "25%",
+                tablet: "20%",
+                desktop: "20%"},
                 textAlign: 'center',
                 fontFamily: 'Courier New',
+                fontSize: {
+                  mobile: "9pt",
+                bigMobile: "9pt",
+                tablet: "12pt",
+                desktop: "12pt"}
                   }}
             title={item.date}
             subtitle={item.tit}
