@@ -140,12 +140,14 @@ const itemData = [
     img: 'https://i.imgur.com/6JEQOoq.jpg',
     title: 'Nice House',
     tag: 'USA',
+    date: '040322',
 
   },
   {
     img: 'https://i.imgur.com/1XZe0Vm.jpg',
     title: 'Washington Beach',
     tag: 'USA',
+    date: '04**22',
 
   },
   {
@@ -158,12 +160,14 @@ const itemData = [
     img: 'https://i.imgur.com/Gila5Ll.jpg',
     title: 'Mary and Chevy',
     tag: 'ppl',
+    date: '01**22',
 
   },
   {
     img: 'https://i.imgur.com/Ratasd3.jpg',
     title: 'Nick at Practice',
     tag: 'ppl',
+    date: '01**22',
 
   },
   {
@@ -176,6 +180,7 @@ const itemData = [
     img: 'https://i.imgur.com/FPZnn0t.jpg',
     title: 'Nick at Brain Sweat Practice',
     tag: 'ppl',
+    date: '01**22',
 
   },
 
