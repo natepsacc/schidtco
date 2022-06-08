@@ -80,8 +80,8 @@ console.log(gridNum);
               sx={{
                 bgcolor:'background.paper',
                 width:{
-                mobile: "50%",
-                bigMobile: "50%",
+                mobile: "25%",
+                bigMobile: "25%",
                 tablet: "20%",
                 desktop: "20%"},
 
