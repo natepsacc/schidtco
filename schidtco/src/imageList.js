@@ -192,14 +192,7 @@ const itemData = [
     date: '01**22',
 
   },
-  {
-    img: 'https://i.imgur.com/iGRiF4v.jpg',
-    title: 'Stranger',
-    tag: 'ppl',
-    tag: 'out',
-    date: '060822',
 
-  },
   {
     img: 'https://i.imgur.com/JvRhPS4.jpg',
     title: 'SUNDAY',
@@ -220,12 +213,7 @@ const itemData = [
     tag: 'CAR',
 
   },
-  {
-    img: 'https://i.imgur.com/j8dCHXg.jpg',
-    title: 'Ian 1',
-    tag: 'ppl',
 
-  },
   {
     img: 'https://i.imgur.com/HdRd0mx.jpg',
     title: 'Earl Morning Pink Wagon',
@@ -692,7 +680,14 @@ const itemData = [
               tag: 'product',
 
             },
+            {
+              img: 'https://i.imgur.com/iGRiF4v.jpg',
+              title: 'Stranger',
+              tag: 'ppl',
+              tag: 'out',
+              date: '060822',
 
+            },
 
 
 
@@ -746,6 +741,12 @@ const unused = [
     img: 'https://i.imgur.com/zrYdXWS.jpg',
     title: 'Ian 2',
     tag: 'undisplay',
+
+  },
+  {
+    img: 'https://i.imgur.com/j8dCHXg.jpg',
+    title: 'Ian 1',
+    tag: 'ppl',
 
   },
 ];
