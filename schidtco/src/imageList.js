@@ -192,7 +192,14 @@ const itemData = [
     date: '01**22',
 
   },
+  {
+    img: 'https://i.imgur.com/iGRiF4v.jpg',
+    title: 'Stranger',
+    tag: 'ppl',
+    tag: 'out',
+    date: '060822',
 
+  },
   {
     img: 'https://i.imgur.com/JvRhPS4.jpg',
     title: 'SUNDAY',
