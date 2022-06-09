@@ -310,12 +310,7 @@ const itemData = [
     tag: 'out',
 
   },
-  {
-    img: 'https://i.imgur.com/jr4Zy0c.jpg',
-    title: 'R&D',
-    date: '060722',
-    tag2: 'RAD',
-  },
+
   {
     img: '  https://i.imgur.com/LKLy1bu.jpg',
     title: 'CO Matte Merc',
@@ -357,12 +352,7 @@ const itemData = [
     tag2: "USA",
 
   },
-  {
-    img: 'https://i.imgur.com/7YGxtrx.jpg',
-    title: 'R&D',
-    date: '060822',
-    tag2: 'RAD',
-  },
+
   {
       img: 'https://i.imgur.com/5AjGztW.jpg',
       title: 'HONDA',
@@ -577,17 +567,37 @@ const itemData = [
 
   },
   {
+    img: 'https://i.imgur.com/jr4Zy0c.jpg',
+    title: 'R&D',
+    date: '060722',
+    tag2: 'RAD',
+  },
+  {
+    img: '  https://i.imgur.com/kbPigMn.jpg',
+    title: 'R&D',
+    date: '060822',
+    tag2: 'RAD',
+  },
+
+  {
     img: 'https://i.imgur.com/r9CqzKf.jpg',
     title: 'R&D AGAIN',
     tag: 'RAD',
 
   },
+
   {
     img: 'https://i.imgur.com/DrihU0V.jpg',
     title: 'Schidt Company Experiments',
     tag: 'CAR',
     tag2: 'RAD',
 
+  },
+  {
+    img: 'https://i.imgur.com/TRknQrF.jpg',
+    title: 'R&D',
+    date: '060822',
+    tag2: 'RAD',
   },
   {
       img: 'https://i.imgur.com/k9WluBF.jpg',
