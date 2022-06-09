@@ -110,6 +110,13 @@ console.log(gridNum);
 
 const itemData = [
   {
+    img: 'https://i.imgur.com/WNuttod.jpg',
+    title: 'old man take a look at my life',
+    date: '070822',
+
+    tag: 'ppl',
+  },
+  {
     img: 'https://i.imgur.com/rBvylVO.jpg',
     title: 'Couple on an Oregon Beach',
     date: '011421',
@@ -122,6 +129,7 @@ const itemData = [
 
     tag: 'CAR',
   },
+
   {
     img: 'https://i.imgur.com/MZqh1kU.jpg',
     title: 'My Well Dressed Neighbor',
@@ -420,6 +428,14 @@ const itemData = [
 
   },
   {
+    img: '  https://i.imgur.com/TU7iDUw.jpg',
+    title: 'fairhavenidk',
+    date: '070822',
+    tag: 'out',
+    tag2: "ppl"
+
+  },
+  {
     img: 'https://i.imgur.com/HJUFpJ4.jpg',
     title: 'McDongals',
     tag: 'out',
@@ -440,8 +456,15 @@ const itemData = [
 
 
   },
+{
+  img: 'https://i.imgur.com/5cmUkek.jpg',
+  title: 'waterfall',
+  date: '070822',
+  tag: 'out',
+  tag2: 'USA',
 
 
+},
 
   {
     img: 'https://i.imgur.com/lwVyOMr.jpg',
@@ -458,6 +481,13 @@ const itemData = [
   {
     img: 'https://i.imgur.com/PMNcCtk.jpg',
     title: 'PCH',
+    tag: 'out',
+
+  },
+  {
+
+    img: '  https://i.imgur.com/WuIsCyu.jpg',
+    title: 'Feb. Whatcom Falls',
     tag: 'out',
 
   },
