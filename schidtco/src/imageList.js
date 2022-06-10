@@ -144,7 +144,13 @@ const itemData = [
 
     tag: 'ppl',
   },
+  {
+    img: 'https://i.imgur.com/c8tzEEd.jpg',
+    title: 'Brain Sweat',
+    date: '021022',
 
+    tag: 'ppl',
+  },
   {
     img: 'https://i.imgur.com/6JEQOoq.jpg',
     title: 'Nice House',
@@ -488,6 +494,13 @@ const itemData = [
     img: '  https://i.imgur.com/WuIsCyu.jpg',
     title: 'Feb. Whatcom Falls',
     tag: 'out',
+
+  },
+  {
+    img: 'https://i.imgur.com/GbZrSJo.jpg',
+    title: 'belacs pedals',
+    date: "021022",
+    tag: 'ppl',
 
   },
   {
