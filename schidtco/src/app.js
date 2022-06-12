@@ -193,7 +193,6 @@ function Logo(){
 		<a href="#/ppl"> <b class="b bionic">peop</b>le</a>
 		<a href="#/out"> <b class="b bionic">outsi</b>de</a>
     <a href="#/rad"> <b class="b bionic">R&</b>D</a>
-		<a href="#/commod"> <b class="b bionic">commodi</b>ty</a>
 
 		</div>
 		</span>

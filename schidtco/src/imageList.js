@@ -137,13 +137,7 @@ const itemData = [
 
     tag: 'ppl',
   },
-  {
-    img: 'https://i.imgur.com/a5o0zro.jpg',
-    title: 'Nick at Brain Sweat Practice',
-    date: '021022',
 
-    tag: 'ppl',
-  },
   {
     img: 'https://i.imgur.com/c8tzEEd.jpg',
     title: 'Brain Sweat',
@@ -191,13 +185,7 @@ const itemData = [
     tag: 'CAR',
 
   },
-  {
-    img: 'https://i.imgur.com/FPZnn0t.jpg',
-    title: 'Nick at Brain Sweat Practice',
-    tag: 'ppl',
-    date: '01**22',
 
-  },
 
   {
     img: 'https://i.imgur.com/JvRhPS4.jpg',
@@ -387,6 +375,13 @@ const itemData = [
     tag2: '',
 
   },
+  {
+    img: 'https://i.imgur.com/FPZnn0t.jpg',
+    title: 'Nick at Brain Sweat Practice',
+    tag: 'ppl',
+    date: '01**22',
+
+  },
 {
   img: 'https://i.imgur.com/Wsuom31.jpg',
   title: 'The Alaskan',
@@ -408,6 +403,7 @@ const itemData = [
   title: 'theatre',
   tag: 'out',
 },
+
 {
   img: 'https://i.imgur.com/6t0vbI9.jpg',
   title: 'Trail',
@@ -439,6 +435,13 @@ const itemData = [
     tag: 'out',
     tag2: "ppl"
 
+  },
+  {
+    img: 'https://i.imgur.com/a5o0zro.jpg',
+    title: 'Nick at Brain Sweat Practice',
+    date: '021022',
+
+    tag: 'ppl',
   },
   {
     img: 'https://i.imgur.com/HJUFpJ4.jpg',
@@ -564,6 +567,16 @@ const itemData = [
     img: '  https://i.imgur.com/zmlgVEP.jpg',
     title: 'Mother and child',
     tag: 'ppl',
+
+  },
+  {
+    img: '  https://i.imgur.com/lqldWTH.jpg',
+    title: 'Blue Angel by Malcolm Liepke redone with AI by me',
+    date: 'Blue Angel byMalcolm Liepke redone with AI by me',
+
+    tag: 'RAD',
+    tag2: 'ppl',
+
 
   },
   {
