@@ -39,7 +39,7 @@ list-style: none;
   top: 4vh;
   left: 3vw;
   right: auto;
- height:20vh;
+ height:25vh;
   width: auto;
   transition: 0.3s ;
   animation:pulsefade 4s ease-in-out infinite alternate;
@@ -68,7 +68,7 @@ list-style: none;
   100% {
 opacity: 100;
 filter: brightness(200%);
-filter:invert(0.7);
+filter:invert(1);
 filter:drop-shadow(1);
 
   }

@@ -16,8 +16,8 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("TitleLogo").style.height = "8vh";
-    document.getElementById("TitleLogo").style.top = "6vh";
+    document.getElementById("TitleLogo").style.height = "10vh";
+    document.getElementById("TitleLogo").style.top = "5vh";
   //  document.getElementById("TitleLogo").style.backgroundColor = "white";
   //  document.getElementById("TitleLogo").style.animation = "";
 
@@ -26,7 +26,7 @@ function scrollFunction() {
 
 
   } else {
-    document.getElementById("TitleLogo").style.height = "20vh";
+    document.getElementById("TitleLogo").style.height = "25vh";
     document.getElementById("TitleLogo").style.top = "4vh";
     //document.getElementById("TitleLogo").style.backgroundColor = "";
     //document.getElementById("TitleLogo").style.animation = "pulsefade 4s ease-in-out infinite alternate";
@@ -184,7 +184,7 @@ function Logo(){
 	return(
 		<span>
 		<a href="/" >
-	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/schidtcoLogo.png"/>
+	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/fuck/schidtcoLogo.png"/>
 		</a>
 
 		<div id="nav" class="nav">

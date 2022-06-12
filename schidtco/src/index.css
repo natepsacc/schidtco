@@ -1,13 +1,12 @@
 body {
   font-family: "Courier New", monospace;
-  animation: bgchange 4s ease-in-out infinite alternate;
+  background-color: #d8e8ef;
   transition: 5s;
 }
 
 img {
   height: inherit;
   object-fit: cover;
-
 }
 
 a, a.visited, a.active {
@@ -22,7 +21,7 @@ div.nav {
   z-index: 5;
   background-color: white;
   width: fit-content;
-  font-size: 2vw;
+  font-size: 8pt;
   text-decoration: none;
   color: #F0C0C9;
   transition: 1s;
@@ -31,22 +30,20 @@ div.nav {
 #height {
   height: inherit;
   padding: none;
-  margin-left: 1%;
-  margin-right: 1%;
-    list-style: none;
-
+  margin: none;
+  list-style: none;
 }
 
 #TitleLogo {
   z-index: 5;
   position: fixed;
   top: 4vh;
-  left: 3.5vw;
+  left: 3vw;
   right: auto;
-  height: 20vh;
+  height: 25vh;
   width: auto;
   transition: 0.3s;
-  animation: pulsefade 2s ease-in-out infinite alternate;
+  animation: pulsefade 4s ease-in-out infinite alternate;
 }
 
 #footer {
@@ -61,23 +58,7 @@ div.nav {
   color: #F0C0C9;
   transition: 1s;
 }
-@keyframes bgchange {
-  0%{
-    background-color: #D3F8EF;
-}
-  25%{
-    background-color: #B8D8D9;
 
-  }
-  50%{
-    background-color: #D8E8EF;
-
-  }
-  100%{
-    background-color: #B8C6D9;
-
-  }
-}
 @keyframes pulsefade {
   0% {
     opacity: 20;
@@ -89,7 +70,7 @@ div.nav {
   100% {
     opacity: 100;
     filter: brightness(200%);
-    filter: invert(0.7);
+    filter: invert(1);
     filter: drop-shadow(1);
   }
 }
