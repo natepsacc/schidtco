@@ -94,7 +94,7 @@ console.log(gridNum);
                 desktop: "12pt"}
                   }}
             title={item.date}
-            subtitle={item.tit}
+            subtitle={item.title}
 
           />
        </ImageListItem>
@@ -111,7 +111,7 @@ console.log(gridNum);
 const itemData = [
   {
     img: 'https://i.imgur.com/WNuttod.jpg',
-    title: 'old man take a look at my life',
+    title: 'old man',
     date: '060822',
 
     tag: 'ppl',
@@ -140,15 +140,16 @@ const itemData = [
 
   {
     img: 'https://i.imgur.com/c8tzEEd.jpg',
-    title: 'Brain Sweat',
+    title: 'Brain Sweating',
     date: '021022',
 
     tag: 'ppl',
   },
   {
     img: 'https://i.imgur.com/6JEQOoq.jpg',
-    title: 'Nice House',
+    title: 'House',
     tag: 'USA',
+    tag2: 'out',
     date: '040322',
 
   },
@@ -157,6 +158,14 @@ const itemData = [
     title: 'Washington Beach',
     tag: 'USA',
     date: '04**22',
+
+  },
+  {
+    img: 'https://i.imgur.com/eyaaiS2.jpg',
+    title: 'park lovers',
+    tag: 'ppl',
+    tag: 'out',
+    date: '031722',
 
   },
   {
@@ -172,6 +181,7 @@ const itemData = [
     date: '01**22',
 
   },
+
   {
     img: 'https://i.imgur.com/Ratasd3.jpg',
     title: 'Nick at Practice',
@@ -185,12 +195,18 @@ const itemData = [
     tag: 'CAR',
 
   },
+{
+  img: 'https://i.imgur.com/qqGyyD8.jpg',
+  title: 'something future something',
+  tag: 'out',
+  date: '031722',
 
-
+},
   {
     img: 'https://i.imgur.com/JvRhPS4.jpg',
     title: 'SUNDAY',
     tag: 'ppl',
+    tag2: 'out',
 
   },
   {
@@ -198,6 +214,7 @@ const itemData = [
     title: 'Isaac and his Honda',
     tag: 'CAR',
     tag: 'ppl',
+    tag2: 'out',
 
 
   },
@@ -205,20 +222,29 @@ const itemData = [
     img: 'https://i.imgur.com/Xg7jSZT.jpg',
     title: 'Early Morning Merc',
     tag: 'CAR',
+    tag2: 'out',
 
   },
 
   {
     img: 'https://i.imgur.com/HdRd0mx.jpg',
-    title: 'Earl Morning Pink Wagon',
+    title: 'Pink Wagon',
     tag: 'CAR',
 
   },
+  {
+    img: 'https://i.imgur.com/vo4QIdi.jpg',
+    title: 'one eyed house',
+    tag: 'USA',
+    tag: 'out',
+    date: '031722',
 
+  },
   {
     img: 'https://i.imgur.com/5ulDYpX.jpg',
     title: 'BHAMBAY',
     tag: 'USA',
+    tag2: 'out',
 
   },
   {
@@ -231,8 +257,25 @@ const itemData = [
 
   {
     img: 'https://i.imgur.com/TZEhq50.jpg',
-    title: 'KV 10/19',
+    title: 'KV',
+    date: '101919',
     tag: 'ppl',
+
+  },
+  {
+    img: 'https://i.imgur.com/tLQQm3V.jpg',
+    title: 'everything is blue',
+    tag: 'USA',
+    tag: 'out',
+    date: '031722',
+
+  },
+  {
+    img: 'https://i.imgur.com/meztWUD.jpg',
+    title: 'overgrown',
+    tag: 'USA',
+    tag: 'out',
+    date: '031722',
 
   },
   {
@@ -255,7 +298,7 @@ const itemData = [
   },
   {
     img: 'https://i.imgur.com/pnbVTTH.jpg',
-    title: 'Docs at Brain Sweat practice',
+    title: 'Docs',
     tag: 'product',
 
   },
@@ -268,6 +311,22 @@ const itemData = [
 
   },
   {
+    img: 'https://i.imgur.com/rvmvcQG.jpg',
+    title: 'incredible',
+    tag: 'USA',
+    tag: 'out',
+    date: '031722',
+
+  },
+  {
+    img: 'https://i.imgur.com/0CQaUTT.jpg',
+    title: 'beat up old k6',
+    tag: 'USA',
+    tag: 'car',
+    date: '031722',
+
+  },
+  {
     img: '  https://i.imgur.com/SySkfOF.jpg',
     title: 'old lady ice cream :-)',
     tag: 'ppl',
@@ -275,12 +334,7 @@ const itemData = [
     tag: 'USA',
 
   },
-  {
-    img: 'https://i.imgur.com/ga6th2f.jpg',
-    title: 'Chevys Night',
-    tag: 'ppl',
 
-  },
   {
     img: 'https://i.imgur.com/XqvOrwn.jpg',
     title: 'Private Beach 1',
@@ -772,6 +826,12 @@ const unused = [
   {
     img: 'https://i.imgur.com/j8dCHXg.jpg',
     title: 'Ian 1',
+    tag: 'ppl',
+
+  },
+  {
+    img: 'https://i.imgur.com/ga6th2f.jpg',
+    title: 'Chevys Night',
     tag: 'ppl',
 
   },
