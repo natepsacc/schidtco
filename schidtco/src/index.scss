@@ -42,7 +42,7 @@ list-style: none;
  height:25vh;
   width: auto;
   transition: 0.3s ;
-  animation:pulsefade 4s ease-in-out infinite alternate;
+mix-blend-mode:  difference;
 
 }
 #footer{

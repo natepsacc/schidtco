@@ -184,7 +184,7 @@ function Logo(){
 	return(
 		<span>
 		<a href="/" >
-	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/fuck/schidtcoLogo.png"/>
+	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/IMG_7045overlayBlue.svg"/>
 		</a>
 
 		<div id="nav" class="nav">
