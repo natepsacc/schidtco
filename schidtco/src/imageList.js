@@ -639,7 +639,7 @@ const itemData = [
   },
   {
     img: 'https://i.imgur.com/qiAHwaG.jpg',
-    title: 'Schidt Company Experiments',
+    title: 'R&D',
     tag: 'CAR',
     tag2: 'RAD',
 
@@ -667,7 +667,7 @@ const itemData = [
 
   {
     img: 'https://i.imgur.com/DrihU0V.jpg',
-    title: 'Schidt Company Experiments',
+    title: 'R&D',
     tag: 'CAR',
     tag2: 'RAD',
 
@@ -680,7 +680,7 @@ const itemData = [
   },
   {
       img: 'https://i.imgur.com/k9WluBF.jpg',
-      title: 'Schidt Company R&D',
+      title: 'R&D',
       tag: 'CAR',
       tag2: 'RAD',
     },
