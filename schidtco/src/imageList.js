@@ -182,13 +182,7 @@ const itemData = [
 
   },
 
-  {
-    img: 'https://i.imgur.com/Ratasd3.jpg',
-    title: 'Nick at Practice',
-    tag: 'ppl',
-    date: '01**22',
 
-  },
   {
     img: 'https://i.imgur.com/HuIWMCV.jpg',
     title: 'Bunny',
@@ -372,7 +366,7 @@ const itemData = [
   {
     img: 'https://i.imgur.com/87prjQf.jpg',
     title: 'winter tennis',
-    date: '011722',
+    date: '021722',
     tag: 'out',
 
   },
@@ -427,6 +421,14 @@ const itemData = [
     img: 'https://i.imgur.com/QejXnFt.jpg',
     title: 'Strange mornings',
     date: '060522',
+    tag: 'USA',
+    tag2: '',
+
+  },
+  {
+    img: '  https://i.imgur.com/ysehPfY.jpg',
+    title: 'a beach somewhere',
+    date: '011622',
     tag: '',
     tag2: '',
 
@@ -768,6 +770,13 @@ const itemData = [
               tag: 'ppl',
               tag: 'out',
               date: '060822',
+
+            },
+            {
+              img: 'https://i.imgur.com/Ratasd3.jpg',
+              title: 'Nick at Practice',
+              tag: 'ppl',
+              date: '01**22',
 
             },
 
