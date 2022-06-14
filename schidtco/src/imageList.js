@@ -366,11 +366,13 @@ const itemData = [
          img: 'https://i.imgur.com/iFhaZFG.jpg',
          title: 'WINNER',
          tag: 'ppl',
+         date: '011722',
 
        },
   {
     img: 'https://i.imgur.com/87prjQf.jpg',
-    title: 'How Their House Looks',
+    title: 'winter tennis',
+    date: '011722',
     tag: 'out',
 
   },
