@@ -26,7 +26,7 @@ function scrollFunction() {
 
 
   } else {
-    document.getElementById("TitleLogo").style.height = "25vh";
+    document.getElementById("TitleLogo").style.height = "35vh";
     document.getElementById("TitleLogo").style.top = "4vh";
     //document.getElementById("TitleLogo").style.backgroundColor = "";
     //document.getElementById("TitleLogo").style.animation = "pulsefade 4s ease-in-out infinite alternate";
