@@ -43,7 +43,7 @@ list-style: none;
   width: auto;
   transition: 0.3s ;
 mix-blend-mode:  difference;
-animation:pulsefade 3s ease-in-out infinite alternate;
+animation:pulsefade 9s ease-in-out infinite alternate;
 
 
 }
@@ -61,17 +61,16 @@ animation:pulsefade 3s ease-in-out infinite alternate;
 }
 @keyframes pulsefade {
   0% {
-    opacity: 20;
+    opacity: 75;
     filter: brightness(100%);
-    filter: saturate(1);
     filter:invert(0);
-    filter:drop-shadow(0);
+    filter: hue-rotate(0deg);
   }
   100% {
-opacity: 100;
+opacity: 86;
 filter: brightness(200%);
 filter:invert(1);
-filter:drop-shadow(1);
+filter: hue-rotate(216deg);
 
   }
 }
