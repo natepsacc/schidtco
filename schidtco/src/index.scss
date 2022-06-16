@@ -70,7 +70,7 @@ animation:pulsefade 9s ease-in-out infinite alternate;
 opacity: 86;
 filter: brightness(200%);
 filter:invert(1);
-filter: hue-rotate(216deg);
+filter: hue-rotate(random(360)+deg);
 
   }
 }
