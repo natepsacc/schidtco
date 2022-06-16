@@ -192,7 +192,7 @@ function randomNumberInRange(min, max) {
 
 
 function Logo(){
-  setNum(randomNumberInRange(1, 10));
+  const num =  {randomNumberInRange(1, 10)};
 
 	return(
 		<span>
