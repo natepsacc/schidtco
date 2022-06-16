@@ -7,7 +7,7 @@ import { typography } from '@mui/system';
 import imageListItemClasses from "@material-ui/core/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import 'react-lazy-load-image-component/src/effects/blur.css';
 const theme = createTheme({
   breakpoints: {
     values: {
