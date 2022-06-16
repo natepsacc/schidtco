@@ -168,14 +168,7 @@ const itemData = [
     date: '04**22',
 
   },
-  {
-    img: 'https://i.imgur.com/eyaaiS2.jpg',
-    title: 'park lovers',
-    tag: 'ppl',
-    tag: 'out',
-    date: '031722',
 
-  },
   {
     img: 'https://i.imgur.com/VwupETD.jpg',
     title: 'Near Devils Gulch',
@@ -190,11 +183,26 @@ const itemData = [
 
   },
 
+  {
+    img: 'https://i.imgur.com/rvmvcQG.jpg',
+    title: 'Bay House',
+    tag: 'USA',
+    tag: 'out',
+    date: '031722',
 
+  },
   {
     img: 'https://i.imgur.com/HuIWMCV.jpg',
     title: 'Bunny',
     tag: 'CAR',
+
+  },
+  {
+    img: 'https://i.imgur.com/tLQQm3V.jpg',
+    title: 'everything is blue',
+    tag: 'USA',
+    tag: 'out',
+    date: '031722',
 
   },
 {
@@ -219,6 +227,12 @@ const itemData = [
     tag2: 'out',
 
 
+  },
+  {
+    img: 'https://i.imgur.com/3FGCzcl.jpg',
+    title: 'theatre',
+    tag: 'out',
+    tag2: 'USA',
   },
   {
     img: 'https://i.imgur.com/Xg7jSZT.jpg',
@@ -250,6 +264,14 @@ const itemData = [
 
   },
   {
+    img: 'https://i.imgur.com/eyaaiS2.jpg',
+    title: 'park lovers',
+    tag: 'ppl',
+    tag: 'out',
+    date: '031722',
+
+  },
+  {
     img: 'https://i.imgur.com/pCosJIP.jpg',
     title: 'SUNDAY AGAIN',
     tag: 'out',
@@ -264,20 +286,21 @@ const itemData = [
     tag: 'ppl',
 
   },
-  {
-    img: 'https://i.imgur.com/tLQQm3V.jpg',
-    title: 'everything is blue',
-    tag: 'USA',
-    tag: 'out',
-    date: '031722',
 
-  },
   {
     img: 'https://i.imgur.com/meztWUD.jpg',
     title: 'overgrown',
     tag: 'USA',
     tag: 'out',
     date: '031722',
+
+  },
+  {
+    img: '  https://i.imgur.com/ysehPfY.jpg',
+    title: 'a beach somewhere',
+    date: '011622',
+    tag: '',
+    tag2: '',
 
   },
   {
@@ -312,14 +335,7 @@ const itemData = [
 
 
   },
-  {
-    img: 'https://i.imgur.com/rvmvcQG.jpg',
-    title: 'incredible',
-    tag: 'USA',
-    tag: 'out',
-    date: '031722',
 
-  },
   {
     img: 'https://i.imgur.com/0CQaUTT.jpg',
     title: 'beat up old k6',
@@ -426,21 +442,12 @@ const itemData = [
 
   },
   {
-    img: 'https://i.imgur.com/QejXnFt.jpg',
-    title: 'Strange mornings',
-    date: '060522',
-    tag: 'USA',
-    tag2: '',
-
+    img: 'https://i.imgur.com/xfa3AMV.jpg',
+    title: 'Glacier, Wa. An hour from rolling my truck:)',
+    tag: 'out',
+    tag2: 'USA',
   },
-  {
-    img: '  https://i.imgur.com/ysehPfY.jpg',
-    title: 'a beach somewhere',
-    date: '011622',
-    tag: '',
-    tag2: '',
 
-  },
   {
     img: 'https://i.imgur.com/FPZnn0t.jpg',
     title: 'Nick at Brain Sweat Practice',
@@ -464,11 +471,7 @@ const itemData = [
   tag2: '',
 
 },
-{
-  img: 'https://i.imgur.com/3FGCzcl.jpg',
-  title: 'theatre',
-  tag: 'out',
-},
+
 
 {
   img: 'https://i.imgur.com/6t0vbI9.jpg',
@@ -591,12 +594,7 @@ const itemData = [
   tag: 'out',
 
 },
-{
-  img: 'https://i.imgur.com/xfa3AMV.jpg',
-  title: 'Glacier, Co. An hour from rolling my truck:)',
-  tag: 'out',
 
-},
 {
   img: 'https://i.imgur.com/iH4cllZ.jpg',
   title: '(s)explorer on the beach',
@@ -836,6 +834,14 @@ const itemData = [
 ];
 
 const unused = [
+  {
+    img: 'https://i.imgur.com/QejXnFt.jpg',
+    title: 'Strange mornings',
+    date: '060522',
+    tag: 'USA',
+    tag2: '',
+
+  },
   {
     img: 'https://i.imgur.com/zrYdXWS.jpg',
     title: 'Ian 2',
