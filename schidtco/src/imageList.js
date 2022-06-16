@@ -82,7 +82,7 @@ console.log(gridNum);
              effect="blur"
             alt={item.title}
             src={item.img} // use normal <img> attributes as props
-             placeholderSrc="%PUBLIC_URL%/loading.gif"
+             placeholderSrc="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/gif/loading.gif"
              />
               <ImageListItemBar
               sx={{
