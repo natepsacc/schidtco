@@ -73,10 +73,11 @@ console.log(gridNum);
        <ImageListItem key={item.img} id="height" sx={{m:0}}>
         <LazyLoadImage
         id="im"
+        height='inherit'
               effect="blur"
              alt={item.title}
              src={item.img} // use normal <img> attributes as props
-              placeholderSrc="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/IMG_7045overlayBlue.svg"
+              placeholderSrc="https://upload.wikimedia.org/wikipedia/commons/f/f2/Emacs27_showing_Org%2C_Magit%2C_and_Dired_with_the_modus-operandi_theme.png"
               />
                        <ImageListItemBar
               sx={{
