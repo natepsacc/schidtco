@@ -179,22 +179,16 @@ function BionicText(){
 return(<span></span>);
 }
 
-function randomNumberInRange(min, max) {
-  const [num, setNum] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      return Math.floor(Math.random() * (max - min + 1)) + min;
 
-    }, 2000);
-
-}
-}
 
 
 function Logo(){
-  const num =  {randomNumberInRange(1, 10)};
+  const number = setInterval(() => {
+    var num = Math.floor(Math.random() * (max - min + 1)) + min;
 
+  }, 2000);
+  
 	return(
 		<span>
 		<a href="/" >
