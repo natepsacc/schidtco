@@ -93,7 +93,7 @@ function Ppl(){
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="ppl"gridColumns="2"/>
+	<StandardImageList tag="ppl"gridColumns="3"/>
 	</span>
 );
 }
