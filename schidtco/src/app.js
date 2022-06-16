@@ -189,6 +189,7 @@ function randomNumberInRange(min, max) {
     }, 2000);
 
 }
+}
 
 
 function Logo(){
