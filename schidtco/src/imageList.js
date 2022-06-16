@@ -74,10 +74,10 @@ console.log(gridNum);
         <LazyLoadImage
         id="im"
         height='inherit'
-              effect="blur"
+              //effect="blur"
              alt={item.title}
              src={item.img} // use normal <img> attributes as props
-              placeholderSrc="https://upload.wikimedia.org/wikipedia/commons/f/f2/Emacs27_showing_Org%2C_Magit%2C_and_Dired_with_the_modus-operandi_theme.png"
+              //placeholderSrc="https://upload.wikimedia.org/wikipedia/commons/f/f2/Emacs27_showing_Org%2C_Magit%2C_and_Dired_with_the_modus-operandi_theme.png"
               />
                        <ImageListItemBar
               sx={{
