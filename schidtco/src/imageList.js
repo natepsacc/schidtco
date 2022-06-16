@@ -72,6 +72,9 @@ console.log(gridNum);
      {sort.map((item) => (
        <ImageListItem key={item.img} id="height" sx={{m:0}}>
         <LazyLoadImage
+        id="fucknuts"
+            width="100%"
+            height="inherit"
               //effect="blur"
              alt={item.title}
              src={item.img} // use normal <img> attributes as props
