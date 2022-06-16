@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import { typography } from '@mui/system';
 import imageListItemClasses from "@material-ui/core/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const theme = createTheme({
   breakpoints: {
@@ -70,13 +71,11 @@ console.log(gridNum);
    >
      {sort.map((item) => (
        <ImageListItem key={item.img} id="height" sx={{m:0}}>
-         <img
-           src={`${item.img}`}
-           srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-           alt={item.title}
-           loading="lazy"
+        <LazyLoadImage
+             alt={item.title}
+             src={item.img} // use normal <img> attributes as props
               />
-              <ImageListItemBar
+                       <ImageListItemBar
               sx={{
                 bgcolor:'background.paper',
                 width:{
