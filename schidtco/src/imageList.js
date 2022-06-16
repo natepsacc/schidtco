@@ -76,13 +76,13 @@ console.log(gridNum);
      {sort.map((item) => (
        <ImageListItem key={item.img} id="height" sx={{m:0}}>
        <LazyLoadImage
-          threshhold='1390'
+          threshhold='1000'
            width="100%"
            height="inherit"
              effect="blur"
             alt={item.title}
             src={item.img} // use normal <img> attributes as props
-             placeholderSrc="https://i.imgur.com/jr4Zy0c.jpg"
+             placeholderSrc="https://c.tenor.com/FBeNVFjn-EkAAAAC/ben-redblock-loading.gif"
              />
               <ImageListItemBar
               sx={{
