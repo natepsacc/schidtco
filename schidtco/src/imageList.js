@@ -7,7 +7,7 @@ import { typography } from '@mui/system';
 import imageListItemClasses from "@material-ui/core/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
 const theme = createTheme({
   breakpoints: {
     values: {
@@ -75,7 +75,7 @@ console.log(gridNum);
         id="fucknuts"
             width="100%"
             height="inherit"
-              //effect="blur"
+              effect="opacity"
              alt={item.title}
              src={item.img} // use normal <img> attributes as props
               //placeholderSrc="https://upload.wikimedia.org/wikipedia/commons/f/f2/Emacs27_showing_Org%2C_Magit%2C_and_Dired_with_the_modus-operandi_theme.png"
