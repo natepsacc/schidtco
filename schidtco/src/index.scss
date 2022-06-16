@@ -44,7 +44,6 @@ list-style: none;
   transition: 0.3s ;
 mix-blend-mode:  difference;
 animation:pulsefade 6s ease-in-out infinite alternate;
-animation:frame 10s ease-in-out infinite alternate;
 
 
 }
@@ -72,17 +71,6 @@ opacity: 86;
 filter: brightness(200%);
 filter:invert(1);
 filter: hue-rotate(random(360)+deg);
-
-  }
-}
-@keyframes frame {
-  0% {
-    transform: translate(random(10)+vw, random(10)+vh);
-
-  }
-  100% {
-    transform: translate(random(10)+vw, random(10)+vh);
-
 
   }
 }
