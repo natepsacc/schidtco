@@ -6,6 +6,11 @@ import Box from '@mui/material/Box';
 import { typography } from '@mui/system';
 import imageListItemClasses from "@material-ui/core/ImageListItem";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
+
+
+
 
 const theme = createTheme({
   breakpoints: {
@@ -70,12 +75,15 @@ console.log(gridNum);
    >
      {sort.map((item) => (
        <ImageListItem key={item.img} id="height" sx={{m:0}}>
-         <img
-           src={`${item.img}`}
-           srcSet={`${item.img}w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-           alt={item.title}
-           loading="lazy"
-              />
+       <LazyLoadImage
+       id="fucknuts"
+           width="100%"
+           height="inherit"
+             effect="opacity"
+            alt={item.title}
+            src={item.img} // use normal <img> attributes as props
+             //placeholderSrc="https://upload.wikimedia.org/wikipedia/commons/f/f2/Emacs27_showing_Org%2C_Magit%2C_and_Dired_with_the_modus-operandi_theme.png"
+             />
               <ImageListItemBar
               sx={{
                 bgcolor:'background.paper',
