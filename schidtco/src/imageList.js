@@ -82,7 +82,7 @@ console.log(gridNum);
              effect="blur"
             alt={item.title}
             src={item.img} // use normal <img> attributes as props
-             placeholderSrc="https://c.tenor.com/FBeNVFjn-EkAAAAC/ben-redblock-loading.gif"
+             placeholderSrc="%PUBLIC_URL%/loading.gif"
              />
               <ImageListItemBar
               sx={{
