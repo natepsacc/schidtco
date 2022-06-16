@@ -73,7 +73,7 @@ console.log(gridNum);
        <ImageListItem key={item.img} id="height" sx={{m:0}}>
         <LazyLoadImage
         id="fucknuts"
-            width="48vw"
+            width="100%"
             height="inherit"
               //effect="blur"
              alt={item.title}
