@@ -76,7 +76,7 @@ console.log(gridNum);
      {sort.map((item) => (
        <ImageListItem key={item.img} id="height" sx={{m:0}}>
        <LazyLoadImage
-          threshhold='1400'
+          threshhold='1390'
            width="100%"
            height="inherit"
              effect="opacity"
