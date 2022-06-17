@@ -195,13 +195,15 @@ function Logo(){
     <a href="#/rad"> <b class="b bionic">R&</b>D</a>
 
 		</div>
-    <a href="https://instagram.com/schidt.co/">
-    <img  id="igLogo" alt="Schidt.co IG Logo" src="https://i.imgur.com/inu4zIh.png" />
-    </a>
+
 		</span>
 );
 }
-
+function unusued(){
+  //<a href="https://instagram.com/schidt.co/">
+//  <img  id="igLogo" alt="Schidt.co IG Logo" src="https://i.imgur.com/inu4zIh.png" />
+//  </a>
+}
 
 
 function Footer(){

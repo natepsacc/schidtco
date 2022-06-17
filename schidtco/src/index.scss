@@ -43,7 +43,16 @@ list-style: none;
   width: auto;
   transition: 0.3s ;
 mix-blend-mode:  difference;
-animation:pulsefade 3s ease-in-out infinite alternate;
+animation:hue (random(1) +s) ease-in-out infinite alternate;
+animation:contrast (random(1) +s) ease-in-out infinite alternate;
+animation:brightness 0.7s ease-in-out infinite alternate;
+animation:unbrightness .8s ease-in-out infinite alternate;
+animation:brightness 0.3s ease-in-out infinite alternate;
+animation:unbright .2s ease-in-out infinite alternate;
+animation:brightness 0.63s ease-in-out infinite alternate;
+animation:unbrightness (random(1) +s) ease-in-out infinite alternate;
+animation:brightness (random(1) +s) ease-in-out infinite alternate;
+animation:unbright (random(1) +s) ease-in-out infinite alternate;
 }
 #igLogo{
   z-index: 3;
@@ -68,20 +77,55 @@ animation:iglog 1s ease-in-out infinite alternate;
   color: #F0C0C9;
   transition: 1s;
 }
-@keyframes pulsefade {
+@keyframes brightness {
   0% {
     opacity: 80;
     filter: brightness(100%);
-    filter: hue-rotate(0deg);
-    filter: contrast(1);
+
   }
   100% {
 opacity: 90;
-filter: brightness(185%);
-filter: hue-rotate(random(360)+deg);
-filter: contrast(2);
+filter: brightness(155%);
+
   }
 }
+@keyframes unbrightness {
+  0% {
+    filter: brightness(135%);
+
+  }
+  5% {
+filter: brightness(120%);
+
+  }
+}
+@keyframes unbright {
+  0% {
+    filter: brightness(145%);
+
+  }
+  82% {
+filter: brightness(100%);
+
+  }
+}
+@keyframes hue {
+  0% {
+    filter: hue-rotate((random(360)-50)+ deg);
+  }
+  100% {
+filter: hue-rotate(random(360)+ deg);
+  }
+}
+@keyframes contrast {
+  0% {
+    filter: contrast(1);
+  }
+  100% {
+filter: contrast(20);
+  }
+}
+
 @keyframes iglog {
   0% {
     opacity: 20;
