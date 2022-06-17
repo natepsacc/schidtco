@@ -37,15 +37,24 @@ list-style: none;
   z-index: 5;
   position: fixed;
   top: 4vh;
-  left: 3vw;
+  left: 4vw;
   right: auto;
  height:35vh;
   width: auto;
   transition: 0.3s ;
 mix-blend-mode:  difference;
-animation:pulsefade 6s ease-in-out infinite alternate;
-
-
+animation:pulsefade 3s ease-in-out infinite alternate;
+}
+#igLogo{
+  z-index: 3;
+  position: fixed;
+  top: 95vh;
+  left: auto;
+  right: 1vw;
+ height:4vh;
+  width: auto;
+mix-blend-mode:  difference;
+animation:iglog 1s ease-in-out infinite alternate;
 }
 #footer{
   z-index: 5;
@@ -61,15 +70,28 @@ animation:pulsefade 6s ease-in-out infinite alternate;
 }
 @keyframes pulsefade {
   0% {
-    opacity: 75;
+    opacity: 80;
     filter: brightness(100%);
-    filter:invert(0);
+    filter: hue-rotate(0deg);
+    filter: contrast(1);
+  }
+  100% {
+opacity: 90;
+filter: brightness(185%);
+filter: hue-rotate(random(360)+deg);
+filter: contrast(2);
+  }
+}
+@keyframes iglog {
+  0% {
+    opacity: 20;
+
+
     filter: hue-rotate(0deg);
   }
   100% {
-opacity: 86;
-filter: brightness(200%);
-filter:invert(1);
+opacity: 30;
+
 filter: hue-rotate(random(360)+deg);
 
   }
