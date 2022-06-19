@@ -652,7 +652,7 @@ const itemData = [
   {
     img: '  https://i.imgur.com/lqldWTH.jpg',
     title: 'Blue Angel by Malcolm Liepke redone with AI by me',
-    date: 'Blue Angel by Malcolm Liepke redone with AI by me',
+    date: 'edone with AI by me',
 
     tag: 'RAD',
     tag2: 'ppl',
@@ -664,6 +664,14 @@ const itemData = [
     title: 'R&D',
     tag: 'CAR',
     tag2: 'RAD',
+
+
+  },
+  {
+    img: 'https://i.imgur.com/dC2cqoa.jpg',
+    title: 'R%D',
+    date: '071522',
+    tag: 'RAD',
 
 
   },
