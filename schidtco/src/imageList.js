@@ -702,12 +702,7 @@ const itemData = [
     tag2: 'RAD',
 
   },
-  {
-    img: 'https://i.imgur.com/TRknQrF.jpg',
-    title: 'R&D',
-    date: '060822',
-    tag2: 'RAD',
-  },
+
   {
       img: 'https://i.imgur.com/k9WluBF.jpg',
       title: 'R&D',
@@ -719,11 +714,7 @@ const itemData = [
       title: 'R&D',
       tag2: 'RAD',
     },
-    {
-      img: 'https://i.imgur.com/vZuERf2.jpg',
-      title: 'R&D',
-      tag2: 'RAD',
-    },
+
     {
       img: '    https://i.imgur.com/lr4RSXV.jpg',
       title: 'Cannon Beach',
@@ -858,6 +849,17 @@ const itemData = [
 ];
 
 const unused = [
+  {
+    img: 'https://i.imgur.com/TRknQrF.jpg',
+    title: 'R&D',
+    date: '060822',
+    tag2: 'RAD',
+  },
+  {
+    img: 'https://i.imgur.com/vZuERf2.jpg',
+    title: 'R&D',
+    tag2: 'RAD',
+  },
   {
     img: 'https://i.imgur.com/QejXnFt.jpg',
     title: 'Strange mornings',
