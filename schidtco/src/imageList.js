@@ -16,7 +16,7 @@ const theme = createTheme({
   breakpoints: {
     values: {
       mobile: 0,
-      bigMobile: 350,
+      bigMobile: 300,
       tablet: 650,
       desktop: 1000
     }
@@ -47,7 +47,11 @@ export default function StandardImageList(props) {
 
 var gridNum = props.gridColumns;
 console.log(gridNum);
+const imageClick = (props) => {
 
+  console.log('Click!!!!');
+  window.open(props, '_self');
+}
 
       return (
       <ThemeProvider theme={theme}>
@@ -79,6 +83,8 @@ console.log(gridNum);
           threshhold='1000'
            width="100%"
            height="inherit"
+           onClick={() => imageClick(item.mSrc)}
+
              effect="blur"
             alt={item.title}
             src={item.img} // use normal <img> attributes as props
@@ -634,9 +640,19 @@ const itemData = [
 
   },
   {
+    img: 'https://i.imgur.com/YJLTHWg.jpg',
+    date: 'QR Gospel -- R&D -- click to visit',
+    title: '061822',
+    mSrc:"https://iWentToCatholicSchool.schidt.co/",
+    tag: 'RAD',
+    tag2: 'ppl',
+
+
+  },
+  {
     img: '  https://i.imgur.com/lqldWTH.jpg',
     title: 'Blue Angel by Malcolm Liepke redone with AI by me',
-    date: 'Blue Angel byMalcolm Liepke redone with AI by me',
+    date: 'Blue Angel by Malcolm Liepke redone with AI by me',
 
     tag: 'RAD',
     tag2: 'ppl',

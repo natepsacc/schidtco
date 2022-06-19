@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import fleekStorage from '@fleekhq/fleek-storage-js';
 import './index.css';
-import useImageColor from 'use-image-color';
 import StandardImageList from './imageList.js';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
