@@ -690,8 +690,9 @@ const itemData = [
     tag: 'ppl',
 
   },
+
   {
-    img: 'https://i.imgur.com/Pz5oFpb.jpg',
+    img: 'https://i.imgur.com/kL01Usx.jpg',
     date: 'hello!',
     title: '062022',
     tag: 'RAD',
@@ -774,7 +775,15 @@ const itemData = [
       title: 'R&D',
       tag2: 'RAD',
     },
+    {
+      img: 'https://i.imgur.com/Pz5oFpb.jpg',
+      date: 'hello!',
+      title: '062022',
+      tag: 'RAD',
+      tag2: 'ppl',
 
+
+    },
     {
       img: '    https://i.imgur.com/lr4RSXV.jpg',
       title: 'Cannon Beach',
