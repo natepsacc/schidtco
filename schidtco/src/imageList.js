@@ -182,12 +182,14 @@ const itemData = [
 
   },
   {
-    img: 'https://i.imgur.com/Gila5Ll.jpg',
-    title: 'Mary and Chevy',
-    tag: 'ppl',
-    date: '01**22',
+    img: 'https://i.imgur.com/fmPPB9x.jpg',
+    title: 'hello!',
+    date: '062022',
+    tag: 'USA',
+    tag2: 'ppl',
 
   },
+
 
   {
     img: 'https://i.imgur.com/rvmvcQG.jpg',
@@ -277,14 +279,7 @@ const itemData = [
     tag2: 'out',
 
   },
-  {
-    img: 'https://i.imgur.com/fmPPB9x.jpg',
-    title: 'hello!',
-    date: '062022',
-    tag: 'USA',
-    tag2: 'ppl',
 
-  },
   {
     img: 'https://i.imgur.com/eyaaiS2.jpg',
     title: 'park lovers',
@@ -643,6 +638,13 @@ const itemData = [
     title: 'Morning Volvo',
     tag: 'out',
     tag2: 'CAR',
+
+  },
+  {
+    img: 'https://i.imgur.com/Gila5Ll.jpg',
+    title: 'Mary and Chevy',
+    tag: 'ppl',
+    date: '01**22',
 
   },
   {
