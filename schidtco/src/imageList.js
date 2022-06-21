@@ -712,8 +712,8 @@ const itemData = [
   },
   {
     img: '  https://i.imgur.com/lqldWTH.jpg',
-    date: 'Blue Angel by Malcolm Liepke redone with AI by me',
-    title: 'redone with AI by me',
+    date: 'Blue Angel by Malcolm Liepke',
+    title: 'refigured with AI by me',
 
     tag: 'RAD',
     tag2: 'ppl',
