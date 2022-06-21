@@ -241,6 +241,14 @@ const itemData = [
     tag2: 'USA',
   },
   {
+    img: 'https://i.imgur.com/mGT3Af2.jpg',
+    title: 'iScream',
+    date: '062022',
+    tag: 'USA',
+    tag2: 'ppl',
+
+  },
+  {
     img: 'https://i.imgur.com/Xg7jSZT.jpg',
     title: 'Early Morning Merc',
     tag: 'CAR',
@@ -267,6 +275,14 @@ const itemData = [
     title: 'BHAMBAY',
     tag: 'USA',
     tag2: 'out',
+
+  },
+  {
+    img: 'https://i.imgur.com/fmPPB9x.jpg',
+    title: 'hello!',
+    date: '062022',
+    tag: 'USA',
+    tag2: 'ppl',
 
   },
   {
@@ -337,7 +353,7 @@ const itemData = [
     img: '  https://i.imgur.com/56ZvGbQ.jpg',
     title: 'DustStorm On the Beach',
     tag: 'CAR',
-    tag: 'out',
+    tag2: 'out',
 
 
   },
@@ -346,7 +362,7 @@ const itemData = [
     img: 'https://i.imgur.com/0CQaUTT.jpg',
     title: 'beat up old k6',
     tag: 'USA',
-    tag: 'car',
+    tag2: 'car',
     date: '031722',
 
   },
@@ -354,7 +370,7 @@ const itemData = [
     img: '  https://i.imgur.com/SySkfOF.jpg',
     title: 'old lady ice cream :-)',
     tag: 'ppl',
-    tag: 'out',
+    tag2: 'out',
     tag: 'USA',
 
   },
@@ -363,6 +379,14 @@ const itemData = [
     img: 'https://i.imgur.com/XqvOrwn.jpg',
     title: 'Private Beach 1',
     tag: 'out',
+
+  },
+  {
+    img: 'https://i.imgur.com/uM17zGb.jpg',
+    title: 'wagon',
+    tag: 'USA',
+    tag2: 'car',
+    date: '062022',
 
   },
   {
@@ -628,9 +652,34 @@ const itemData = [
 
   },
   {
+    img: '  https://i.imgur.com/nr3v1YV.jpg',
+    title: 'beached',
+    date:'062022',
+    tag: 'out',
+    tag2: 'usa',
+
+  },
+  {
     img: 'https://i.imgur.com/JUUxiPu.jpg',
     title: 'Morning',
     tag: 'out',
+    tag2: 'usa',
+
+  },
+  {
+    img: 'https://i.imgur.com/M8c0tcb.jpg',
+    title: 'another home',
+    date:'062022',
+    tag: 'out',
+    tag2: 'usa',
+
+  },
+  {
+    img: 'https://i.imgur.com/HANhmRA.jpg',
+    title: 'busStop',
+    date:'062022',
+    tag: 'out',
+    tag2: 'ppl',
 
   },
   {
