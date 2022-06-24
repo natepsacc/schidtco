@@ -1034,8 +1034,8 @@ const itemData = [
                         },
         {
                           img: 'https://i.imgur.com/56IKKRw.png',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
+                              date: 'midjourney',
+           title: '/imagine:HumanXmachine',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
@@ -1043,7 +1043,7 @@ const itemData = [
                           img: 'https://i.imgur.com/lOUHejS.jpg',
                         
                           title: '/imagine:',
-                          subtitle: '/imagine:fear, cybernetics, loathing, and fiefdom by pietro perugino',
+                          date: '/imagine:fear, cybernetics, loathing, and fiefdom by pietro perugino',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         
