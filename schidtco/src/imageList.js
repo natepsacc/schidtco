@@ -951,7 +951,7 @@ const itemData = [
                         },
      {
                           img: 'https://i.imgur.com/0AvrWIt.jpg',
-                          title: 'an entirely synthetic human brain — look closer.',
+                          title: '/imagine:an entirely synthetic human brain — look closer.',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
@@ -1026,7 +1026,7 @@ const itemData = [
                         },
 {
                           img: 'https://i.imgur.com/lOUHejS.jpg',
-                          title: 'fear, cybernetics, loathing, and fiefdom a conceptual painting in the style of pietro perugino',
+                          title: '/imagine:fear, cybernetics, loathing, and fiefdom a conceptual painting in the style of pietro perugino',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         
