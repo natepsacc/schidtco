@@ -1030,7 +1030,7 @@ const itemData = [
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         
-
+}
                         
 ];
 
