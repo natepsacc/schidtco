@@ -1118,6 +1118,29 @@ const itemData = [
          tag3: 'noshow',
          tag2: 'midjourney',
                         },
+        {
+  img: 'https://i.imgur.com/pGIlWQY.jpg',
+  title:'midjourney',
+  date: '/imagine:a xenofeminist Life 3.0',
+         tag3: 'noshow',
+         tag2: 'midjourney',
+                        },
+
+        {
+  img: 'https://i.imgur.com/BXmhoaP.jpg',
+  title:'midjourney',
+  date: '/imagine:a xenofeminist Life 3.0',
+         tag3: 'noshow',
+         tag2: 'midjourney',
+                        },
+
+        {
+  img: 'https://i.imgur.com/dPn37PU.png',
+  title:'midjourney',
+  date: '/imagine:a xenofeminist Life 3.0',
+         tag3: 'noshow',
+         tag2: 'midjourney',
+                        },
 
                        
 ];
