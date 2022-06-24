@@ -109,10 +109,10 @@ div.nav {
 }
 @keyframes hue {
   0% {
-    filter: hue-rotate(175deg);
+    filter: hue-rotate(209deg);
   }
   100% {
-    filter: hue-rotate(185deg);
+    filter: hue-rotate(178deg);
   }
 }
 @keyframes contrast {
@@ -130,7 +130,7 @@ div.nav {
   }
   100% {
     opacity: 30;
-    filter: hue-rotate(220deg);
+    filter: hue-rotate(273deg);
   }
 }
 
