@@ -1010,6 +1010,14 @@ const itemData = [
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
+        {
+                          img: 'https://i.imgur.com/56IKKRw.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+
+                        
 ];
 
 const unused = [
