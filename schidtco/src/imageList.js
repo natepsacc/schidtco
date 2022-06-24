@@ -1016,6 +1016,12 @@ const itemData = [
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
+{
+                          img: 'https://i.imgur.com/lOUHejS.jpg',
+                          title: 'fear, cybernetics, loathing, and fiefdom a conceptual painting in the style of pietro perugino',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        
 
                         
 ];
