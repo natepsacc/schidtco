@@ -126,7 +126,7 @@ const imageClick = (props) => {
 
       );
 }
-
+    
 
 
 
@@ -939,18 +939,22 @@ const itemData = [
                         },
                         {
                           img: 'https://i.imgur.com/scJJAhE.jpg',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/huqagut.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
      {
-                          img: 'https://i.imgur.com/0AvrWIt.jpg',
+                          img: 'https://i.imgur.com/0AvrWIt.jpg',   
+                          subtitle: 'midjourney',
+                              
                           title: '/imagine:an entirely synthetic human brain — look closer.',
                           tag3: 'noshow',
                           tag2: 'midjourney',
@@ -959,81 +963,95 @@ const itemData = [
   
                         {
                           img: 'https://i.imgur.com/yHKzJIO.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/uynkvg1.jpg',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
 
                         },
                         {
                           img: 'https://i.imgur.com/zy0O6yH.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/oMtIGAJ.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/ylJ6L1X.jpg',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/wcAzPDb.jpg',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/zcP7gay.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/c32J0dY.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/s9H3qbI.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/6k2UkAe.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
         {
                           img: 'https://i.imgur.com/56IKKRw.png',
-                          title: 'midjourney',
+                              subtitle: 'midjourney',
+                                title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
 {
                           img: 'https://i.imgur.com/lOUHejS.jpg',
-                          title: '/imagine:fear, cybernetics, loathing, and fiefdom a conceptual painting in the style of pietro perugino',
+                        
+                          title: '/imagine:',
+                          subtitle: '/imagine:fear, cybernetics, loathing, and fiefdom by pietro perugino',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         
 },
         {
                           img: 'https://i.imgur.com/W6mDRvp.png',
-                          title: 'midjourney',
+          subtitle:'midjourney',
+           title: '/imagine:',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
