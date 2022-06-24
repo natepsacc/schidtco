@@ -58,7 +58,7 @@ console.log(gridNum);
 const imageClick = (props) => {
 
   console.log('Click!!!!');
-  window.open(props, '_self');
+ // window.open(props, '_self');
 
 }
   const [clicked, setClicked] = useState(false)
