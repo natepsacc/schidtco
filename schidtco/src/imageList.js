@@ -100,7 +100,7 @@ id='imgimg' key={item.img} id="height" sx={{m:0}}>
           threshhold='1000'
            width="100%"
            height="inherit"
-           ondblclick={() => imageClick(item.mSrc)}
+           onClick={() => imageClick(item.mSrc)}
 
              effect="blur"
             alt={item.title}
@@ -735,7 +735,7 @@ mSrc: 'javascript:;',
     tag: 'RAD',
     tag2: 'midjourney',
     mSrc: '/#/midjourneyPrompts',
-    
+
   },
   {
     img: 'https://i.imgur.com/kL01Usx.jpg',
@@ -748,10 +748,10 @@ mSrc: 'javascript:;',
 mSrc: 'javascript:;',
   },
   {
+    mSrc:"https://iWentToCatholicSchool.schidt.co/",
     img: 'https://i.imgur.com/YJLTHWg.jpg',
     date: 'QR Gospel 061822',
     title: 'tap to visit',
-    mSrc:"https://iWentToCatholicSchool.schidt.co/",
     tag: 'RAD',
     tag2: 'ppl',
 
@@ -830,7 +830,7 @@ mSrc: 'javascript:;',
       title: 'R&D',
       tag: 'CAR',
       tag2: 'RAD',
-      
+
       mSrc: 'javascript:;',
     },
     {
