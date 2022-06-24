@@ -115,7 +115,7 @@ id='imgimg' key={item.img} id="height" sx={{m:0}}>
                 overflowWrap:"break-word",
 
                 bgcolor:'background.paper',
-                maxWidth: "50vw",
+                maxWidth: "100%",
                 height: 'fit-content',
                 width:'fit-content',
                 textAlign: 'left',
