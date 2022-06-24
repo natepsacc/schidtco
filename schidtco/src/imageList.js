@@ -148,7 +148,6 @@ const itemData = [
     img: 'https://i.imgur.com/9rf7Rto.jpg',
     title: '325I',
     date: '042922',
-
     tag: 'CAR',
   },
 
@@ -306,13 +305,7 @@ const itemData = [
 
   },
 
-  {
-    img: 'https://i.imgur.com/TZEhq50.jpg',
-    title: 'KV',
-    date: '101919',
-    tag: 'ppl',
 
-  },
 
   {
     img: 'https://i.imgur.com/meztWUD.jpg',
@@ -613,6 +606,7 @@ const itemData = [
     tag3: 'prop0623',
 
   },
+
   {
 
     img: 'https://i.imgur.com/WIWGPru.jpg',
@@ -632,7 +626,13 @@ const itemData = [
   tag: 'out',
 
 },
+{
+  img: 'https://i.imgur.com/TZEhq50.jpg',
+  title: 'KV',
+  date: '101919',
+  tag: 'ppl',
 
+},
 {
   img: 'https://i.imgur.com/iH4cllZ.jpg',
   title: '(s)explorer on the beach',
