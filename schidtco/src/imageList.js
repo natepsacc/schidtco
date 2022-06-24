@@ -58,7 +58,7 @@ console.log(gridNum);
 const imageClick = (props) => {
 
   console.log('Click!!!!');
- // window.open(props, '_self');
+ // window.open(props, '_blank');
 
 }
   const [clicked, setClicked] = useState(false)
@@ -100,7 +100,7 @@ id='imgimg' key={item.img} id="height" sx={{m:0}}>
           threshhold='1000'
            width="100%"
            height="inherit"
-           onClick={() => imageClick(item.mSrc)}
+           ondblclick={() => imageClick(item.img)}
 
              effect="blur"
             alt={item.title}
