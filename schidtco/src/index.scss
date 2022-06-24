@@ -14,17 +14,32 @@ a,a.visited,a.active{
   color: inherit;
   text-decoration: none;
 }
+
 div.nav{
-  position: fixed;
-  top: 25vh;
-  left: 3.5vw;
+  display: inline-block;
+
   z-index: 5;
+  max-width: min-content;
   background-color: white;
-  width: fit-content;
-  font-size: 12pt;
+
+  font-size: 11pt;
 text-decoration: none;
- color: #F0C0C9;
+ //color: #F0C0C9;
+
   transition: 1s;
+}
+div.logoBox{
+  display: inline-block;
+
+  z-index: 5;
+  //color: #F0C0C9;
+
+  position:fixed;
+  top: 2vh;
+  left: 3.5vw;
+//  background-color: #ffffff54;
+  height: min-content;
+  width: auto;
 }
 #height{
   height: inherit;
@@ -34,26 +49,29 @@ list-style: none;
 }
 
 
-#TitleLogo{
+img.TitleLogo{
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  -moz-transform: translateX(-20%);
+  -webkit-transform: translateX(-20%);
+  -o-transform: translateX(-20%);
   z-index: 5;
-  position: fixed;
-  top: 4vh;
-  left: 4vw;
-  right: auto;
- height:35vh;
+  height:10%;
   width: auto;
   transition: 0.3s ;
+  filter: grayscale(1);
 mix-blend-mode:  difference;
-animation:hue (random(1) +s) ease-in-out infinite alternate;
-animation:contrast (random(1) +s) ease-in-out infinite alternate;
-animation:brightness 0.7s ease-in-out infinite alternate;
-animation:unbrightness .8s ease-in-out infinite alternate;
-animation:brightness 0.3s ease-in-out infinite alternate;
-animation:unbright .2s ease-in-out infinite alternate;
-animation:brightness 0.63s ease-in-out infinite alternate;
-animation:unbrightness (random(1) +s) ease-in-out infinite alternate;
-animation:brightness (random(1) +s) ease-in-out infinite alternate;
-animation:unbright (random(1) +s) ease-in-out infinite alternate;
+//animation:hue (random(1) +s) ease-in-out infinite alternate;
+//animation:contrast (random(1) +s) ease-in-out infinite alternate;
+//animation:brightness 0.7s ease-in-out infinite alternate;
+//animation:unbrightness .8s ease-in-out infinite alternate;
+//animation:brightness 0.3s ease-in-out infinite alternate;
+//animation:unbright .2s ease-in-out infinite alternate;
+//animation:brightness 0.63s ease-in-out infinite alternate;
+//animation:brightness (random(1) +s) ease-in-out infinite alternate;
+//animation:unbright (random(1) +s) ease-in-out infinite alternate;
 }
 #igLogo{
   z-index: 3;

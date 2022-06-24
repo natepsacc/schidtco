@@ -15,16 +15,23 @@ a, a.visited, a.active {
 }
 
 div.nav {
-  position: fixed;
-  top: 25vh;
-  left: 3.5vw;
+  display: inline-block;
   z-index: 5;
+  max-width: min-content;
   background-color: white;
-  width: fit-content;
-  font-size: 12pt;
+  font-size: 11pt;
   text-decoration: none;
-  color: #F0C0C9;
   transition: 1s;
+}
+
+div.logoBox {
+  display: inline-block;
+  z-index: 5;
+  position: fixed;
+  top: 2vh;
+  left: 3.5vw;
+  height: min-content;
+  width: auto;
 }
 
 #height {
@@ -34,26 +41,20 @@ div.nav {
   list-style: none;
 }
 
-#TitleLogo {
+img.TitleLogo {
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  -moz-transform: translateX(-20%);
+  -webkit-transform: translateX(-20%);
+  -o-transform: translateX(-20%);
   z-index: 5;
-  position: fixed;
-  top: 4vh;
-  left: 4vw;
-  right: auto;
-  height: 35vh;
+  height: 10%;
   width: auto;
   transition: 0.3s;
+  filter: grayscale(1);
   mix-blend-mode: difference;
-  animation: hue 1s ease-in-out infinite alternate;
-  animation: contrast 1s ease-in-out infinite alternate;
-  animation: brightness 0.7s ease-in-out infinite alternate;
-  animation: unbrightness 0.8s ease-in-out infinite alternate;
-  animation: brightness 0.3s ease-in-out infinite alternate;
-  animation: unbright 0.2s ease-in-out infinite alternate;
-  animation: brightness 0.63s ease-in-out infinite alternate;
-  animation: unbrightness 1s ease-in-out infinite alternate;
-  animation: brightness 1s ease-in-out infinite alternate;
-  animation: unbright 1s ease-in-out infinite alternate;
 }
 
 #igLogo {
@@ -109,10 +110,10 @@ div.nav {
 }
 @keyframes hue {
   0% {
-    filter: hue-rotate(175deg);
+    filter: hue-rotate(15deg);
   }
   100% {
-    filter: hue-rotate(185deg);
+    filter: hue-rotate(296deg);
   }
 }
 @keyframes contrast {
@@ -130,7 +131,7 @@ div.nav {
   }
   100% {
     opacity: 30;
-    filter: hue-rotate(220deg);
+    filter: hue-rotate(74deg);
   }
 }
 

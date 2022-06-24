@@ -11,7 +11,7 @@ import InputLabel from '@mui/material/InputLabel';
 
 
 
-window.onscroll = function() {scrollFunction()};
+//window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -119,21 +119,23 @@ function App() {
 function Logo(){
 
 	return(
-		<span>
-		<a href="/" >
-	<img  id="TitleLogo" alt="Schidt.co Logo" src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/june16Logo.svg"/>
+		<div className='logoBox'>
+    <a href="/" >
+	<img  className="TitleLogo" alt="Schidt.co Logo" src="https://storageapi.fleek.co/e7b18505-5349-459d-9fba-f427d40e6079-bucket/pictures/logos/june16Logo.svg"/>
 		</a>
-
-		<div id="nav" class="nav">
+    <br/>
+		<div className="nav" >
 		<a href="#/cars" ><b class="b bionic">car</b>s </a>
 		<a href="#/usa"> <b class="b bionic">US</b>A </a>
 		<a href="#/ppl"> <b class="b bionic">peop</b>le</a>
 		<a href="#/out"> <b class="b bionic">outsi</b>de</a>
     <a href="#/rad"> <b class="b bionic">R&</b>D</a>
 
+    <br/>
+    <a onClick={() =>   window.scrollTo(0, 0)}> <b>^</b></a>
 		</div>
 
-		</span>
+		</div>
 );
 }
 function unusued(){
