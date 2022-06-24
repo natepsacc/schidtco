@@ -69,7 +69,7 @@ const imageClick = (props) => {
      sx={{
        height: {
          mobile: clicked ? "35vh" : "600px",
-         bigMobile: clicked ? "35vh" : "65vh",
+         bigMobile: clicked ? "35vh" : "85vh",
          tablet: "100vh",
          desktop: "100vh"
        },
