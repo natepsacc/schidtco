@@ -110,8 +110,8 @@ const imageClick = (props) => {
                 textAlign: 'center',
                 fontFamily: 'Courier New',
                 fontSize: {
-                  mobile: "9pt",
-                bigMobile: "9pt",
+                  mobile: "6pt",
+                bigMobile: "6pt",
                 tablet: "12pt",
                 desktop: "12pt"}
                   }}
