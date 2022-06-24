@@ -9,6 +9,12 @@ img {
   object-fit: cover;
 }
 
+h2 {
+  color: white;
+  font-size: 3em;
+  background-color: rgba(255, 255, 255, 0.2352941176);
+}
+
 a, a.visited, a.active {
   color: inherit;
   text-decoration: none;
@@ -25,6 +31,27 @@ div.nav {
   text-decoration: none;
   color: #F0C0C9;
   transition: 1s;
+}
+
+.imgSvg {
+  z-index: 6;
+}
+
+.svgText {
+  z-index: 6;
+  fill: red;
+  color: red;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lazyImage {
+  z-index: 4;
+  display: block;
+  width: auto;
+  max-height: 100%;
 }
 
 #height {
@@ -109,10 +136,10 @@ div.nav {
 }
 @keyframes hue {
   0% {
-    filter: hue-rotate(209deg);
+    filter: hue-rotate(55deg);
   }
   100% {
-    filter: hue-rotate(178deg);
+    filter: hue-rotate(223deg);
   }
 }
 @keyframes contrast {
@@ -130,7 +157,7 @@ div.nav {
   }
   100% {
     opacity: 30;
-    filter: hue-rotate(273deg);
+    filter: hue-rotate(61deg);
   }
 }
 

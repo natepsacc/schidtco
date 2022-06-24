@@ -78,17 +78,7 @@ function Rad(props){
 	</span>
 );
 }
-function RadGC(props){
-	return(
-		<span>
-	<Logo/>
-	<Footer/>
-	<StandardImageList tag={props.tag} gridColumns={props.columns}/>
 
-
-	</span>
-);
-}
 function App() {
 
 
@@ -104,7 +94,7 @@ function App() {
 			 <Route path='/commod' element={<Rad tag="prop0623" /> } />
        <Route path='/rad' element={<Rad tag="RAD" /> } />
        <Route path='/prop0623' element={<Rad tag="prop0623" /> } />
-       <Route path='/midjourneyPrompts' element={<RadGC tag="midjourney" columns="1"/> } />
+       <Route path='/midjourneyPrompts' element={<Rad tag="midjourney"/> } />
 
     </Routes>
 </span>

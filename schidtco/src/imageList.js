@@ -38,7 +38,9 @@ export default function StandardImageList(props) {
       if (element.tag2 === props.tag) {
           return element;
       }
-
+      if (element.text === 'text') {
+  //      document.getElementsByClassName('imgsvg').append;
+      }
       if (element.tag3 === 'noshow') {
           return !element;
       }
@@ -62,6 +64,7 @@ const imageClick = (props) => {
   const [clicked, setClicked] = useState(false)
   const toggleClicked = () => setClicked((prev) => !prev)
       return (
+
       <ThemeProvider theme={theme}>
 
    <Box
@@ -85,9 +88,15 @@ const imageClick = (props) => {
        }
      }}
    >
+
      {sort.map((item) => (
-       <ImageListItem id='imgimg' key={item.img} id="height" sx={{m:0}}>
+
+
+       <ImageListItem
+id='imgimg' key={item.img} id="height" sx={{m:0}}>
+
        <LazyLoadImage
+
           threshhold='1000'
            width="100%"
            height="inherit"
@@ -98,20 +107,22 @@ const imageClick = (props) => {
             src={item.img} // use normal <img> attributes as props
              placeholderSrc="https://i.imgur.com/4GdCjPE.gif"
              />
+
+
+
               <ImageListItemBar
               sx={{
-                bgcolor:'background.paper',
-                width:{
-                mobile: "fit-content",
-                bigMobile: "fit-content",
-                tablet: "fit-content",
-                desktop: "fit-content"},
+                overflowWrap:"break-word",
 
-                textAlign: 'center',
+                bgcolor:'background.paper',
+                maxWidth: "50vw",
+                height: 'fit-content',
+                width:'fit-content',
+                textAlign: 'left',
                 fontFamily: 'Courier New',
                 fontSize: {
-                  mobile: "6pt",
-                bigMobile: "6pt",
+                  mobile: "1em",
+                bigMobile: "1em",
                 tablet: "12pt",
                 desktop: "12pt"}
                   }}
@@ -119,14 +130,18 @@ const imageClick = (props) => {
             subtitle={item.title}
 
           />
+
        </ImageListItem>
+
      ))}
+
+
    </Box>
  </ThemeProvider>
 
       );
 }
-    
+
 
 
 
@@ -703,7 +718,14 @@ const itemData = [
     tag: 'ppl',
 
   },
-
+  {
+    img: 'https://i.imgur.com/scJJAhE.jpg',
+        title: 'tap to visit',
+          date: '/imagine:<midjourney__prompting_/>',
+    tag: 'RAD',
+    tag2: 'midjourney',
+    mSrc: '/#/midjourneyPrompts'
+  },
   {
     img: 'https://i.imgur.com/kL01Usx.jpg',
     date: 'hello!',
@@ -716,8 +738,8 @@ const itemData = [
   },
   {
     img: 'https://i.imgur.com/YJLTHWg.jpg',
-    date: 'QR Gospel -- R&D -- click to visit',
-    title: '061822',
+    date: 'QR Gospel 061822',
+    title: 'tap to visit',
     mSrc:"https://iWentToCatholicSchool.schidt.co/",
     tag: 'RAD',
     tag2: 'ppl',
@@ -937,56 +959,51 @@ const itemData = [
                           tag3: 'noshow',
 
                         },
-                        {
-                          img: 'https://i.imgur.com/scJJAhE.jpg',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
-                          tag3: 'noshow',
-                          tag2: 'midjourney',
-                        },
+
                         {
                           img: 'https://i.imgur.com/huqagut.png',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
+                              title: 'midjourney',
+                                date: '/imagine: <_prompt_/>',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
      {
-                          img: 'https://i.imgur.com/0AvrWIt.jpg',   
-                          subtitle: 'midjourney',
-                              
-                          title: '/imagine:an entirely synthetic human brain — look closer.',
+                          img: 'https://i.imgur.com/0AvrWIt.jpg',
+                          title: 'midjourney',
+
+                          date: '/imagine:an entirely synthetic human brain — look closer.',
                           tag3: 'noshow',
                           tag2: 'midjourney',
+                          text: 'text',
                         },
 
-  
+
                         {
                           img: 'https://i.imgur.com/yHKzJIO.png',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
+                              title: 'midjourney',
+                                date: '/imagine: <_prompt_/>',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/uynkvg1.jpg',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
+                              title: 'midjourney',
+                                date: '/imagine:fear, cybernetics, loathing, and fiefdom by pietro perugino',
                           tag3: 'noshow',
                           tag2: 'midjourney',
 
                         },
                         {
                           img: 'https://i.imgur.com/zy0O6yH.png',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
+                              title: 'midjourney',
+                                date: '/imagine: <_prompt_/>',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
                         {
                           img: 'https://i.imgur.com/oMtIGAJ.png',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
+                              title: 'midjourney',
+                                date: '/imagine: <_prompt_/>',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
@@ -999,18 +1016,12 @@ const itemData = [
                         },
                         {
                           img: 'https://i.imgur.com/wcAzPDb.jpg',
-                              subtitle: 'midjourney',
-                                title: '/imagine:',
-                          tag3: 'noshow',
-                          tag2: 'midjourney',
-                        },
-                        {
-                          img: 'https://i.imgur.com/zcP7gay.png',
                               title: 'midjourney',
-          date: '/imagine:the_human_singularity__',
+                                date: '/imagine: <_prompt_/>',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
+
                         {
                           img: 'https://i.imgur.com/c32J0dY.png',
                               title: 'midjourney',
@@ -1034,24 +1045,24 @@ const itemData = [
                         },
         {
                           img: 'https://i.imgur.com/56IKKRw.png',
-            date: 'midjourney',
+            title: 'midjourney',
            date: '/imagine:HumanXmachine',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
 {
                           img: 'https://i.imgur.com/lOUHejS.jpg',
-                        
-                          title: '/imagine:',
+                          title: 'midjourney',
+
                           date: '/imagine:fear, cybernetics, loathing, and fiefdom by pietro perugino',
                           tag3: 'noshow',
                           tag2: 'midjourney',
-                        
+
 },
         {
   img: 'https://i.imgur.com/W6mDRvp.png',
-  date:'midjourney',
-  title: '/imagine:',
+  title:'midjourney',
+  date: '/imagine: <_prompt_/>',
          tag3: 'noshow',
          tag2: 'midjourney',
                         },
@@ -1142,10 +1153,17 @@ const itemData = [
          tag2: 'midjourney',
                         },
 
-                       
+
 ];
 
 const unused = [
+  {
+    img: 'https://i.imgur.com/zcP7gay.png',
+        title: 'midjourney',
+date: '/imagine:the_human_singularity__',
+    tag3: 'noshow',
+    tag2: 'midjourney',
+  },
   {
     img: 'https://i.imgur.com/Tgxpjag.jpg',
     title: 'R&D',
