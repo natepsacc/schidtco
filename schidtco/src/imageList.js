@@ -1046,7 +1046,7 @@ const itemData = [
         {
                           img: 'https://i.imgur.com/56IKKRw.png',
             title: 'midjourney',
-           date: '/imagine:HumanXmachine',
+           date: '/imagine:_humanMachine',
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
