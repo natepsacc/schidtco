@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {useState} from 'react';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -37,6 +38,11 @@ export default function StandardImageList(props) {
       if (element.tag2 === props.tag) {
           return element;
       }
+
+      if (element.tag3 === 'noshow') {
+          return !element;
+      }
+
       else{
 
       }
@@ -51,12 +57,15 @@ const imageClick = (props) => {
 
   console.log('Click!!!!');
   window.open(props, '_self');
-}
 
+}
+  const [clicked, setClicked] = useState(false)
+  const toggleClicked = () => setClicked((prev) => !prev)
       return (
       <ThemeProvider theme={theme}>
 
    <Box
+   onClick={toggleClicked}
      sx={{
        height: {
          mobile: "600px",
@@ -66,10 +75,9 @@ const imageClick = (props) => {
        },
        display: "grid",
        gridTemplateColumns:{
-         mobile: "repeat(1, 100%)",
-         bigMobile: "repeat(1, 100%)",
-         tablet: "repeat(2, 50%)",
-         desktop: 'repeat(2, 50%)'
+         mobile: clicked ? 'repeat(1, 100%)' : 'repeat(2, 50%)',
+         bigMobile: clicked ? 'repeat(1, 100%)' : 'repeat(2, 50%)',
+         desktop: clicked ? 'repeat(1, 100%)' : 'repeat(2, 50%)',
        },
        [`& .${imageListItemClasses.root}`]: {
          display: "flex",
@@ -78,7 +86,7 @@ const imageClick = (props) => {
      }}
    >
      {sort.map((item) => (
-       <ImageListItem key={item.img} id="height" sx={{m:0}}>
+       <ImageListItem id='imgimg' key={item.img} id="height" sx={{m:0}}>
        <LazyLoadImage
           threshhold='1000'
            width="100%"
@@ -158,6 +166,8 @@ const itemData = [
     date: '021022',
 
     tag: 'ppl',
+    tag3: 'prop0623',
+
   },
   {
     img: 'https://i.imgur.com/6JEQOoq.jpg',
@@ -195,7 +205,7 @@ const itemData = [
     img: 'https://i.imgur.com/rvmvcQG.jpg',
     title: 'Bay House',
     tag: 'USA',
-    tag: 'out',
+    tag2: 'out',
     date: '031722',
 
   },
@@ -209,7 +219,7 @@ const itemData = [
     img: 'https://i.imgur.com/tLQQm3V.jpg',
     title: 'everything is blue',
     tag: 'USA',
-    tag: 'out',
+    tag2: 'out',
     date: '031722',
 
   },
@@ -231,7 +241,7 @@ const itemData = [
     img: 'https://i.imgur.com/sl1CUwB.jpg',
     title: 'Isaac and his Honda',
     tag: 'CAR',
-    tag: 'ppl',
+    tag3: 'ppl',
     tag2: 'out',
 
 
@@ -268,7 +278,7 @@ const itemData = [
     img: 'https://i.imgur.com/vo4QIdi.jpg',
     title: 'one eyed house',
     tag: 'USA',
-    tag: 'out',
+    tag2: 'out',
     date: '031722',
 
   },
@@ -284,7 +294,7 @@ const itemData = [
     img: 'https://i.imgur.com/eyaaiS2.jpg',
     title: 'park lovers',
     tag: 'ppl',
-    tag: 'out',
+    tag2: 'out',
     date: '031722',
 
   },
@@ -308,7 +318,7 @@ const itemData = [
     img: 'https://i.imgur.com/meztWUD.jpg',
     title: 'overgrown',
     tag: 'USA',
-    tag: 'out',
+    tag2: 'out',
     date: '031722',
 
   },
@@ -342,6 +352,7 @@ const itemData = [
     img: 'https://i.imgur.com/pnbVTTH.jpg',
     title: 'Docs',
     tag: 'product',
+    tag3: 'prop0623',
 
   },
   {
@@ -357,7 +368,7 @@ const itemData = [
     img: 'https://i.imgur.com/0CQaUTT.jpg',
     title: 'beat up old k6',
     tag: 'USA',
-    tag2: 'car',
+    tag2: 'CAR',
     date: '031722',
 
   },
@@ -366,7 +377,7 @@ const itemData = [
     title: 'old lady ice cream :-)',
     tag: 'ppl',
     tag2: 'out',
-    tag: 'USA',
+    tag3: 'USA',
 
   },
 
@@ -380,7 +391,7 @@ const itemData = [
     img: 'https://i.imgur.com/uM17zGb.jpg',
     title: 'wagon',
     tag: 'USA',
-    tag2: 'car',
+    tag2: 'CAR',
     date: '062022',
 
   },
@@ -534,6 +545,7 @@ const itemData = [
     img: 'https://i.imgur.com/a5o0zro.jpg',
     title: 'Nick at Brain Sweat Practice',
     date: '021022',
+    tag3: 'prop0623',
 
     tag: 'ppl',
   },
@@ -598,6 +610,7 @@ const itemData = [
     title: 'belacs pedals',
     date: "021022",
     tag: 'ppl',
+    tag3: 'prop0623',
 
   },
   {
@@ -658,14 +671,14 @@ const itemData = [
     title: 'beached',
     date:'062022',
     tag: 'out',
-    tag2: 'usa',
+    tag2: 'USA',
 
   },
   {
     img: 'https://i.imgur.com/JUUxiPu.jpg',
     title: 'Morning',
     tag: 'out',
-    tag2: 'usa',
+    tag2: 'USA',
 
   },
   {
@@ -673,7 +686,7 @@ const itemData = [
     title: 'another home',
     date:'062022',
     tag: 'out',
-    tag2: 'usa',
+    tag2: 'USA',
 
   },
   {
@@ -697,6 +710,7 @@ const itemData = [
     title: '062022',
     tag: 'RAD',
     tag2: 'ppl',
+    tag3: 'prop0623',
 
 
   },
@@ -750,12 +764,16 @@ const itemData = [
     title: 'R&D',
     date: '060722',
     tag2: 'RAD',
+    tag3: 'prop0623',
+
   },
   {
     img: '  https://i.imgur.com/kbPigMn.jpg',
     title: 'R&D',
     date: '060822',
     tag2: 'RAD',
+    tag3: 'prop0623',
+
   },
 
   {
@@ -916,9 +934,82 @@ const itemData = [
                           title: 'Timex Marlin Automatic',
                           tag: 'commod',
                           tag2: 'USA',
+                          tag3: 'noshow',
+
                         },
+                        {
+                          img: 'https://i.imgur.com/scJJAhE.jpg',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/huqagut.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/yHKzJIO.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/uynkvg1.jpg',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
 
-
+                        },
+                        {
+                          img: 'https://i.imgur.com/zy0O6yH.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/oMtIGAJ.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/ylJ6L1X.jpg',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/wcAzPDb.jpg',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/zcP7gay.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/c32J0dY.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/s9H3qbI.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+                        {
+                          img: 'https://i.imgur.com/6k2UkAe.png',
+                          title: 'midjourney',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
 ];
 
 const unused = [

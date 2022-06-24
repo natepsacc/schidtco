@@ -68,60 +68,24 @@ function Home(){
 	</span>
 );
 }
-function Cars(){
-	return(
-		<span>
-	<Logo/>
-	<Footer/>
-	<StandardImageList tag="CAR" gridColumns="2"/>
-	</span>
-);
-}
-function USA(){
-	return(
-		<span>
-	<Logo/>
-	<Footer/>
-	<StandardImageList tag="USA" gridColumns="2"/>
 
-	</span>
-);
-}
-function Ppl(){
+function Rad(props){
 	return(
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="ppl"gridColumns="2"/>
+	<StandardImageList tag={props.tag} gridColumns="2"/>
 	</span>
 );
 }
-function Out(){
+function RadGC(props){
 	return(
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag="out"gridColumns="2"/>
-	</span>
-);
-}
-function Commod(){
-	return(
-		<span>
-	<Logo/>
-	<Footer/>
-	<StandardImageList tag="commod"gridColumns="2"/>
-	<BionicText/>
-	</span>
-);
-}
-function Rad(){
-	return(
-		<span>
-	<Logo/>
-	<Footer/>
-	<StandardImageList tag="RAD"gridColumns="2"/>
-	<BionicText/>
+	<StandardImageList tag={props.tag} gridColumns={props.columns}/>
+
+
 	</span>
 );
 }
@@ -132,51 +96,25 @@ function App() {
 		<span>
 
 		<Routes>
-       <Route path='/cars' element={<Cars /> } />
-       <Route  path='/' element={<Home/> } />
-			 <Route path='/usa' element={<USA />} />
-			 <Route path='/ppl' element={<Ppl />} />
-			 <Route path='/out' element={<Out/> } />
-			 <Route path='/commod' element={<Commod/> } />
-       <Route path='/rad' element={<Rad/> } />
+       <Route path='/cars' element={<Rad tag="CAR"  /> } />
+       <Route  path='/' element={<Home /> } />
+			 <Route path='/usa' element={<Rad tag="USA"  />} />
+			 <Route path='/ppl' element={<Rad tag="ppl"  />} />
+			 <Route path='/out' element={<Rad tag="out" /> } />
+			 <Route path='/commod' element={<Rad tag="prop0623" /> } />
+       <Route path='/rad' element={<Rad tag="RAD" /> } />
+       <Route path='/prop0623' element={<Rad tag="prop0623" /> } />
+       <Route path='/midjourneyPrompts' element={<RadGC tag="midjourney" columns="1"/> } />
 
     </Routes>
 </span>
 
 	);
 
+
 }
 
-function BionicText(){
-	const params = {
-	content: "Commodity",
-	response_type: "html",
-	request_type: "html",
-	fixation: "1",
-  saccade: "10"
-};
-	const encodedParams = new URLSearchParams(Object.entries(params)).toString();
 
-	console.log(encodedParams);
-
-
-	const options = {
-		method: 'POST',
-		headers: {
-			'content-type': 'application/x-www-form-urlencoded',
-			'X-RapidAPI-Host': 'bionic-reading1.p.rapidapi.com',
-			'X-RapidAPI-Key': 'a3905a4f1bmshe4f8491817bfe99p16f93djsn524e64b46ca7'
-		},
-		body: encodedParams
-	};
-
-	fetch('https://bionic-reading1.p.rapidapi.com/convert', options)
-		.then(response => response.text())
-		.then(data => console.log(data))
-
-		.catch(err => console.error(err));
-return(<span></span>);
-}
 
 function Logo(){
 
