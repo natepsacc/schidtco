@@ -949,6 +949,14 @@ const itemData = [
                           tag3: 'noshow',
                           tag2: 'midjourney',
                         },
+     {
+                          img: 'https://i.imgur.com/0AvrWIt.jpg',
+                          title: 'an entirely synthetic human brain — look closer.',
+                          tag3: 'noshow',
+                          tag2: 'midjourney',
+                        },
+
+  
                         {
                           img: 'https://i.imgur.com/yHKzJIO.png',
                           title: 'midjourney',
