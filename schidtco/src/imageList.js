@@ -195,6 +195,38 @@ mSrc: 'javascript:;',
 mSrc: 'javascript:;',
   },
   {
+    img: 'https://i.imgur.com/FUyzbva.jpg',
+    title: 'BFJ',
+    tag: 'USA',
+    tag2: 'out',
+    date: '070322',
+  mSrc: 'javascript:;',
+  },
+    {
+      img: 'https://i.imgur.com/B46CdlW.jpg',
+      title: 'BFJ',
+      tag: 'USA',
+      tag2: 'out',
+      date: '070322',
+  mSrc: 'javascript:;',
+    },
+    {
+      img: 'https://i.imgur.com/D0GwpcJ.jpg',
+      title: 'BFJ',
+      tag: 'USA',
+      tag2: 'out',
+      date: '062122',
+  mSrc: 'javascript:;',
+    },
+    {
+      img: 'https://i.imgur.com/dyqjzFN.jpg',
+      title: 'BFJ',
+      tag: 'USA',
+      tag2: 'out',
+      date: '062322',
+  mSrc: 'javascript:;',
+    },
+  {
     img: 'https://i.imgur.com/1XZe0Vm.jpg',
     title: 'Washington Beach',
     tag: 'USA',
@@ -1258,7 +1290,7 @@ mSrc: 'javascript:;',
          tag2: 'midjourney',
                         },
 
-                        
+
 
 
 ];
@@ -1272,7 +1304,7 @@ const unused = [
          tag3: 'noshow',
          tag2: 'midjourney',
                         },
-        
+
   {
     img: 'https://i.imgur.com/zcP7gay.png',
         title: 'midjourney',
