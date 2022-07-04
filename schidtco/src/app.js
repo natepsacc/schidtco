@@ -14,6 +14,9 @@ import InputLabel from '@mui/material/InputLabel';
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
+  document.getElementById("footer").style.opacity = "25%";
+  document.body.style.backgroundColor = "#F0C0C9";
+
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "15vh";
     document.getElementById("TitleLogo").style.top = "5vh";
@@ -35,26 +38,13 @@ function scrollFunction() {
 
 
   }
-	if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-		document.body.style.backgroundColor = "#F0C0C9";
+	if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 400) {
+
 	} else {
 		document.body.style.backgroundColor = "#d8e8ef";
 	}
 
-	if (document.body.scrollTop > 3500 || document.documentElement.scrollTop > 3500) {
-		document.body.style.backgroundColor = "#F0C0C9";
-		document.getElementById("footer").style.opacity = "75%";
-	} else {
-		document.body.style.backgroundColor = "#d8e8ef";
-		document.getElementById("footer").style.opacity = "0%";
 
-	}
-	if (document.body.scrollTop > 24500 || document.documentElement.scrollTop > 24500) {
-		document.getElementById("footer").style.opacity = "85%";
-	} else {
-		document.getElementById("footer").style.opacity = "0%";
-
-	}
 
 }
 let tagapp = "all";
@@ -137,8 +127,8 @@ function Footer(){
 	return(
 <div id="footer">
 <span style={{backgroundColor: "#d8e8ef"}}>
-natepsacc@gmail.com, @schidtery, @schidt.co
-<br/>Schidt.co is a """Web3""" site.
+natepsacc@gmail.com, @schidtery,
+<br/>Schidt.co is a Web3 site, welcome to the new world.
 
 </span>
 </div>
