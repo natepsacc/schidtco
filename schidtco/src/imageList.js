@@ -237,7 +237,31 @@ const itemData = [{
         tag2: 'out',
         date: '062122',
         mSrc: 'javascript:;',
-    }, {
+    },  {
+        img: 'https://i.imgur.com/hWlrgwi.jpg',
+        title: 'JULY4',
+        tag: 'USA',
+        tag2: 'out',
+        date: '070422',
+        mSrc: 'javascript:;',
+    },
+    {
+       img: 'https://i.imgur.com/OUl0T1U.jpg',
+       title: 'JULY4',
+       tag: 'USA',
+       tag2: 'out',
+       date: '070422',
+       mSrc: 'javascript:;',
+   },
+   {
+      img: 'https://i.imgur.com/cXApT22.jpg',
+      title: 'JULY4',
+      tag: 'USA',
+      tag2: 'out',
+      date: '070422',
+      mSrc: 'javascript:;',
+  },
+   {
         img: 'https://i.imgur.com/HuIWMCV.jpg',
         title: 'Bunny',
         tag: 'CAR',
@@ -486,7 +510,14 @@ const itemData = [{
         tag2: 'USA',
         mSrc: 'javascript:;',
     },
-
+    {
+        img: 'https://i.imgur.com/hXcuiCf.jpg',
+        title: 'ILOVETHERANGERPLATFORM',
+        tag: 'CAR',
+        tag2: 'out',
+        date: '070422',
+        mSrc: 'javascript:;',
+    },
     {
         img: 'https://i.imgur.com/FPZnn0t.jpg',
         title: 'Nick at Brain Sweat Practice',
