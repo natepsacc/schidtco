@@ -183,8 +183,16 @@ const itemData = [
         tag: 'ppl',
     },
     {
+        img: 'https://i.imgur.com/rvmvcQG.jpg',
+        title: 'Bay House',
+        tag: 'USA',
+        tag2: 'out',
+        date: '031722',
+        mSrc: 'javascript:;',
+    },
+    {
         img: 'https://i.imgur.com/dyqjzFN.jpg',
-        title: 'typical cemetery shot',
+        title: 'standard cemetery shot',
         tag: 'USA',
         tag2: 'out',
         date: '062322',
@@ -225,14 +233,7 @@ const itemData = [
         title: 'Near Devils Gulch',
         tag: 'USA',
         mSrc: 'javascript:;',
-    },  {
-        img: 'https://i.imgur.com/rvmvcQG.jpg',
-        title: 'Bay House',
-        tag: 'USA',
-        tag2: 'out',
-        date: '031722',
-        mSrc: 'javascript:;',
-    },  {
+    },   {
         img: 'https://i.imgur.com/D0GwpcJ.jpg',
         title: 'BFJ',
         tag: 'USA',
