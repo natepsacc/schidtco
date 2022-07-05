@@ -361,13 +361,6 @@ const itemData = [
 
 
     {
-        img: 'https://i.imgur.com/meztWUD.jpg',
-        title: 'overgrown',
-        tag: 'USA',
-        tag2: 'out',
-        date: '031722',
-        mSrc: 'javascript:;',
-    },  {
         img: 'https://i.imgur.com/vzENpQu.jpg',
         title: 'Surfer 1',
         tag: 'ppl',
@@ -497,20 +490,6 @@ const itemData = [
         img: 'https://i.imgur.com/BjFPGAA.jpg',
         title: 'WarmFloor Flowers',
         tag: 'out',
-        mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/xfa3AMV.jpg',
-        title: 'Glacier, Wa. An hour from rolling my truck:)',
-        tag: 'out',
-        tag2: 'USA',
-        mSrc: 'javascript:;',
-    },
-    {
-        img: 'https://i.imgur.com/hXcuiCf.jpg',
-        title: 'ILOVETHERANGERPLATFORM',
-        tag: 'CAR',
-        tag2: 'out',
-        date: '070422',
         mSrc: 'javascript:;',
     },
     {
@@ -872,7 +851,14 @@ const itemData = [
         mSrc: 'javascript:;',
 
     },
-
+    {
+        img: 'https://i.imgur.com/meztWUD.jpg',
+        title: 'overgrown',
+        tag: 'USA',
+        tag2: 'out',
+        date: '031722',
+        mSrc: 'javascript:;',
+    },
     {
         img: 'https://i.imgur.com/L0g5AYj.jpg',
         title: 'BPig 1',
