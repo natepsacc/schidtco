@@ -213,14 +213,7 @@ const itemData = [
         tag2: 'out',
         date: '040322',
         mSrc: 'javascript:;',
-    },{
-        img: 'https://i.imgur.com/B46CdlW.jpg',
-        title: 'BFJ',
-        tag: 'USA',
-        tag2: 'out',
-        date: '070322',
-        mSrc: 'javascript:;',
-    },   {
+    }, {
         img: 'https://i.imgur.com/1XZe0Vm.jpg',
         title: 'Washington Beach',
         tag: 'USA',
@@ -507,7 +500,15 @@ const itemData = [
         title: 'HONDA 2',
         tag: 'CAR',
         mSrc: 'javascript:;',
-    }, {
+    },
+    {
+        img: 'https://i.imgur.com/B46CdlW.jpg',
+        title: 'BFJ',
+        tag: 'USA',
+        tag2: 'out',
+        date: '070322',
+        mSrc: 'javascript:;',
+    },  {
         img: 'https://i.imgur.com/QwFu0yo.jpg',
         title: 'Edging Winter',
         tag: 'CAR',
