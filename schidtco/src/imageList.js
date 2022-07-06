@@ -346,7 +346,7 @@ const itemData = [
 
     {
         img: 'https://i.imgur.com/eyaaiS2.jpg',
-        title: 'park lovers',
+        title: 'park lovers <3',
         tag: 'ppl',
         tag2: 'out',
         date: '031722',
