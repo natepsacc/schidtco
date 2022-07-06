@@ -158,7 +158,7 @@ const itemData = [
      img: 'https://i.imgur.com/cXApT22.jpg',
      title: 'JULY4',
      tag: 'USA',
-     tag2: 'out',
+     tag2: 'ppl',
      date: '070422',
      mSrc: 'javascript:;',
  },{
