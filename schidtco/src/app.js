@@ -14,7 +14,6 @@ import InputLabel from '@mui/material/InputLabel';
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  document.getElementById("footer").style.opacity = "25%";
   document.body.style.backgroundColor = "#F0C0C9";
 
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {

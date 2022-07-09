@@ -833,11 +833,6 @@ const itemData = [
         tag: 'out',
         mSrc: 'javascript:;',
     }, {
-        img: 'https://i.imgur.com/oYcYdNI.jpg',
-        title: 'Xmas in Vail',
-        tag: 'out',
-        mSrc: 'javascript:;',
-    }, {
         img: 'https://i.imgur.com/8SKjIr2.jpg',
         title: 'Wyoming Cemetery',
         tag: 'out',
