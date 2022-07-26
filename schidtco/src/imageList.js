@@ -73,14 +73,14 @@ const imageClick = (props) => {
        m:2,
        height: {
          mobile: clicked ? "35vh" : "600px",
-         bigMobile: clicked ? "25vh" : "85vh",
+         bigMobile: clicked ? "50vh" : "85vh",
          tablet: "100vh",
          desktop: clicked ? "100vh" : "50vh",
        },
        display: "grid",
        gridTemplateColumns:{
          mobile: clicked ? 'repeat(1, 100%)' : 'repeat(2, 50%)',
-         bigMobile: clicked ? 'repeat(4, 25%)' : 'repeat(2, 50%)',
+         bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 100%)',
          desktop: clicked ? 'repeat(2, 50%)' : 'repeat(4, 25%)',
        },
        [`& .${imageListItemClasses.root}`]: {
