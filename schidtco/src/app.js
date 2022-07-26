@@ -82,6 +82,7 @@ function App() {
 			 <Route path='/out' element={<Rad tag="out" /> } />
        <Route path='/nyc' element={<Rad tag="nyc" /> } />
 
+       <Route path='/space' element={<Rad tag="space" /> } />
 			 <Route path='/commod' element={<Rad tag="prop0623" /> } />
        <Route path='/rad' element={<Rad tag="RAD" /> } />
        <Route path='/prop0623' element={<Rad tag="prop0623" /> } />

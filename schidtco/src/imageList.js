@@ -38,6 +38,9 @@ export default function StandardImageList(props) {
       if (element.tag2 === props.tag) {
           return element;
       }
+      if (element.tag4 === props.tag) {
+          return element;
+      }
       if (element.text === 'text') {
   //      document.getElementsByClassName('imgsvg').append;
       }
@@ -152,6 +155,7 @@ const itemData = [
       title: 'NYCNYCNYCNYC',
       tag: 'ppl',
       tag2: 'nyc',
+      tag4: 'space',
       date: '072322',
       mSrc: 'javascript:;',
   },
@@ -168,6 +172,8 @@ const itemData = [
      title: 'JULY4',
      tag: 'USA',
      tag2: 'ppl',
+     tag4: 'space',
+
      date: '070422',
      mSrc: 'javascript:;',
  },{
@@ -175,6 +181,8 @@ const itemData = [
         title: 'Couple on an Oregon Beach',
         date: '011421',
         tag: 'USA',
+        tag4: 'space',
+
         mSrc: 'javascript:;',
     }, {
         img: 'https://i.imgur.com/9rf7Rto.jpg',
@@ -185,10 +193,12 @@ const itemData = [
     },
     {
         img: 'https://i.imgur.com/QiyeqH2.jpg',
-        title: 'boy under influence',
+        title: 'boy being influenced',
         date: '072322',
         tag: 'nyc',
         tag2: 'ppl',
+        tag4: 'space',
+
         mSrc: 'javascript:;',
     },
     {
@@ -253,9 +263,11 @@ const itemData = [
     },
     {
         img: 'https://i.imgur.com/LXViiZM.jpg',
-        title: 'single eater',
+        title: 'Link Date 2022 <3',
         tag: 'nyc',
         tag2: 'ppl',
+        tag4: 'space',
+
         date: '040322',
         mSrc: 'javascript:;',
     },
