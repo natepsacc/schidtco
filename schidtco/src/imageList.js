@@ -152,7 +152,7 @@ const itemData = [
       title: 'NYCNYCNYCNYC',
       tag: 'ppl',
       tag2: 'nyc',
-      date: '072522',
+      date: '072322',
       mSrc: 'javascript:;',
   },
   {
@@ -186,7 +186,7 @@ const itemData = [
     {
         img: 'https://i.imgur.com/QiyeqH2.jpg',
         title: 'boy',
-        date: '072522',
+        date: '072322',
         tag: 'nyc',
         tag2: 'ppl',
         mSrc: 'javascript:;',
@@ -212,7 +212,7 @@ const itemData = [
         title: 'NYCNYCNYCNYC',
         tag: 'USA',
         tag2: 'nyc',
-        date: '072522',
+        date: '072322',
         mSrc: 'javascript:;',
     },
 
@@ -223,6 +223,16 @@ const itemData = [
         tag2: 'out',
         date: '062322',
         mSrc: 'javascript:;',
+    },
+    {
+        img: 'https://i.imgur.com/OsLGFBR.jpg',
+        title: 'broken unspoken photographer rules',
+        date: '072322',
+        mSrc: 'javascript:;',
+        tag: 'ppl',
+        tag2: 'out',
+        tag3: 'nyc',
+
     },
     {
         img: 'https://i.imgur.com/c8tzEEd.jpg',
@@ -262,7 +272,16 @@ const itemData = [
         title: 'Near Devils Gulch',
         tag: 'USA',
         mSrc: 'javascript:;',
-    },   {
+    },  
+    {
+        img: 'https://i.imgur.com/a3W07pe.jpg',
+        title: 'nyc',
+        tag: 'nyc',
+        tag2: 'ppl',
+        date: '072322',
+        mSrc: 'javascript:;',
+    },
+    {
         img: 'https://i.imgur.com/D0GwpcJ.jpg',
         title: 'BFJ',
         tag: 'USA',
