@@ -80,6 +80,8 @@ function App() {
 			 <Route path='/usa' element={<Rad tag="USA"  />} />
 			 <Route path='/ppl' element={<Rad tag="ppl"  />} />
 			 <Route path='/out' element={<Rad tag="out" /> } />
+       <Route path='/nyc' element={<Rad tag="nyc" /> } />
+
 			 <Route path='/commod' element={<Rad tag="prop0623" /> } />
        <Route path='/rad' element={<Rad tag="RAD" /> } />
        <Route path='/prop0623' element={<Rad tag="prop0623" /> } />
@@ -109,6 +111,7 @@ function Logo(){
 		<a href="#/ppl"> <b class="b bionic">peop</b>le</a>
 		<a href="#/out"> <b class="b bionic">outsi</b>de</a>
     <a href="#/rad"> <b class="b bionic">R&</b>D</a>
+    <a href="#/nyc"> <b class="b bionic">NY</b>C</a>
 
 		</div>
 
