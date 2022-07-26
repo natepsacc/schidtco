@@ -70,17 +70,18 @@ const imageClick = (props) => {
    <Box
    onClick={toggleClicked}
      sx={{
+       m:2,
        height: {
          mobile: clicked ? "35vh" : "600px",
          bigMobile: clicked ? "35vh" : "85vh",
          tablet: "100vh",
-         desktop: "100vh"
+         desktop: clicked ? "100vh" : "50vh",
        },
        display: "grid",
        gridTemplateColumns:{
-         mobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 100%)',
-         bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 100%)',
-         desktop: clicked ? 'repeat(1, 100%)' : 'repeat(2, 50%)',
+         mobile: clicked ? 'repeat(2, 50%)' : 'repeat(3, 33%)',
+         bigMobile: clicked ? 'repeat(4, 25%)' : 'repeat(3, 33%)',
+         desktop: clicked ? 'repeat(2, 50%)' : 'repeat(4, 25%)',
        },
        [`& .${imageListItemClasses.root}`]: {
          display: "flex",
@@ -147,6 +148,14 @@ id='imgimg' key={item.img} id="height" sx={{m:0}}>
 
 const itemData = [
   {
+      img: 'https://i.imgur.com/DdoNwXv.jpg',
+      title: 'NYCNYCNYCNYC',
+      tag: 'ppl',
+      tag2: 'nyc',
+      date: '072522',
+      mSrc: 'javascript:;',
+  },
+  {
       img: 'https://i.imgur.com/fmPPB9x.jpg',
       title: 'hello!',
       date: '062022',
@@ -174,7 +183,14 @@ const itemData = [
         tag: 'CAR',
         mSrc: 'javascript:;',
     },
-
+    {
+        img: 'https://i.imgur.com/QiyeqH2.jpg',
+        title: 'boy',
+        date: '072522',
+        tag: 'nyc',
+        tag2: 'ppl',
+        mSrc: 'javascript:;',
+    },
     {
         img: 'https://i.imgur.com/MZqh1kU.jpg',
         title: 'My Well Dressed Neighbor',
@@ -190,6 +206,16 @@ const itemData = [
         date: '031722',
         mSrc: 'javascript:;',
     },
+
+    {
+        img: 'https://i.imgur.com/UZ0OxqT.jpg',
+        title: 'NYCNYCNYCNYC',
+        tag: 'USA',
+        tag2: 'nyc',
+        date: '072522',
+        mSrc: 'javascript:;',
+    },
+
     {
         img: 'https://i.imgur.com/dyqjzFN.jpg',
         title: 'standard cemetery shot',
@@ -206,14 +232,24 @@ const itemData = [
         tag: 'ppl',
         tag3: 'prop0623',
 
-    }, {
+    },
+    {
         img: 'https://i.imgur.com/6JEQOoq.jpg',
         title: 'House',
         tag: 'USA',
         tag2: 'out',
         date: '040322',
         mSrc: 'javascript:;',
-    }, {
+    },
+    {
+        img: 'https://i.imgur.com/LXViiZM.jpg',
+        title: 'single eater',
+        tag: 'nyc',
+        tag2: 'ppl',
+        date: '040322',
+        mSrc: 'javascript:;',
+    },
+    {
         img: 'https://i.imgur.com/1XZe0Vm.jpg',
         title: 'Washington Beach',
         tag: 'USA',
@@ -1172,7 +1208,12 @@ const itemData = [
 
 ];
 
-const unused = [{
+const unused = [ {
+    img: 'https://i.imgur.com/oYcYdNI.jpg',
+    title: 'Xmas in Vail',
+    tag: 'out',
+    mSrc: 'javascript:;',
+},{
         mSrc: 'javascript:;',
         img: 'https://i.imgur.com/RHfqqgJ.png',
         title: 'midjourney',
