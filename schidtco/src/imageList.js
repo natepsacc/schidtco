@@ -79,7 +79,7 @@ const imageClick = (props) => {
        },
        display: "grid",
        gridTemplateColumns:{
-         mobile: clicked ? 'repeat(2, 50%)' : 'repeat(3, 33%)',
+         mobile: clicked ? 'repeat(1, 100%)' : 'repeat(2, 50%)',
          bigMobile: clicked ? 'repeat(4, 25%)' : 'repeat(3, 33%)',
          desktop: clicked ? 'repeat(2, 50%)' : 'repeat(4, 25%)',
        },
