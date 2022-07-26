@@ -185,7 +185,7 @@ const itemData = [
     },
     {
         img: 'https://i.imgur.com/QiyeqH2.jpg',
-        title: 'boy',
+        title: 'boy under influence',
         date: '072322',
         tag: 'nyc',
         tag2: 'ppl',
@@ -272,7 +272,7 @@ const itemData = [
         title: 'Near Devils Gulch',
         tag: 'USA',
         mSrc: 'javascript:;',
-    },  
+    },
     {
         img: 'https://i.imgur.com/a3W07pe.jpg',
         title: 'nyc',
