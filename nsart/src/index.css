@@ -1,0 +1,198 @@
+body {
+  font-family: "Courier New", monospace;
+  transition: 5s;
+}
+
+img {
+  height: inherit;
+  object-fit: cover;
+}
+h1{
+}
+h2 {
+  color: white;
+  font-size: 3em;
+  background-color: rgba(255, 255, 255, 0.2352941176);
+}
+
+a, a.visited, a.active {
+  color: inherit;
+  text-decoration: none;
+}
+
+div.nav {
+  position: fixed;
+  top: 25vh;
+  left: 3.5vw;
+  z-index: 5;
+  background-color: white;
+  width: fit-content;
+  font-size: 12pt;
+  text-decoration: none;
+  color: #F0C0C9;
+  transition: 1s;
+}
+@media only screen and (max-width: 600px) {
+  .videoBG{
+    position: fixed;
+    z-index: -1;
+    top:0;
+     bottom:0;
+     left:0;
+     right:0;
+     object-fit: scale-down;
+     transform: translateX(-40%);
+    padding: -100;
+    margin:0;
+    width: auto;
+    height: 100vh;
+
+    -o-filter: blur(5px);
+     filter: blur(5px);
+  }
+}
+.videoBG{
+  position: fixed;
+  z-index: -1;
+  top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   object-fit: scale-down;
+  padding: -100;
+  margin:0;
+  width: auto;
+  height: 100vh;
+
+  -o-filter: blur(5px);
+   filter: blur(5px);
+}
+.imgSvg {
+  z-index: 6;
+}
+
+.svgText {
+  z-index: 6;
+  fill: red;
+  color: red;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lazyImage {
+  z-index: 4;
+  display: block;
+  width: auto;
+  max-height: 100%;
+}
+
+#height {
+  height: inherit;
+  padding: none;
+  margin: none;
+  list-style: none;
+}
+
+#TitleLogo {
+  z-index: 5;
+  position: fixed;
+  top: 4vh;
+  left: 4vw;
+  right: auto;
+  height: 35vh;
+  width: auto;
+  transition: 0.3s;
+  mix-blend-mode: difference;
+  animation: hue 1s ease-in-out infinite alternate;
+  animation: contrast 1s ease-in-out infinite alternate;
+  animation: brightness 0.7s ease-in-out infinite alternate;
+  animation: unbrightness 0.8s ease-in-out infinite alternate;
+  animation: brightness 0.3s ease-in-out infinite alternate;
+  animation: unbright 0.2s ease-in-out infinite alternate;
+  animation: brightness 0.63s ease-in-out infinite alternate;
+  animation: unbrightness 1s ease-in-out infinite alternate;
+  animation: brightness 1s ease-in-out infinite alternate;
+  animation: unbright 1s ease-in-out infinite alternate;
+}
+
+#igLogo {
+  z-index: 3;
+  position: fixed;
+  top: 95vh;
+  left: auto;
+  right: 1vw;
+  height: 4vh;
+  width: auto;
+  mix-blend-mode: difference;
+  animation: iglog 1s ease-in-out infinite alternate;
+}
+
+#footer {
+  z-index: 5;
+  text-align: center;
+  position: fixed;
+  top: 95vh;
+  left: auto;
+  width: 100%;
+  font-size: 9pt;
+  opacity: 70%;
+  color: #F0C0C9;
+  transition: 1s;
+}
+
+@keyframes brightness {
+  0% {
+    opacity: 80;
+    filter: brightness(100%);
+  }
+  100% {
+    opacity: 90;
+    filter: brightness(155%);
+  }
+}
+@keyframes unbrightness {
+  0% {
+    filter: brightness(135%);
+  }
+  5% {
+    filter: brightness(120%);
+  }
+}
+@keyframes unbright {
+  0% {
+    filter: brightness(145%);
+  }
+  82% {
+    filter: brightness(100%);
+  }
+}
+@keyframes hue {
+  0% {
+    filter: hue-rotate(55deg);
+  }
+  100% {
+    filter: hue-rotate(223deg);
+  }
+}
+@keyframes contrast {
+  0% {
+    filter: contrast(1);
+  }
+  100% {
+    filter: contrast(20);
+  }
+}
+@keyframes iglog {
+  0% {
+    opacity: 20;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    opacity: 30;
+    filter: hue-rotate(61deg);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
