@@ -121,7 +121,6 @@ function Secone(){
       height: "auto",
       mt:-4,
       ml:5,
-      mb:10,
       p:7,
 
     }}>
@@ -131,6 +130,27 @@ function Secone(){
     <a href='https://iwenttocatholicschool.schidt.co'> >/ QR_Gospel </a> -- procedurally generated Gospel stored <i> inside </i> QR codes and hosted on web3. <br/>
     <a href='https://eatingnapkins.art'> >/ *WIP* EN Online Gallery </a> -- WIP publication site for Eating Napkins Label.
 
+    </Box>
+    <Box
+    style={{position: 'relative', zIndex: '2' }}
+
+    sx={{
+      bgcolor: "#fff1ffd1",
+      width: (windowWidth /2.3),
+      height: "auto",
+      mt:-4,
+      mr:5,
+      ml: 'auto',
+      p:5,
+      mb:10,
+
+    }}>
+    <h1>Contact</h1><br/>
+    <ul>
+    <li>(307)797-8281</li>
+    <li><a href= 'mailto:nathan.2billion@gmail.com'>nathan.2billion@gmail.com</a></li>
+
+    </ul>
     </Box>
     </>
   )
