@@ -84,7 +84,7 @@ function Secone(){
 
     }}>
     <h1>whois Nathan ?</h1><br/>
-    Nathan studied both computer science and behavior neuroscience.  After working in the IT field prior to graduation, Nathan found his passion in the arts, specifically, digital art.
+    Nathan studied both computer science and behavioral neuroscience.  After working in the IT field prior to graduation, Nathan found his passion in the arts, specifically, digital art. see <a href='https://www.schidt.co'> schidt.co</a>
 
     </Box>
     <Box
