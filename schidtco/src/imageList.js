@@ -239,7 +239,14 @@ const itemData = [
       date: '031722',
       mSrc: 'javascript:;',
   },
-
+  {
+      img: 'https://i.imgur.com/r70zmxn.jpg',
+      title: 'instagram and its consequences',
+      tag: 'nyc',
+      tag2: 'ppl',
+      date: '07**22',
+      mSrc: 'javascript:;',
+  },
   {
      img: 'https://i.imgur.com/cXApT22.jpg',
      title: 'JULY4',
