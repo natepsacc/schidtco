@@ -71,24 +71,28 @@ const imageClick = (props) => {
       <ThemeProvider theme={theme}>
 
    <Box
+   ClassName='boxes'
    onClick={toggleClicked}
      sx={{
-       m:2,
+       m:20,
+       justifyContent: 'center',
+       flexDirection: 'column',
        height: {
-         mobile: clicked ? "35vh" : "600px",
-         bigMobile: clicked ? "50vh" : "85vh",
-         tablet: "100vh",
-         desktop: clicked ? "100vh" : "50vh",
+         mobile: clicked ? "fit-content" : "50vh",
+         bigMobile: clicked ? "fit-content" : "50vh",
+         desktop: clicked ? "fit-content" : "50vh",
        },
        display: "grid",
        gridTemplateColumns:{
-         mobile: clicked ? 'repeat(1, 100%)' : 'repeat(2, 50%)',
-         bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 100%)',
-         desktop: clicked ? 'repeat(2, 50%)' : 'repeat(4, 25%)',
+         mobile: clicked ? 'repeat(1, 50%)' : 'repeat(2, 45%)',
+         bigMobile: clicked ? 'repeat(1, 50%)' : 'repeat(2, 45%)',
+         desktop: clicked ? 'repeat(1, 50%)' : 'repeat(4, 25%)',
        },
        [`& .${imageListItemClasses.root}`]: {
          display: "flex",
-         flexDirection: "column"
+         flexDirection: "column",
+         justifyContent: 'space-between',
+
        }
      }}
    >
@@ -192,14 +196,31 @@ const itemData = [
       tag2: 'ppl',
       mSrc: 'javascript:;',
   },
-
   {
-      img: '  https://i.imgur.com/zWDIiWc.jpg',
-      title: 'Virgil Abloh',
-      tag: 'ppl',
-      tag2: 'nyc',
-      date: '080322',
+      img: 'https://i.imgur.com/TqgTbht.jpg',
+      title: 'ctown',
+      date: '08**22',
+      tag: 'NYC',
+      tag2: 'ppl',
       mSrc: 'javascript:;',
+  },
+  {
+      img: 'https://i.imgur.com/rvmvcQG.jpg',
+      title: 'Bay House',
+      tag: 'USA',
+      tag2: 'out',
+      date: '031722',
+      mSrc: 'javascript:;',
+  },
+  {
+      img: 'https://i.imgur.com/OsLGFBR.jpg',
+      title: 'broken unspoken photographer rules',
+      date: '072322',
+      mSrc: 'javascript:;',
+      tag: 'ppl',
+      tag2: 'out',
+      tag3: 'nyc',
+
   },
   {
      img: 'https://i.imgur.com/cXApT22.jpg',
@@ -225,14 +246,13 @@ const itemData = [
         tag: 'CAR',
         mSrc: 'javascript:;',
     },
-    {
-        img: 'https://i.imgur.com/QiyeqH2.jpg',
-        title: 'boy being influenced',
-        date: '072322',
-        tag: 'nyc',
-        tag2: 'ppl',
-        tag4: 'space',
 
+    {
+        img: 'https://i.imgur.com/mi9QOgf.jpg',
+        title: 'park',
+        date: '08**22',
+        tag: 'NYC',
+        tag2: 'ppl',
         mSrc: 'javascript:;',
     },
     {
@@ -250,14 +270,7 @@ const itemData = [
         mSrc: 'javascript:;',
         tag: 'ppl',
     },
-    {
-        img: 'https://i.imgur.com/rvmvcQG.jpg',
-        title: 'Bay House',
-        tag: 'USA',
-        tag2: 'out',
-        date: '031722',
-        mSrc: 'javascript:;',
-    },
+
 
     {
         img: 'https://i.imgur.com/UZ0OxqT.jpg',
@@ -268,24 +281,8 @@ const itemData = [
         mSrc: 'javascript:;',
     },
 
-    {
-        img: 'https://i.imgur.com/dyqjzFN.jpg',
-        title: 'standard cemetery shot',
-        tag: 'USA',
-        tag2: 'out',
-        date: '062322',
-        mSrc: 'javascript:;',
-    },
-    {
-        img: 'https://i.imgur.com/OsLGFBR.jpg',
-        title: 'broken unspoken photographer rules',
-        date: '072322',
-        mSrc: 'javascript:;',
-        tag: 'ppl',
-        tag2: 'out',
-        tag3: 'nyc',
 
-    },
+
     {
         img: 'https://i.imgur.com/c8tzEEd.jpg',
         title: 'Brain Sweating',
@@ -378,13 +375,31 @@ const itemData = [
         tag2: 'out',
         date: '031722',
         mSrc: 'javascript:;',
-    }, {
+    },
+    {
+        img: 'https://i.imgur.com/QiyeqH2.jpg',
+        title: 'boy being influenced',
+        date: '072322',
+        tag: 'nyc',
+        tag2: 'ppl',
+        tag4: 'space',
+
+        mSrc: 'javascript:;',
+    },{
         img: 'https://i.imgur.com/qqGyyD8.jpg',
         title: 'something future something',
         tag: 'out',
         date: '031722',
         mSrc: 'javascript:;',
-    }, {
+    },
+    {
+        img: '  https://i.imgur.com/zWDIiWc.jpg',
+        title: 'Virgil Abloh',
+        tag: 'ppl',
+        tag2: 'nyc',
+        date: '080322',
+        mSrc: 'javascript:;',
+    },{
         img: 'https://i.imgur.com/JvRhPS4.jpg',
         title: 'SUNDAY',
         tag: 'ppl',
@@ -452,7 +467,14 @@ const itemData = [
         tag2: 'out',
         mSrc: 'javascript:;',
     },
-
+    {
+        img: 'https://i.imgur.com/dyqjzFN.jpg',
+        title: 'standard cemetery shot',
+        tag: 'USA',
+        tag2: 'out',
+        date: '062322',
+        mSrc: 'javascript:;',
+    },
     {
         img: 'https://i.imgur.com/eyaaiS2.jpg',
         title: 'park lovers <3',

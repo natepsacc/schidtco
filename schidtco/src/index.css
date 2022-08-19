@@ -1,6 +1,5 @@
 body {
   font-family: "Courier New", monospace;
-  background-color: #d8e8ef;
   transition: 5s;
 }
 
@@ -49,11 +48,17 @@ div.nav {
 
 .lazyImage {
   z-index: 4;
-  display: block;
   width: auto;
   max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
 }
-
+#boxes{
+  position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
 #height {
   height: inherit;
   padding: none;

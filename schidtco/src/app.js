@@ -14,7 +14,6 @@ import InputLabel from '@mui/material/InputLabel';
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  document.body.style.backgroundColor = "#F0C0C9";
 
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("TitleLogo").style.height = "15vh";
@@ -37,11 +36,7 @@ function scrollFunction() {
 
 
   }
-	if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 400) {
 
-	} else {
-		document.body.style.backgroundColor = "#d8e8ef";
-	}
 
 
 
@@ -63,7 +58,7 @@ function Rad(props){
 		<span>
 	<Logo/>
 	<Footer/>
-	<StandardImageList tag={props.tag} gridColumns="2"/>
+	<StandardImageList tag={props.tag} />
 	</span>
 );
 }
