@@ -151,6 +151,14 @@ id='imgimg' key={item.img} id="height" sx={{m:0}}>
 
 const itemData = [
   {
+      img: 'https://i.imgur.com/HFmwyzO.jpg',
+      title: 'Amelia Paige',
+      tag: 'ppl',
+      tag2: 'nyc',
+      date: '080322',
+      mSrc: 'https://www.instagram.com/ameliapaige7',
+  },
+  {
       img: 'https://i.imgur.com/pYayXCP.jpg',
       title: 'Virgil Abloh',
       tag: 'ppl',
@@ -168,6 +176,15 @@ const itemData = [
       mSrc: 'javascript:;',
   },
   {
+  img: 'https://i.imgur.com/6VI8tDC.gif',
+  title: 'More...',
+  date: 'clip guided brainwashing',
+  tag: 'RAD',
+  tag2: 'AI',
+  mSrc: '/#/brainwashing',
+
+},
+  {
       img: 'https://i.imgur.com/fmPPB9x.jpg',
       title: 'hello!',
       date: '062022',
@@ -175,14 +192,7 @@ const itemData = [
       tag2: 'ppl',
       mSrc: 'javascript:;',
   },
-  {
-      img: 'https://i.imgur.com/UugFeDz.jpg',
-      title: 'Virgil Abloh',
-      tag: 'ppl',
-      tag2: 'nyc',
-      date: '080322',
-      mSrc: 'javascript:;',
-  },
+
   {
       img: '  https://i.imgur.com/zWDIiWc.jpg',
       title: 'Virgil Abloh',
@@ -816,15 +826,7 @@ const itemData = [
         tag: 'ppl',
         mSrc: 'javascript:;',
     },
-    {
-    img: 'https://i.imgur.com/6VI8tDC.gif',
-    title: 'More...',
-    date: 'clip guided brainwashing',
-    tag: 'RAD',
-    tag2: 'AI',
-    mSrc: '/#/brainwashing',
-
-}, {
+   {
         img: 'https://i.imgur.com/kL01Usx.jpg',
         date: 'hello!',
         title: '062022',
@@ -1269,7 +1271,14 @@ const itemData = [
         tag2: 'midjourney',
     },
 
-
+    {
+        img: 'https://i.imgur.com/UugFeDz.jpg',
+        title: 'Virgil Abloh',
+        tag: 'ppl',
+        tag2: 'nyc',
+        date: '080322',
+        mSrc: 'javascript:;',
+    },
 
 
 ];
