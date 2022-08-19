@@ -87,8 +87,9 @@ const imageClick = (props) => {
        justifyContent: 'center',
        flexDirection: 'column',
        height: {
-         mobile: clicked ? "fit-content" : "50vh",
-         bigMobile: clicked ? "fit-content" : "50vh",
+
+         mobile: clicked ? "50vh" : "fit-content",
+         bigMobile: clicked ? "50vh" : "fit-content",
          desktop: clicked ? "fit-content" : "50vh",
        },
        display: "grid",
