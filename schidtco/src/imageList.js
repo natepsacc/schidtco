@@ -74,7 +74,16 @@ const imageClick = (props) => {
    ClassName='boxes'
    onClick={toggleClicked}
      sx={{
-       m:20,
+       m:{
+         mobile: 5,
+         bigMobile: 3,
+         desktop: 15
+       },
+       mt: {
+         mobile: 15,
+         bigMobile: 3,
+         desktop: 15
+       },
        justifyContent: 'center',
        flexDirection: 'column',
        height: {
@@ -84,8 +93,8 @@ const imageClick = (props) => {
        },
        display: "grid",
        gridTemplateColumns:{
-         mobile: clicked ? 'repeat(1, 50%)' : 'repeat(2, 45%)',
-         bigMobile: clicked ? 'repeat(1, 50%)' : 'repeat(2, 45%)',
+         mobile: clicked ? 'repeat(1, 85vw)' : 'repeat(2, fit-content)',
+         bigMobile: clicked ? 'repeat(1, 85vw)' : 'repeat(2, 50%)',
          desktop: clicked ? 'repeat(1, 50%)' : 'repeat(4, 25%)',
        },
        [`& .${imageListItemClasses.root}`]: {
@@ -155,19 +164,21 @@ id='imgimg' key={item.img} id="height" sx={{m:0}}>
 
 const itemData = [
   {
-      img: 'https://i.imgur.com/HFmwyzO.jpg',
-      title: 'Amelia Paige',
+      img: 'https://i.imgur.com/OsLGFBR.jpg',
+      title: 'broken unspoken photographer rules',
+      date: '072322',
+      mSrc: 'javascript:;',
       tag: 'ppl',
-      tag2: 'nyc',
-      date: '080322',
-      mSrc: 'https://www.instagram.com/ameliapaige7',
+      tag2: 'out',
+      tag3: 'nyc',
+
   },
   {
       img: 'https://i.imgur.com/pYayXCP.jpg',
       title: 'Virgil Abloh',
       tag: 'ppl',
       tag2: 'nyc',
-      date: '080322',
+      date: '081822',
       mSrc: 'javascript:;',
   },
   {
@@ -187,6 +198,14 @@ const itemData = [
   tag2: 'AI',
   mSrc: '/#/brainwashing',
 
+},
+{
+    img: 'https://i.imgur.com/HFmwyzO.jpg',
+    title: 'Amelia Paige',
+    tag: 'ppl',
+    tag2: 'nyc',
+    date: '080322',
+    mSrc: 'https://www.instagram.com/ameliapaige7',
 },
   {
       img: 'https://i.imgur.com/fmPPB9x.jpg',
@@ -212,16 +231,7 @@ const itemData = [
       date: '031722',
       mSrc: 'javascript:;',
   },
-  {
-      img: 'https://i.imgur.com/OsLGFBR.jpg',
-      title: 'broken unspoken photographer rules',
-      date: '072322',
-      mSrc: 'javascript:;',
-      tag: 'ppl',
-      tag2: 'out',
-      tag3: 'nyc',
 
-  },
   {
      img: 'https://i.imgur.com/cXApT22.jpg',
      title: 'JULY4',
