@@ -815,15 +815,16 @@ const itemData = [
         title: 'Mother and child',
         tag: 'ppl',
         mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/scJJAhE.jpg',
-        title: 'tap to visit',
-        date: '/imagine:<midjourney__prompting_/>',
-        tag: 'RAD',
-        tag2: 'midjourney',
-        mSrc: '/#/midjourneyPrompts',
+    },
+    {
+    img: 'https://i.imgur.com/6VI8tDC.gif',
+    title: 'More...',
+    date: 'clip guided brainwashing',
+    tag: 'RAD',
+    tag2: 'AI',
+    mSrc: '/#/brainwashing',
 
-    }, {
+}, {
         img: 'https://i.imgur.com/kL01Usx.jpg',
         date: 'hello!',
         title: '062022',
@@ -836,7 +837,7 @@ const itemData = [
         mSrc: "https://iWentToCatholicSchool.schidt.co/",
         img: 'https://i.imgur.com/YJLTHWg.jpg',
         date: 'QR Gospel 061822',
-        title: 'tap to visit',
+        title: 'More...',
         tag: 'RAD',
         tag2: 'ppl',
 
@@ -844,27 +845,29 @@ const itemData = [
     }, {
         img: '  https://i.imgur.com/lqldWTH.jpg',
         date: 'Blue Angel by Malcolm Liepke',
-        title: 'refigured with AI by me',
+        title: 'refigured with AI ',
         mSrc: 'javascript:;',
         tag: 'RAD',
         tag2: 'ppl',
 
 
-    }, {
+    },
+    {
+            img: 'https://i.imgur.com/scJJAhE.jpg',
+            title: 'More...',
+            date: '/imagine:<midjourney__prompting_/>',
+            tag: 'RAD',
+            tag2: 'midjourney',
+            mSrc: '/#/midjourneyPrompts',
+
+        },{
         img: 'https://i.imgur.com/qiAHwaG.jpg',
         title: 'R&D',
         tag: 'CAR',
         tag2: 'RAD',
 
         mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/dC2cqoa.jpg',
-        title: 'R%D',
-        date: '071522',
-        tag: 'RAD',
-        mSrc: 'javascript:;',
-
-    }, {
+    },  {
         img: 'https://i.imgur.com/jr4Zy0c.jpg',
         title: 'R&D',
         date: '060722',
@@ -1326,6 +1329,14 @@ const unused = [ {
         img: 'https://i.imgur.com/ga6th2f.jpg',
         title: 'Chevys Night',
         tag: 'ppl',
+
+    },
+    {
+        img: 'https://i.imgur.com/dC2cqoa.jpg',
+        title: 'R%D',
+        date: '071522',
+        tag: 'RAD',
+        mSrc: 'javascript:;',
 
     },
 ];

@@ -67,7 +67,14 @@ function Rad(props){
 	</span>
 );
 }
-
+function Brainwashing(){
+  return(
+    <span>
+  <Logo/>
+  <Footer/>
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/740205106?h=de1181f575&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-08-16 at 9.13.43 PM.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>  </span>
+)
+}
 function App() {
 
 
@@ -81,12 +88,12 @@ function App() {
 			 <Route path='/ppl' element={<Rad tag="ppl"  />} />
 			 <Route path='/out' element={<Rad tag="out" /> } />
        <Route path='/nyc' element={<Rad tag="nyc" /> } />
-
        <Route path='/space' element={<Rad tag="space" /> } />
 			 <Route path='/commod' element={<Rad tag="prop0623" /> } />
        <Route path='/rad' element={<Rad tag="RAD" /> } />
        <Route path='/prop0623' element={<Rad tag="prop0623" /> } />
        <Route path='/midjourneyPrompts' element={<Rad tag="midjourney"/> } />
+       <Route path='/brainwashing' element={<Brainwashing/> } />
 
     </Routes>
 </span>
@@ -131,8 +138,7 @@ function Footer(){
 <div id="footer">
 <span style={{backgroundColor: "#d8e8ef"}}>
 natepsacc@gmail.com, @schidtery,
-<br/>Schidt.co is a Web3 site, welcome to the new world.
-
+<br/>Schidt.co is a Web3 site
 </span>
 </div>
 );
