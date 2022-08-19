@@ -94,8 +94,9 @@ const imageClick = (props) => {
        },
        display: "grid",
        gridTemplateColumns:{
-         mobile: clicked ? 'repeat(1, 85vw)' : 'repeat(2, fit-content)',
-         bigMobile: clicked ? 'repeat(1, 85vw)' : 'repeat(2, 50%)',
+         mobile: clicked ? 'repeat(2, fit-content)' : 'repeat(1, 85vw)',
+         bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 85vw)',
+
          desktop: clicked ? 'repeat(1, 50%)' : 'repeat(4, 25%)',
        },
        [`& .${imageListItemClasses.root}`]: {
