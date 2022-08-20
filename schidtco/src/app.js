@@ -65,7 +65,7 @@ function Brainwashing(){
     <span>
   <Logo/>
   <div className='titleGDoc'> <h4>clip__guided_brain_washer</h4></div>
-<iframe className='iframeGDoc' src="https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O//preview"  allow="autoplay"></iframe>
+<iframe className='iframeGDoc' src="https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O/preview"  allow="autoplay"></iframe>
 <div className='readmeGDoc'>
 # clip-guided-brainwashing <br/>
 # using a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my brain. <br/>
