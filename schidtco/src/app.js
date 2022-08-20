@@ -78,7 +78,7 @@ do the image generation more realtime and responsive.  i will need a different c
 # written in <b>python</b>. two display options available, <b>eye</b> tracked updating or allow your <b>computer to decide</b>. <br/>
 # i have spent hours watching this.  the images being generated constantly makes it exciting. <br/>
 # like in the ryan gosling movie lol <br/>
-# ok thanks. <br/>
+# ok, thanks. <br/>
 # August, 2022 NYC <br/>
 </div>
 <TimeImage/>
