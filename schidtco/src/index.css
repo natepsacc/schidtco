@@ -149,7 +149,6 @@ h4{
 #overimage{
   position: fixed;
   z-index:500;
-  animation: hue 1s ease-in-out infinite alternate;
   animation: overimagekf 1s ease-in-out infinite alternate;
 
 }
@@ -208,9 +207,17 @@ h4{
 @keyframes overimagekf {
   0% {
     opacity: 0;
+    filter: blur(0px);
+
+  }
+  50%{
+    filter: blur(12px);
+
+
   }
   100% {
     opacity: 100;
+    filter: blur(0px);
 
   }
 }
