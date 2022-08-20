@@ -72,7 +72,8 @@ function Brainwashing(){
 # written in python. two display options available, eye tracked updating or allow your computer to decide. <br/>
 # i have spent hours watching this.  the images being generated constantly makes it exciting. <br/>
 # like the ryan gosling movie lol <br/>
-# ok thanks. August, 2022 NYC <br/>
+# ok thanks. <br/>
+# August, 2022 NYC <br/>
 </div>
 <TimeImage/>
 
