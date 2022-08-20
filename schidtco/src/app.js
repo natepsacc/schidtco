@@ -70,12 +70,12 @@ function Brainwashing(){
 # clip-guided-brainwashing <br/>
 #point is i feel watched and also dissolving into algorithms. i feel like paying attention to algorithms used on me makes me make <b>algorithmic choices</b>.
 i like how all the interaction with this art is done for you, because it feels releaving, under<b> my control</b>. when it reacts to the direction of my eyes,
-i get more <b>satisfaction of control</b>. i want to integrate more <b>subconcious interaction</b> into this, im continuing work on the eye tracking aspect however i want to 
+i get more <b>satisfaction of control</b>. i want to integrate more <b>subconcious interaction</b> into this, im continuing work on the eye tracking aspect however i want to
 do the image generation more realtime and responsive.  i will need a different computer for that. <br/>
-# a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my brain. <br/>
-# written in <b>python</b>. two display options available, eye tracked updating or allow your computer to decide. <br/>
+# a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my <b>brain</b>. <br/>
+# written in <b>python</b>. two display options available, <b>eye</b> tracked updating or allow your <b>computer to decide</b>. <br/>
 # i have spent hours watching this.  the images being generated constantly makes it exciting. <br/>
-# like the ryan gosling movie lol <br/>
+# like in the ryan gosling movie lol <br/>
 # ok thanks. <br/>
 # August, 2022 NYC <br/>
 </div>
