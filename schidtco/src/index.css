@@ -33,9 +33,10 @@ div.nav {
   transition: 1s;
 }
 .iframeGDoc{
+  width:75vw;
+  height: 50vh;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 25%;
   margin-top: 0;
 }
 .titleGDoc{
@@ -46,19 +47,21 @@ div.nav {
   padding-top: -10px;
   padding-left: 0;
   padding-right: 0;
-  text-align: center;
+  text-align: left;
 }
 .readmeGDoc{
-  width: 45vw;
+  width: 85vw;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: -20%;
   font-size: 2em;
+  margin-bottom: 25%;
+
 }
 h4{
   font-weight: lighter;
   font-family: "Courier New", monospace;
-  font-size: 50em;
+  font-size: 50vw;
   word-wrap: break-word;
   padding-bottom: -40%;
 

@@ -47,7 +47,6 @@ function Home(){
 	return(
 		<span>
 	<Logo/>
-	<Footer/>
 	<StandardImageList tag="all" gridColumns="2"/>
 	</span>
 );
@@ -57,7 +56,6 @@ function Rad(props){
 	return(
 		<span>
 	<Logo/>
-	<Footer/>
 	<StandardImageList tag={props.tag} />
 	</span>
 );
@@ -66,9 +64,8 @@ function Brainwashing(){
   return(
     <span>
   <Logo/>
-  <Footer/>
   <div className='titleGDoc'> <h4>clip__guided_brain_washer</h4></div>
-<iframe className='iframeGDoc' src="https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O//preview" width="1920" height="1008" allow="autoplay"></iframe>
+<iframe className='iframeGDoc' src="https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O//preview"  allow="autoplay"></iframe>
 <div className='readmeGDoc'>
 # clip-guided-brainwashing <br/>
 # using a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my brain. <br/>
