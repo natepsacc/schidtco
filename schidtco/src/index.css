@@ -37,12 +37,12 @@ div.nav {
   height: 50vh;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: 0;
+  margin-top: 10;
 }
 .titleGDoc{
   width:100vw;
   padding-bottom: -40%;
-  margin-top: -50%;
+  margin-top: -40%;
   margin-bottom: -48%;
   padding-top: -10px;
   padding-left: 0;
@@ -53,7 +53,7 @@ div.nav {
   width: 85vw;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: -20%;
+  margin-top: 0;
   font-size: 2em;
   margin-bottom: 25%;
 
@@ -146,7 +146,13 @@ h4{
   color: #F0C0C9;
   transition: 1s;
 }
+#overimage{
+  position: fixed;
+  z-index:500;
+  animation: hue 1s ease-in-out infinite alternate;
+  animation: overimagekf 1s ease-in-out infinite alternate;
 
+}
 @keyframes brightness {
   0% {
     opacity: 80;
@@ -199,5 +205,13 @@ h4{
     filter: hue-rotate(61deg);
   }
 }
+@keyframes overimagekf {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
 
+  }
+}
 /*# sourceMappingURL=index.css.map */

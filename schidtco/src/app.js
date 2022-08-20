@@ -8,7 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
-
+import TimeImage from './overimage.js';
 
 
 window.onscroll = function() {scrollFunction()};
@@ -74,6 +74,8 @@ function Brainwashing(){
 # like the ryan gosling movie lol <br/>
 # ok thanks. August, 2022 NYC <br/>
 </div>
+<TimeImage/>
+
 </span>
 )
 }
