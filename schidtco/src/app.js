@@ -112,7 +112,7 @@ function Logo(){
 	return(
 		<span>
 		<a href="/" >
-	<img  id="TitleLogo" alt="Schidt.co Logo" src="%PUBLIC_URL%//june16Logo.svg"/>
+	<img  id="TitleLogo" alt="Schidt.co Logo" src="/june16Logo.svg"/>
 		</a>
 
 		<div id="nav" class="nav">
