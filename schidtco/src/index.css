@@ -147,6 +147,8 @@ h4{
   transition: 1s;
 }
 #overimage{
+  width:12vw;
+  height: auto;
   position: fixed;
   z-index:500;
   animation: overimagekf 1s ease-in-out infinite alternate;
