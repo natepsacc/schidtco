@@ -14,11 +14,13 @@ h2 {
   background-color: rgba(255, 255, 255, 0.2352941176);
 }
 
-a, a.visited, a.active {
-  color: inherit;
+a{
+  color: #F0C0C9;
   text-decoration: none;
 }
-
+a.visited {
+  color: blue;
+}
 div.nav {
   position: fixed;
   top: 25vh;
@@ -28,10 +30,39 @@ div.nav {
   width: fit-content;
   font-size: 12pt;
   text-decoration: none;
-  color: #F0C0C9;
   transition: 1s;
 }
+.iframeGDoc{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 25%;
+  margin-top: 0;
+}
+.titleGDoc{
+  width:100vw;
+  padding-bottom: -40%;
+  margin-top: -50%;
+  margin-bottom: -48%;
+  padding-top: -10px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.readmeGDoc{
+  width: 45vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: -20%;
+  font-size: 2em;
+}
+h4{
+  font-weight: lighter;
+  font-family: "Courier New", monospace;
+  font-size: 50em;
+  word-wrap: break-word;
+  padding-bottom: -40%;
 
+}
 .imgSvg {
   z-index: 6;
 }

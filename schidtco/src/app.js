@@ -67,7 +67,17 @@ function Brainwashing(){
     <span>
   <Logo/>
   <Footer/>
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/740205106?h=de1181f575&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2022-08-16 at 9.13.43 PM.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>  </span>
+  <div className='titleGDoc'> <h4>clip__guided_brain_washer</h4></div>
+<iframe className='iframeGDoc' src="https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O//preview" width="1920" height="1008" allow="autoplay"></iframe>
+<div className='readmeGDoc'>
+# clip-guided-brainwashing <br/>
+# using a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my brain. <br/>
+# written in python. two display options available, eye tracked updating or allow your computer to decide. <br/>
+# i have spent hours watching this.  the images being generated constantly makes it exciting. <br/>
+# like the ryan gosling movie lol <br/>
+# ok thanks. August, 2022 NYC <br/>
+</div>
+</span>
 )
 }
 function App() {
