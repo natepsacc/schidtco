@@ -151,7 +151,7 @@ h4{
   height: auto;
   position: fixed;
   z-index:500;
-  animation: overimagekf 1s ease-in-out infinite alternate;
+  animation: overimagekf 2s ease-in-out infinite alternate;
 
 }
 @keyframes brightness {
