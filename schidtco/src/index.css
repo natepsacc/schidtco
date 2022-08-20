@@ -37,7 +37,7 @@ div.nav {
   height: 50vh;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: 10;
+  margin-top: -10;
 }
 .titleGDoc{
   width:100vw;
