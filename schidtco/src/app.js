@@ -66,11 +66,13 @@ function Brainwashing(){
   <Logo/>
   <div className='titleGDoc'> <h4>clip__guided_brain_washer</h4></div>
 <iframe className='iframeGDoc' src='https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O/preview' />
+<iframe className='iframeGDoc' src='https://drive.google.com/file/d/1JGpqxZ6thb6rx85YH9Epw34GKMhC73BT/preview' />
+
 <div className='readmeGDoc'>
-# clip-guided-brainwashing <br/>
-#point is i feel watched and also dissolving into algorithms. i feel like paying attention to algorithms used on me makes me make <b>algorithmic choices</b>.
+# <b>clip</b>-guided-<b>brainwashing</b> <br/>
+#point is i feel <b>watched</b> and <b>dissolved</b> into algorithms. i feel like paying attention to algorithms used on me makes me make <b>algorithmic choices</b>.
 i like how all the interaction with this art is done for you, because it feels releaving, under<b> my control</b>. when it reacts to the direction of my eyes,
-i get more <b>satisfaction of control</b>. i want to integrate more <b>subconcious interaction</b> into this, im continuing work on the eye tracking aspect however i want to
+i get more <b>satisfaction of control</b>. i want to integrate more <b>subconcious interaction</b> into all aspects of this, im continuing work on the eye tracking aspect however i want to
 do the image generation more realtime and responsive.  i will need a different computer for that. <br/>
 # a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my <b>brain</b>. <br/>
 # written in <b>python</b>. two display options available, <b>eye</b> tracked updating or allow your <b>computer to decide</b>. <br/>
