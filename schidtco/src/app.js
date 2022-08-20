@@ -68,10 +68,12 @@ function Brainwashing(){
 <iframe className='iframeGDoc' src='https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O/preview' />
 <div className='readmeGDoc'>
 # clip-guided-brainwashing <br/>
-#point is i feel watched and also dissolving into algorithms. i feel like paying attention to algorithms used on me makes me make algorithmic choices.
-i like how all the interaction with this artpiece is done for you, because it feels releaving, under my control. 
-# using a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my brain. <br/>
-# written in python. two display options available, eye tracked updating or allow your computer to decide. <br/>
+#point is i feel watched and also dissolving into algorithms. i feel like paying attention to algorithms used on me makes me make <b>algorithmic choices</b>.
+i like how all the interaction with this art is done for you, because it feels releaving, under<b> my control</b>. when it reacts to the direction of my eyes,
+i get more <b>satisfaction of control</b>. i want to integrate more <b>subconcious interaction</b> into this, im continuing work on the eye tracking aspect however i want to 
+do the image generation more realtime and responsive.  i will need a different computer for that. <br/>
+# a clip guided diffusion model generating images prompted from leaves of grass and the secrets from my brain. <br/>
+# written in <b>python</b>. two display options available, eye tracked updating or allow your computer to decide. <br/>
 # i have spent hours watching this.  the images being generated constantly makes it exciting. <br/>
 # like the ryan gosling movie lol <br/>
 # ok thanks. <br/>
