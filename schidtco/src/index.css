@@ -56,7 +56,8 @@ div.nav {
   margin-top: 0;
   font-size: 2em;
   margin-bottom: 25%;
-
+  padding: 4%;
+  border: 2px solid black;
 }
 h4{
   font-weight: lighter;
@@ -69,7 +70,23 @@ h4{
 .imgSvg {
   z-index: 6;
 }
-
+#imagewords{
+  align-content: center;
+  align:center;
+  left: auto;
+  right: auto;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
+#mansplainzindex{
+  margin-top: 2;
+  margin-bottom: 5;
+  width: 25vw;
+  height: auto;
+}
 .svgText {
   z-index: 6;
   fill: red;

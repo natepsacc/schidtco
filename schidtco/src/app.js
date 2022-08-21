@@ -83,6 +83,16 @@ do the image generation more realtime and responsive.  i will need a different c
 # August, 2022 NYC <br/>
 </div>
 <TimeImage/>
+<div id='imagewords'>
+<img id='mansplainzindex' src='https://i.imgur.com/kaLVyMY.jpg'/>
+<img id='mansplainzindex' src='https://i.imgur.com/rfI1sCz.jpg'/>
+<img id='mansplainzindex' src='https://i.imgur.com/YI2N9qa.jpg'/>
+<img id='mansplainzindex' src='https://i.imgur.com/5OvITa7.jpg'/>
+<img id='mansplainzindex' src='https://i.imgur.com/9VXkgEG.jpg'/>
+<img id='mansplainzindex' src='https://i.imgur.com/9k5yYQ0.png'/>
+
+</div>
+
 
 </span>
 )
