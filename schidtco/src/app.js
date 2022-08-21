@@ -67,7 +67,8 @@ function Brainwashing(){
   <div className='titleGDoc'> <h4>clip__guided_brain_washer</h4></div>
 <iframe className='iframeGDoc' src='https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O/preview' />
 <iframe className='iframeGDoc' src='https://drive.google.com/file/d/1JGpqxZ6thb6rx85YH9Epw34GKMhC73BT/preview' />
-
+<a href='https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O/preview' ><p  style={{color:'blue', margin:'2vw'}}>https://drive.google.com/file/d/1kbzSkzOr_T4Tj68vANJEm5H_28RgM75O/preview</p></a>
+<a href='https://drive.google.com/file/d/1JGpqxZ6thb6rx85YH9Epw34GKMhC73BT/preview'><p  style={{color:'blue', margin:'2vw'}}>https://drive.google.com/file/d/1JGpqxZ6thb6rx85YH9Epw34GKMhC73BT/preview</p></a>
 <div className='readmeGDoc'>
 # <b>clip</b>-guided-<b>brainwashing</b> <br/>
 #point is i feel <b>watched</b> and <b>dissolved</b> into algorithms (basic i know). i feel like paying attention to algorithms used on me makes me make <b>algorithmic choices</b>.
