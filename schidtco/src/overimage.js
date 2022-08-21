@@ -3,8 +3,8 @@ const TimeImage = () => {
   const getRandom = (min, max) => Math.floor(Math.random()*(max-min+1)+min);
 
   setInterval(() => {
-     document.getElementById('overimage').style.left= getRandom(0, 1720)+'px'; // 👈🏼 Horizontally
-     document.getElementById('overimage').style.top = getRandom(0, 1080)+'px'; // 👈🏼 Vertically
+     document.getElementById('overimage').style.left= getRandom(0, 100)+'vw'; // 👈🏼 Horizontally
+     document.getElementById('overimage').style.top = getRandom(0, 100)+'vh'; // 👈🏼 Vertically
 
   }, 4000);
 return(
