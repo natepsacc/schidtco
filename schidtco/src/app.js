@@ -70,7 +70,7 @@ function Brainwashing(){
 
 <div className='readmeGDoc'>
 # <b>clip</b>-guided-<b>brainwashing</b> <br/>
-#point is i feel <b>watched</b> and <b>dissolved</b> into algorithms. i feel like paying attention to algorithms used on me makes me make <b>algorithmic choices</b>.
+#point is i feel <b>watched</b> and <b>dissolved</b> into algorithms (basic i know). i feel like paying attention to algorithms used on me makes me make <b>algorithmic choices</b>.
 i like how all the interaction with this art is done for you, because it feels releaving, under<b> my control</b>. when it reacts to the direction of my eyes,
 i get more <b>satisfaction of control</b>. i want to integrate more <b>subconcious interaction</b> into all aspects of this, im continuing work on the eye tracking aspect however i want to
 do the image generation more realtime and responsive.  i will need a different computer for that. <br/>
