@@ -90,6 +90,8 @@ do the image generation more realtime and responsive.  i will need a different c
 <img id='mansplainzindex' src='https://i.imgur.com/5OvITa7.jpg'/>
 <img id='mansplainzindex' src='https://i.imgur.com/9VXkgEG.jpg'/>
 <img id='mansplainzindex' src='https://i.imgur.com/9k5yYQ0.png'/>
+<img id='mansplainzindex' src='https://i.imgur.com/C9HoOL1.jpg'/>
+<img id='mansplainzindex' src='https://i.imgur.com/qXJhG3Q.jpg'/>
 
 </div>
 
