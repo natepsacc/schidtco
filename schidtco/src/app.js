@@ -118,6 +118,7 @@ function App() {
        <Route path='/prop0623' element={<Rad tag="prop0623" /> } />
        <Route path='/midjourneyPrompts' element={<Rad tag="midjourney"/> } />
        <Route path='/brainwashing' element={<Brainwashing/> } />
+       <Route path='/jesus' element={<Rad tag="jesus"/> } />
 
     </Routes>
 </span>
