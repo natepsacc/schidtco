@@ -193,14 +193,46 @@ const itemData = [
 
   },
   {
-     img: 'https://i.imgur.com/dmTEN6B.jpg',
-     title: 'the religous community is toxic',
-     date: '082222',
+     img: 'https://i.imgur.com/nY3Y0d3.jpg',
+     title: 'chinatown',
+     date: '091122',
      tag: 'NYC',
      tag2: 'USA',
-     tag4: 'jesus',
-     mSrc: '/#/jesus',
+     mSrc: 'javascript:;',
  },
+ {
+    img: ' https://i.imgur.com/ywhrYSN.jpg',
+    title: 'illac',
+    date: '091822',
+    tag: 'NYC',
+    tag2: 'CAR',
+    mSrc: 'javascript:;',
+},
+ {
+    img: 'https://i.imgur.com/dmTEN6B.jpg',
+    title: 'the religous community is toxic',
+    date: '082222',
+    tag: 'NYC',
+    tag2: 'USA',
+    tag4: 'jesus',
+    mSrc: '/#/jesus',
+},
+{
+    img: 'https://i.imgur.com/vzENpQu.jpg',
+    title: 'Surfer 1',
+    tag: 'ppl',
+    mSrc: 'javascript:;',
+}, {
+    img: 'https://i.imgur.com/tH38LlF.jpg',
+    title: 'Surfer 2',
+    tag: 'ppl',
+    mSrc: 'javascript:;',
+}, {
+    img: '  https://i.imgur.com/hy9rxg6.jpg',
+    title: '(s)explorer on the beach',
+    tag: 'CAR',
+    mSrc: 'javascript:;',
+},
  {
      img: 'https://i.imgur.com/PplS7j2.jpg',
      title: 'drew & seeley',
@@ -226,14 +258,7 @@ const itemData = [
      tag3: 'nyc',
 
  },
-  {
-     img: 'https://i.imgur.com/TgowRg1.jpg',
-     title: 'sc',
-     date: '081822',
-     tag: 'CAR',
-     tag2: 'NYC',
-     mSrc: 'javascript:;',
- },
+
   {
       img: 'https://i.imgur.com/DdoNwXv.jpg',
       title: 'NYCNYCNYCNYC',
@@ -468,6 +493,14 @@ const itemData = [
         mSrc: 'javascript:;',
     },
     {
+       img: 'https://i.imgur.com/TgowRg1.jpg',
+       title: 'sc',
+       date: '081822',
+       tag: 'CAR',
+       tag2: 'NYC',
+       mSrc: 'javascript:;',
+   },
+    {
         img: 'https://i.imgur.com/1XZe0Vm.jpg',
         title: 'Washington Beach',
         tag: 'USA',
@@ -648,22 +681,7 @@ const itemData = [
 
 
 
-    {
-        img: 'https://i.imgur.com/vzENpQu.jpg',
-        title: 'Surfer 1',
-        tag: 'ppl',
-        mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/tH38LlF.jpg',
-        title: 'Surfer 2',
-        tag: 'ppl',
-        mSrc: 'javascript:;',
-    }, {
-        img: '  https://i.imgur.com/hy9rxg6.jpg',
-        title: '(s)explorer on the beach',
-        tag: 'CAR',
-        mSrc: 'javascript:;',
-    }, {
+ {
         img: 'https://i.imgur.com/pnbVTTH.jpg',
         title: 'Docs',
         tag: 'product',
