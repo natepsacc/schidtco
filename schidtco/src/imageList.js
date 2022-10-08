@@ -280,22 +280,18 @@ const itemData = [
 
 },
 {
-    img: 'https://i.imgur.com/6t0vbI9.jpg',
-    title: 'Trail',
-    tag: 'out',
-    mSrc: 'javascript:;',
+   img: 'https://i.imgur.com/9xCk0Ia.jpg',
+   title: 'Navy',
+   tag: 'out',
+   tag2: 'USA',
+   mSrc: 'javascript:;',
 },
+
 {
     img: 'https://i.imgur.com/EWpUfVK.jpg',
     title: 'milky',
     tag: 'out',
     mSrc: 'javascript:;',
-}, {
-    img: 'https://i.imgur.com/9xCk0Ia.jpg',
-    title: 'Navy',
-    tag: 'out',
-    mSrc: 'javascript:;',
-
 },
 {
         img: 'https://i.imgur.com/rBvylVO.jpg',
@@ -304,6 +300,12 @@ const itemData = [
         tag: 'USA',
         tag4: 'space',
 
+        mSrc: 'javascript:;',
+    },
+    {
+        img: 'https://i.imgur.com/6t0vbI9.jpg',
+        title: 'Trail',
+        tag: 'out',
         mSrc: 'javascript:;',
     },
     {
