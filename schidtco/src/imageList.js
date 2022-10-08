@@ -239,12 +239,13 @@ const itemData = [
       tag: 'out',
       tag2: 'USA',
       mSrc: 'javascript:;',
-  }, {
-      img: 'https://i.imgur.com/mGT3Af2.jpg',
-      title: 'iScream',
-      date: '062022',
+  },
+  {
+      img: 'https://i.imgur.com/UZ0OxqT.jpg',
+      title: 'NYCNYCNYCNYC',
       tag: 'USA',
-      tag2: 'ppl',
+      tag2: 'nyc',
+      date: '072322',
       mSrc: 'javascript:;',
   },
  {
@@ -284,14 +285,6 @@ const itemData = [
        tag2: 'CAR',
        mSrc: 'javascript:;',
    },
-   {
-       img: 'https://i.imgur.com/UZ0OxqT.jpg',
-       title: 'NYCNYCNYCNYC',
-       tag: 'USA',
-       tag2: 'nyc',
-       date: '072322',
-       mSrc: 'javascript:;',
-   },
 {
     img: 'https://i.imgur.com/HFmwyzO.jpg',
     title: 'Amelia Paige',
@@ -308,7 +301,14 @@ const itemData = [
       tag2: 'ppl',
       mSrc: 'javascript:;',
   },
-
+  {
+      img: 'https://i.imgur.com/mGT3Af2.jpg',
+      title: 'iScream',
+      date: '062022',
+      tag: 'USA',
+      tag2: 'ppl',
+      mSrc: 'javascript:;',
+  },
   {
      img: 'https://i.imgur.com/cXApT22.jpg',
      title: 'JULY4',
@@ -328,23 +328,8 @@ const itemData = [
      tag3: 'nyc',
 
  },
-  {
-     img: ' https://i.imgur.com/7414tOE.jpg',
-     title: 'the religous community is toxic',
-     date: '082222',
-     tag: 'NYC',
-     tag2: 'USA',
-     tag4: 'jesus',
-     mSrc: '/#/jesus',
- },
- {
-    img: 'https://i.imgur.com/nY3Y0d3.jpg',
-    title: 'chinatown',
-    date: '091122',
-    tag: 'NYC',
-    tag2: 'USA',
-    mSrc: 'javascript:;',
-},
+
+
 
   {
       img: 'https://i.imgur.com/TqgTbht.jpg',
@@ -380,14 +365,7 @@ const itemData = [
       tag3: 'nyc',
 
   },
-  {
-      img: 'https://i.imgur.com/r70zmxn.jpg',
-      title: 'instagram and its consequences',
-      tag: 'nyc',
-      tag2: 'ppl',
-      date: '07**22',
-      mSrc: 'javascript:;',
-  },
+
   {
       img: 'https://i.imgur.com/vzENpQu.jpg',
       title: 'Surfer 1',
@@ -600,15 +578,14 @@ const itemData = [
         mSrc: 'javascript:;',
     },
     {
-        img: 'https://i.imgur.com/QiyeqH2.jpg',
-        title: 'boy being influenced',
-        date: '072322',
-        tag: 'nyc',
-        tag2: 'ppl',
-        tag4: 'space',
+       img: 'https://i.imgur.com/nY3Y0d3.jpg',
+       title: 'chinatown',
+       date: '091122',
+       tag: 'NYC',
+       tag2: 'USA',
+       mSrc: 'javascript:;',
+   },
 
-        mSrc: 'javascript:;',
-    },
 ,{
         img: 'https://i.imgur.com/JvRhPS4.jpg',
         title: 'SUNDAY',
@@ -1023,7 +1000,16 @@ const itemData = [
         tag2: 'ppl',
         mSrc: 'javascript:;',
 
-    }, {
+    },
+    {
+       img: ' https://i.imgur.com/7414tOE.jpg',
+       title: 'the religous community is toxic',
+       date: '082222',
+       tag: 'NYC',
+       tag2: 'USA',
+       tag4: 'jesus',
+       mSrc: '/#/jesus',
+   },{
         img: 'https://i.imgur.com/jctrv8O.jpg',
         title: 'Co. Glowies',
         tag: 'out',
@@ -1352,7 +1338,14 @@ const itemData = [
         tag3: 'noshow',
         tag2: 'midjourney',
     },
-
+    {
+        img: 'https://i.imgur.com/r70zmxn.jpg',
+        title: 'instagram and its consequences',
+        tag: 'nyc',
+        tag2: 'ppl',
+        date: '07**22',
+        mSrc: 'javascript:;',
+    },
     {
         img: 'https://i.imgur.com/UugFeDz.jpg',
         title: 'Virgil Abloh',
@@ -1407,6 +1400,16 @@ const itemData = [
       title: 'something future something',
       tag: 'out',
       date: '031722',
+      mSrc: 'javascript:;',
+  },
+  {
+      img: 'https://i.imgur.com/QiyeqH2.jpg',
+      title: 'boy being influenced',
+      date: '072322',
+      tag: 'nyc',
+      tag2: 'ppl',
+      tag4: 'space',
+
       mSrc: 'javascript:;',
   },
 ];
