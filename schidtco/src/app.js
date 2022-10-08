@@ -137,7 +137,7 @@ function Whoami(){
   <Box className='introdiv' sx={{
   //  backgroundColor: { xs: "blue", sm: "red", md: "yellow" },
     width: { xs: "fit-content", sm: "45%", md: "35%" },
-    ml: { xs: "0", sm: "45%", md: "45%" },
+    ml: { xs: "-1%", sm: "45%", md: "45%" },
     mt: { xs: "-12%", sm: "-8%", md: "5%" },
     textAlign: { xs: "center", sm: "right", md: "right" }
 
