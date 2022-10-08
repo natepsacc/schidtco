@@ -1362,7 +1362,7 @@ const itemData = [
         tag2: 'nyc',
         date: '080322',
         mSrc: 'javascript:;',
-    }
+    },
     {
         img: 'https://i.imgur.com/15x46gl.jpg',
         title: 'make room for the hustlers!!',
