@@ -223,14 +223,7 @@ const itemData = [
     mSrc: 'javascript:;',
 },
 
- {
-    img: 'https://i.imgur.com/nY3Y0d3.jpg',
-    title: 'chinatown',
-    date: '091122',
-    tag: 'NYC',
-    tag2: 'USA',
-    mSrc: 'javascript:;',
-},
+
   {
       img: 'https://i.imgur.com/DdoNwXv.jpg',
       title: 'NYCNYCNYCNYC',
@@ -241,37 +234,25 @@ const itemData = [
       mSrc: 'javascript:;',
   },
   {
-     img: 'https://i.imgur.com/ApOWcCV.jpg',
-     title: 'the religous community is toxic',
-     date: '082222',
-     tag: 'NYC',
-     tag2: 'USA',
-     tag4: 'jesus',
-     mSrc: '/#/jesus',
- },
+      img: 'https://i.imgur.com/3FGCzcl.jpg',
+      title: 'theatre',
+      tag: 'out',
+      tag2: 'USA',
+      mSrc: 'javascript:;',
+  }, {
+      img: 'https://i.imgur.com/mGT3Af2.jpg',
+      title: 'iScream',
+      date: '062022',
+      tag: 'USA',
+      tag2: 'ppl',
+      mSrc: 'javascript:;',
+  },
  {
     img: 'https://i.imgur.com/6sAwkYg.jpg',
     title: 'waterfall',
     tag: 'out',
     tag2: 'USA',
-
     mSrc: 'javascript:;',
-},
-  {
-  img: 'https://i.imgur.com/6VI8tDC.gif',
-  title: 'More...',
-  date: 'clip guided brainwashing',
-  tag: 'RAD',
-  tag2: 'AI',
-  mSrc: '/#/brainwashing',
-
-},
-{
-   img: 'https://i.imgur.com/9xCk0Ia.jpg',
-   title: 'Navy',
-   tag: 'out',
-   tag2: 'USA',
-   mSrc: 'javascript:;',
 },
 
 {
@@ -303,7 +284,14 @@ const itemData = [
        tag2: 'CAR',
        mSrc: 'javascript:;',
    },
-
+   {
+       img: 'https://i.imgur.com/UZ0OxqT.jpg',
+       title: 'NYCNYCNYCNYC',
+       tag: 'USA',
+       tag2: 'nyc',
+       date: '072322',
+       mSrc: 'javascript:;',
+   },
 {
     img: 'https://i.imgur.com/HFmwyzO.jpg',
     title: 'Amelia Paige',
@@ -320,14 +308,7 @@ const itemData = [
       tag2: 'ppl',
       mSrc: 'javascript:;',
   },
-  {
-      img: 'https://i.imgur.com/UZ0OxqT.jpg',
-      title: 'NYCNYCNYCNYC',
-      tag: 'USA',
-      tag2: 'nyc',
-      date: '072322',
-      mSrc: 'javascript:;',
-  },
+
   {
      img: 'https://i.imgur.com/cXApT22.jpg',
      title: 'JULY4',
@@ -356,7 +337,14 @@ const itemData = [
      tag4: 'jesus',
      mSrc: '/#/jesus',
  },
-
+ {
+    img: 'https://i.imgur.com/nY3Y0d3.jpg',
+    title: 'chinatown',
+    date: '091122',
+    tag: 'NYC',
+    tag2: 'USA',
+    mSrc: 'javascript:;',
+},
 
   {
       img: 'https://i.imgur.com/TqgTbht.jpg',
@@ -452,7 +440,24 @@ const itemData = [
         tag: 'USA',
         mSrc: 'javascript:;',
     },
+    {
+       img: 'https://i.imgur.com/ApOWcCV.jpg',
+       title: 'jesus saves',
+       date: '082222',
+       tag: 'NYC',
+       tag2: 'USA',
+       tag4: 'jesus',
+       mSrc: '/#/jesus',
+   },
+   {
+   img: 'https://i.imgur.com/6VI8tDC.gif',
+   title: 'More...',
+   date: 'clip guided brainwashing',
+   tag: 'RAD',
+   tag2: 'AI',
+   mSrc: '/#/brainwashing',
 
+ },
    {
        img: 'https://i.imgur.com/c8tzEEd.jpg',
        title: 'Brain Sweating',
@@ -617,19 +622,6 @@ const itemData = [
         tag3: 'ppl',
         tag2: 'out',
 
-        mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/3FGCzcl.jpg',
-        title: 'theatre',
-        tag: 'out',
-        tag2: 'USA',
-        mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/mGT3Af2.jpg',
-        title: 'iScream',
-        date: '062022',
-        tag: 'USA',
-        tag2: 'ppl',
         mSrc: 'javascript:;',
     }, {
         img: 'https://i.imgur.com/Xg7jSZT.jpg',
