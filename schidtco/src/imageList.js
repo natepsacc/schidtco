@@ -80,24 +80,18 @@ const imageClick = (props) => {
          desktop: 15
        },
        mt: {
-         mobile: 15,
-         bigMobile: 3,
+         mobile: 35,
+         bigMobile: 40,
          desktop: 15
        },
        justifyContent: 'center',
        flexDirection: 'column',
-       height: {
-
-         mobile: clicked ? "50vh" : "fit-content",
-         bigMobile: clicked ? "50vh" : "fit-content",
-         desktop: clicked ? "fit-content" : "50vh",
-       },
+       height: 'fit-content',
        display: "grid",
        gridTemplateColumns:{
          mobile: clicked ? 'repeat(2, fit-content)' : 'repeat(1, 85vw)',
          bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 85vw)',
-
-         desktop: clicked ? 'repeat(1, 50%)' : 'repeat(4, 25%)',
+         desktop: clicked ? 'repeat(4, 25%)': 'repeat(1, 50%)'  ,
        },
        [`& .${imageListItemClasses.root}`]: {
          display: "flex",

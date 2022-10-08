@@ -1,8 +1,19 @@
 body {
-  font-family: "Courier New", monospace;
+  font-family: "arial", monospace;
   transition: 5s;
 }
+.introdiv{
+  position: absolute;
+  padding-left: 3%;
+  padding-right: 3%;
+  z-index: 5;
+}
 
+h1{
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+}
 img {
   height: inherit;
   object-fit: cover;
@@ -98,7 +109,7 @@ h4{
 }
 
 .lazyImage {
-  z-index: 4;
+  z-index: 2;
   width: auto;
   max-height: 100%;
   margin-left: auto;

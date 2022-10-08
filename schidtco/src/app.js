@@ -9,6 +9,9 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import TimeImage from './overimage.js';
+import Box from '@mui/material/Box';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
 
 
 window.onscroll = function() {scrollFunction()};
@@ -47,6 +50,7 @@ function Home(){
 	return(
 		<span>
 	<Logo/>
+  <Whoami/>
 	<StandardImageList tag="all" gridColumns="2"/>
 	</span>
 );
@@ -128,7 +132,21 @@ function App() {
 
 }
 
+function Whoami(){
+  return(
+  <Box className='introdiv' sx={{
+  //  backgroundColor: { xs: "blue", sm: "red", md: "yellow" },
+    width: { xs: "fit-content", sm: "45%", md: "35%" },
+    ml: { xs: "0", sm: "45%", md: "45%" },
+    mt: { xs: "-12%", sm: "-8%", md: "5%" },
+    textAlign: { xs: "center", sm: "right", md: "right" }
 
+  }}>
+  <h1> Nathan Schmidt</h1> is a photographer and programmer raised in Wyoming living in New York City.
+  He is currently learning <a>python for data science</a> and shooting on a Sony A7 with remarkably cheap lenses.
+  </Box>
+)
+}
 
 function Logo(){
 
@@ -139,11 +157,11 @@ function Logo(){
 		</a>
 
 		<div id="nav" class="nav">
-		<a href="#/cars" ><b class="b bionic">car</b>s </a>
-		<a href="#/usa"> <b class="b bionic">US</b>A </a>
-		<a href="#/ppl"> <b class="b bionic">peop</b>le</a>
-		<a href="#/out"> <b class="b bionic">outsi</b>de</a>
-    <a href="#/rad"> <b class="b bionic">R&</b>D</a>
+		<a href="#/cars" ><b class="b bionic">car</b>s</a> /
+		<a href="#/usa"> <b class="b bionic">US</b>A</a> /
+		<a href="#/ppl"> <b class="b bionic">peop</b>le</a> /
+		<a href="#/out"> <b class="b bionic">outsi</b>de</a> /
+    <a href="#/rad"> <b class="b bionic">R&</b>D</a> /
     <a href="#/nyc"> <b class="b bionic">NY</b>C</a>
 
 		</div>
