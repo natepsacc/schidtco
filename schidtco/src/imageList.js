@@ -186,14 +186,7 @@ const itemData = [
       tag3: 'nyc',
 
   },
-  {
-     img: 'https://i.imgur.com/nY3Y0d3.jpg',
-     title: 'chinatown',
-     date: '091122',
-     tag: 'NYC',
-     tag2: 'USA',
-     mSrc: 'javascript:;',
- },
+
  {
     img: ' https://i.imgur.com/ywhrYSN.jpg',
     title: 'illac',
@@ -252,7 +245,14 @@ const itemData = [
      tag3: 'nyc',
 
  },
-
+ {
+    img: 'https://i.imgur.com/nY3Y0d3.jpg',
+    title: 'chinatown',
+    date: '091122',
+    tag: 'NYC',
+    tag2: 'USA',
+    mSrc: 'javascript:;',
+},
   {
       img: 'https://i.imgur.com/DdoNwXv.jpg',
       title: 'NYCNYCNYCNYC',
@@ -307,6 +307,22 @@ const itemData = [
 
 },
 {
+        img: 'https://i.imgur.com/rBvylVO.jpg',
+        title: 'Couple on an Oregon Beach',
+        date: '011421',
+        tag: 'USA',
+        tag4: 'space',
+
+        mSrc: 'javascript:;',
+    }, {
+        img: 'https://i.imgur.com/9rf7Rto.jpg',
+        title: '325I',
+        date: '042922',
+        tag: 'CAR',
+        mSrc: 'javascript:;',
+    },
+
+{
     img: 'https://i.imgur.com/HFmwyzO.jpg',
     title: 'Amelia Paige',
     tag: 'ppl',
@@ -331,6 +347,16 @@ const itemData = [
       mSrc: 'javascript:;',
   },
   {
+     img: 'https://i.imgur.com/cXApT22.jpg',
+     title: 'JULY4',
+     tag: 'USA',
+     tag2: 'ppl',
+     tag4: 'space',
+
+     date: '070422',
+     mSrc: 'javascript:;',
+ },
+  {
      img: ' https://i.imgur.com/7414tOE.jpg',
      title: 'the religous community is toxic',
      date: '082222',
@@ -339,15 +365,7 @@ const itemData = [
      tag4: 'jesus',
      mSrc: '/#/jesus',
  },
-  {
-     img: 'https://i.imgur.com/LynHPm4.jpg',
-     title: 'the religous community is toxic',
-     date: '082222',
-     tag: 'NYC',
-     tag2: 'USA',
-     tag4: 'jesus',
-     mSrc: '/#/jesus',
-  },
+
 
   {
       img: 'https://i.imgur.com/TqgTbht.jpg',
@@ -357,14 +375,8 @@ const itemData = [
       tag2: 'ppl',
       mSrc: 'javascript:;',
   },
-  {
-      img: 'https://i.imgur.com/15x46gl.jpg',
-      title: 'make room for the hustlers!!',
-      date: '082022',
-      tag: 'NYC',
-      tag2: 'USA',
-      mSrc: 'javascript:;',
-  },
+
+
   {
       img: 'https://i.imgur.com/rvmvcQG.jpg',
       title: 'Bay House',
@@ -381,30 +393,6 @@ const itemData = [
       date: '07**22',
       mSrc: 'javascript:;',
   },
-  {
-     img: 'https://i.imgur.com/cXApT22.jpg',
-     title: 'JULY4',
-     tag: 'USA',
-     tag2: 'ppl',
-     tag4: 'space',
-
-     date: '070422',
-     mSrc: 'javascript:;',
- },{
-        img: 'https://i.imgur.com/rBvylVO.jpg',
-        title: 'Couple on an Oregon Beach',
-        date: '011421',
-        tag: 'USA',
-        tag4: 'space',
-
-        mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/9rf7Rto.jpg',
-        title: '325I',
-        date: '042922',
-        tag: 'CAR',
-        mSrc: 'javascript:;',
-    },
 
     {
         img: 'https://i.imgur.com/mi9QOgf.jpg',
@@ -429,7 +417,15 @@ const itemData = [
         mSrc: 'javascript:;',
         tag: 'ppl',
     },
-
+    {
+       img: 'https://i.imgur.com/LynHPm4.jpg',
+       title: 'the religous community is toxic',
+       date: '082222',
+       tag: 'NYC',
+       tag2: 'USA',
+       tag4: 'jesus',
+       mSrc: '/#/jesus',
+    },
     {
         img: 'https://i.imgur.com/pYayXCP.jpg',
         title: 'Virgil Abloh',
@@ -450,6 +446,14 @@ const itemData = [
         tag: 'ppl',
         tag3: 'prop0623',
 
+    },
+    {
+        img: 'https://i.imgur.com/15x46gl.jpg',
+        title: 'make room for the hustlers!!',
+        date: '082022',
+        tag: 'NYC',
+        tag2: 'USA',
+        mSrc: 'javascript:;',
     },
     {
         img: '    https://i.imgur.com/1kDD2xR.jpg',
