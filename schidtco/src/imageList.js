@@ -186,15 +186,14 @@ const itemData = [
       tag3: 'nyc',
 
   },
+  {
+       img: 'https://i.imgur.com/9rf7Rto.jpg',
+       title: '325I',
+       date: '042922',
+       tag: 'CAR',
+       mSrc: 'javascript:;',
+   },
 
- {
-    img: ' https://i.imgur.com/ywhrYSN.jpg',
-    title: 'illac',
-    date: '091822',
-    tag: 'NYC',
-    tag2: 'CAR',
-    mSrc: 'javascript:;',
-},
  {
     img: 'https://i.imgur.com/dmTEN6B.jpg',
     title: 'the religous community is toxic',
@@ -220,15 +219,7 @@ const itemData = [
     tag: 'CAR',
     mSrc: 'javascript:;',
 },
- {
-     img: 'https://i.imgur.com/PplS7j2.jpg',
-     title: 'drew & seeley',
-     date: '091122',
-     mSrc: 'javascript:;',
-     tag: 'ppl',
-     tag3: 'nyc',
 
- },
  {
     img: 'https://i.imgur.com/YfM4L0I.jpg',
     title: 'BakerPark3',
@@ -314,13 +305,15 @@ const itemData = [
         tag4: 'space',
 
         mSrc: 'javascript:;',
-    }, {
-        img: 'https://i.imgur.com/9rf7Rto.jpg',
-        title: '325I',
-        date: '042922',
-        tag: 'CAR',
-        mSrc: 'javascript:;',
     },
+    {
+       img: ' https://i.imgur.com/ywhrYSN.jpg',
+       title: 'illac',
+       date: '091822',
+       tag: 'NYC',
+       tag2: 'CAR',
+       mSrc: 'javascript:;',
+   },
 
 {
     img: 'https://i.imgur.com/HFmwyzO.jpg',
@@ -355,6 +348,15 @@ const itemData = [
 
      date: '070422',
      mSrc: 'javascript:;',
+ },
+ {
+     img: 'https://i.imgur.com/PplS7j2.jpg',
+     title: 'drew & seeley',
+     date: '091122',
+     mSrc: 'javascript:;',
+     tag: 'ppl',
+     tag3: 'nyc',
+
  },
   {
      img: ' https://i.imgur.com/7414tOE.jpg',
