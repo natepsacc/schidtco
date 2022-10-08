@@ -203,12 +203,7 @@ const itemData = [
     tag4: 'jesus',
     mSrc: '/#/jesus',
 },
-{
-    img: 'https://i.imgur.com/vzENpQu.jpg',
-    title: 'Surfer 1',
-    tag: 'ppl',
-    mSrc: 'javascript:;',
-}, {
+ {
     img: 'https://i.imgur.com/tH38LlF.jpg',
     title: 'Surfer 2',
     tag: 'ppl',
@@ -227,15 +222,7 @@ const itemData = [
     tag2: 'USA',
     mSrc: 'javascript:;',
 },
- {
-     img: 'https://i.imgur.com/Zxjw3Nf.jpg',
-     title: 'seeley',
-     date: '091122',
-     mSrc: 'javascript:;',
-     tag: 'ppl',
-     tag3: 'nyc',
 
- },
  {
     img: 'https://i.imgur.com/nY3Y0d3.jpg',
     title: 'chinatown',
@@ -390,6 +377,15 @@ const itemData = [
       mSrc: 'javascript:;',
   },
   {
+      img: 'https://i.imgur.com/Zxjw3Nf.jpg',
+      title: 'seeley',
+      date: '091122',
+      mSrc: 'javascript:;',
+      tag: 'ppl',
+      tag3: 'nyc',
+
+  },
+  {
       img: 'https://i.imgur.com/r70zmxn.jpg',
       title: 'instagram and its consequences',
       tag: 'nyc',
@@ -397,7 +393,12 @@ const itemData = [
       date: '07**22',
       mSrc: 'javascript:;',
   },
-
+  {
+      img: 'https://i.imgur.com/vzENpQu.jpg',
+      title: 'Surfer 1',
+      tag: 'ppl',
+      mSrc: 'javascript:;',
+  },
     {
         img: 'https://i.imgur.com/mi9QOgf.jpg',
         title: 'park',
@@ -407,13 +408,14 @@ const itemData = [
         mSrc: 'javascript:;',
     },
     {
-        img: '  https://i.imgur.com/h39Is4J.jpg',
-        title: 'Virgil Abloh',
-        tag: 'ppl',
-        tag2: 'nyc',
-        date: '080322',
+        img: 'https://i.imgur.com/6JEQOoq.jpg',
+        title: 'House',
+        tag: 'USA',
+        tag2: 'out',
+        date: '040322',
         mSrc: 'javascript:;',
     },
+
     {
         img: 'https://i.imgur.com/MZqh1kU.jpg',
         title: 'My Well Dressed Neighbor',
@@ -422,13 +424,51 @@ const itemData = [
         tag: 'ppl',
     },
     {
-       img: 'https://i.imgur.com/LynHPm4.jpg',
-       title: 'the religous community is toxic',
-       date: '082222',
-       tag: 'NYC',
+       img: 'https://i.imgur.com/xfa3AMV.jpg',
+       title: 'Glacier, Wa. An hour from rolling my truck:)',
+       tag: 'out',
        tag2: 'USA',
-       tag4: 'jesus',
-       mSrc: '/#/jesus',
+       mSrc: 'javascript:;',
+   },
+   {
+       img: 'https://i.imgur.com/a3W07pe.jpg',
+       title: 'flesh',
+       tag: 'nyc',
+       tag2: 'ppl',
+       date: '072322',
+       mSrc: 'javascript:;',
+   },
+    {
+        img: 'https://i.imgur.com/1XZe0Vm.jpg',
+        title: 'Washington Beach',
+        tag: 'USA',
+        date: '04**22',
+        mSrc: 'javascript:;',
+    },
+
+    {
+        img: 'https://i.imgur.com/VwupETD.jpg',
+        title: 'Near Devils Gulch',
+        tag: 'USA',
+        mSrc: 'javascript:;',
+    },
+
+   {
+       img: 'https://i.imgur.com/c8tzEEd.jpg',
+       title: 'Brain Sweating',
+       date: '021022',
+       mSrc: 'javascript:;',
+       tag: 'ppl',
+       tag3: 'prop0623',
+
+   },
+    {
+        img: '  https://i.imgur.com/h39Is4J.jpg',
+        title: 'Virgil Abloh',
+        tag: 'ppl',
+        tag2: 'nyc',
+        date: '080322',
+        mSrc: 'javascript:;',
     },
     {
         img: 'https://i.imgur.com/pYayXCP.jpg',
@@ -442,15 +482,7 @@ const itemData = [
 
 
 
-    {
-        img: 'https://i.imgur.com/c8tzEEd.jpg',
-        title: 'Brain Sweating',
-        date: '021022',
-        mSrc: 'javascript:;',
-        tag: 'ppl',
-        tag3: 'prop0623',
 
-    },
     {
         img: 'https://i.imgur.com/15x46gl.jpg',
         title: 'make room for the hustlers!!',
@@ -476,14 +508,7 @@ const itemData = [
        tag4: 'jesus',
        mSrc: '/#/jesus',
     },
-    {
-        img: 'https://i.imgur.com/6JEQOoq.jpg',
-        title: 'House',
-        tag: 'USA',
-        tag2: 'out',
-        date: '040322',
-        mSrc: 'javascript:;',
-    },
+
     {
         img: 'https://i.imgur.com/LXViiZM.jpg',
         title: 'Link Date 2022 <3',
@@ -502,28 +527,7 @@ const itemData = [
        tag2: 'NYC',
        mSrc: 'javascript:;',
    },
-    {
-        img: 'https://i.imgur.com/1XZe0Vm.jpg',
-        title: 'Washington Beach',
-        tag: 'USA',
-        date: '04**22',
-        mSrc: 'javascript:;',
-    },
 
-    {
-        img: 'https://i.imgur.com/VwupETD.jpg',
-        title: 'Near Devils Gulch',
-        tag: 'USA',
-        mSrc: 'javascript:;',
-    },
-    {
-        img: 'https://i.imgur.com/a3W07pe.jpg',
-        title: 'nyc',
-        tag: 'nyc',
-        tag2: 'ppl',
-        date: '072322',
-        mSrc: 'javascript:;',
-    },
     {
         img: 'https://i.imgur.com/D0GwpcJ.jpg',
         title: 'BFJ',
@@ -547,12 +551,15 @@ const itemData = [
        date: '070422',
        mSrc: 'javascript:;',
    },
-   {
-      img: 'https://i.imgur.com/xfa3AMV.jpg',
-      title: 'Glacier, Wa. An hour from rolling my truck:)',
-      tag: 'out',
-      tag2: 'USA',
-      mSrc: 'javascript:;',
+
+  {
+     img: 'https://i.imgur.com/LynHPm4.jpg',
+     title: 'the religous community is toxic',
+     date: '082222',
+     tag: 'NYC',
+     tag2: 'USA',
+     tag4: 'jesus',
+     mSrc: '/#/jesus',
   },
    {
         img: 'https://i.imgur.com/HuIWMCV.jpg',
