@@ -555,21 +555,22 @@ const itemData = [
         mSrc: 'javascript:;',
     },
 
-  {
-     img: 'https://i.imgur.com/LynHPm4.jpg',
-     title: 'the religous community is toxic',
-     date: '082222',
-     tag: 'NYC',
-     tag2: 'USA',
-     tag4: 'jesus',
-     mSrc: '/#/jesus',
-  },
+
    {
         img: 'https://i.imgur.com/HuIWMCV.jpg',
         title: 'Bunny',
         tag: 'CAR',
         mSrc: 'javascript:;',
-    }, {
+    },
+    {
+       img: 'https://i.imgur.com/LynHPm4.jpg',
+       title: 'the religous community is toxic',
+       date: '082222',
+       tag: 'NYC',
+       tag2: 'USA',
+       tag4: 'jesus',
+       mSrc: '/#/jesus',
+    },{
         img: 'https://i.imgur.com/tLQQm3V.jpg',
         title: 'everything is blue',
         tag: 'USA',
