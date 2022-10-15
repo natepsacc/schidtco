@@ -185,16 +185,7 @@ const itemData = [
      tag3: 'nyc',
 
  },
-  {
-      img: 'https://i.imgur.com/OsLGFBR.jpg',
-      title: 'broken unspoken photographer rules',
-      date: '072322',
-      mSrc: 'javascript:;',
-      tag: 'ppl',
-      tag2: 'out',
-      tag3: 'nyc',
 
-  },
   {
        img: 'https://i.imgur.com/9rf7Rto.jpg',
        title: '325I',
@@ -223,7 +214,16 @@ const itemData = [
     tag: 'CAR',
     mSrc: 'javascript:;',
 },
+{
+    img: 'https://i.imgur.com/OsLGFBR.jpg',
+    title: 'broken unspoken photographer rules',
+    date: '072322',
+    mSrc: 'javascript:;',
+    tag: 'ppl',
+    tag2: 'out',
+    tag3: 'nyc',
 
+},
  {
     img: 'https://i.imgur.com/YfM4L0I.jpg',
     title: 'BakerPark3',
