@@ -276,7 +276,7 @@ const itemData = [
 
 {
     img: 'https://i.imgur.com/EWpUfVK.jpg',
-    title: 'milky',
+    title: 'nevada milky',
     tag: 'out',
     mSrc: 'javascript:;',
 },
