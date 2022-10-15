@@ -278,6 +278,8 @@ const itemData = [
     img: 'https://i.imgur.com/EWpUfVK.jpg',
     title: 'nevada milky',
     tag: 'out',
+    tag2: 'USA',
+
     mSrc: 'javascript:;',
 },
 {
@@ -307,7 +309,7 @@ const itemData = [
     img: 'https://i.imgur.com/HFmwyzO.jpg',
     title: 'Amelia Paige',
     tag: 'ppl',
-    tag2: 'nyc',
+    tag2: 'NYC',
     date: '080322',
     mSrc: 'https://www.instagram.com/ameliapaige7',
 },
@@ -343,7 +345,7 @@ const itemData = [
      date: '091122',
      mSrc: 'javascript:;',
      tag: 'ppl',
-     tag3: 'nyc',
+     tag3: 'NYC',
 
  },
  {
@@ -352,7 +354,7 @@ const itemData = [
      date: '091122',
      mSrc: 'javascript:;',
      tag: 'ppl',
-     tag3: 'nyc',
+     tag3: 'NYC',
 
  },
 
@@ -388,7 +390,7 @@ const itemData = [
       date: '091122',
       mSrc: 'javascript:;',
       tag: 'ppl',
-      tag3: 'nyc',
+      tag3: 'NYC',
 
   },
 
@@ -433,7 +435,7 @@ const itemData = [
    {
        img: 'https://i.imgur.com/a3W07pe.jpg',
        title: 'flesh',
-       tag: 'nyc',
+       tag: 'NYC',
        tag2: 'ppl',
        date: '072322',
        mSrc: 'javascript:;',
@@ -527,7 +529,7 @@ const itemData = [
     {
         img: 'https://i.imgur.com/LXViiZM.jpg',
         title: 'Link Date 2022 <3',
-        tag: 'nyc',
+        tag: 'NYC',
         tag2: 'ppl',
         tag4: 'space',
 
@@ -1138,7 +1140,7 @@ const itemData = [
         img: '  https://i.imgur.com/h39Is4J.jpg',
         title: 'Virgil Abloh',
         tag: 'ppl',
-        tag2: 'nyc',
+        tag2: 'NYC',
         date: '080322',
         mSrc: 'javascript:;',
     },
@@ -1146,7 +1148,7 @@ const itemData = [
         img: 'https://i.imgur.com/pYayXCP.jpg',
         title: 'Virgil Abloh',
         tag: 'ppl',
-        tag2: 'nyc',
+        tag2: 'NYC',
         date: '081822',
         mSrc: 'javascript:;',
     },
@@ -1368,7 +1370,7 @@ const itemData = [
     {
         img: 'https://i.imgur.com/r70zmxn.jpg',
         title: 'instagram and its consequences',
-        tag: 'nyc',
+        tag: 'NYC',
         tag2: 'ppl',
         date: '07**22',
         mSrc: 'javascript:;',
@@ -1377,7 +1379,7 @@ const itemData = [
         img: 'https://i.imgur.com/UugFeDz.jpg',
         title: 'Virgil Abloh',
         tag: 'ppl',
-        tag2: 'nyc',
+        tag2: 'NYC',
         date: '080322',
         mSrc: 'javascript:;',
     },
@@ -1385,7 +1387,7 @@ const itemData = [
         img: '  https://i.imgur.com/zWDIiWc.jpg',
         title: 'Virgil Abloh',
         tag: 'ppl',
-        tag2: 'nyc',
+        tag2: 'NYC',
         date: '080322',
         mSrc: 'javascript:;',
     },
@@ -1433,7 +1435,7 @@ const itemData = [
       img: 'https://i.imgur.com/QiyeqH2.jpg',
       title: 'boy being influenced',
       date: '072322',
-      tag: 'nyc',
+      tag: 'NYC',
       tag2: 'ppl',
       tag4: 'space',
 
