@@ -168,6 +168,15 @@ const itemData = [
 
  },
  {
+     img: 'https://i.imgur.com/WhuLrnP.jpg',
+     title: 'wtc',
+     date: '100622',
+     mSrc: 'javascript:;',
+     tag: 'ppl',
+     tag3: 'nyc',
+
+ },
+ {
      img: 'https://i.imgur.com/fC5XSGn.jpg',
      title: 'seeley',
      date: '091122',
@@ -248,6 +257,15 @@ const itemData = [
       date: '072322',
       mSrc: 'javascript:;',
   },
+  {
+       img: 'https://i.imgur.com/GfNhXRp.jpg',
+       title: 'caged jaguar',
+       date: '100522',
+       tag: 'CAR',
+       tag2: 'NYC',
+
+       mSrc: 'javascript:;',
+   },
  {
     img: 'https://i.imgur.com/6sAwkYg.jpg',
     title: 'waterfall',
