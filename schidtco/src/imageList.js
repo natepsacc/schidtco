@@ -74,6 +74,7 @@ const imageClick = (props) => {
    ClassName='boxes'
    onClick={toggleClicked}
      sx={{
+        p:10,
        m:{
          mobile: 5,
          bigMobile: 3,
@@ -84,6 +85,9 @@ const imageClick = (props) => {
          bigMobile: 40,
          desktop: 15
        },
+       border: 4,
+       borderColor: 'blue',
+       borderRadius: 10,
        justifyContent: 'center',
        flexDirection: 'column',
        height: 'fit-content',
@@ -91,7 +95,7 @@ const imageClick = (props) => {
        gridTemplateColumns:{
          mobile: clicked ? 'repeat(2, fit-content)' : 'repeat(1, 85vw)',
          bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 85vw)',
-         desktop: clicked ? 'repeat(4, 25%)': 'repeat(1, 50%)'  ,
+         desktop: clicked ? 'repeat(4, 25%)': 'repeat(1, calc(100% - 100px))'  ,
        },
        [`& .${imageListItemClasses.root}`]: {
          display: "flex",
@@ -159,14 +163,7 @@ id='imgimg' key={item.img} id="height" sx={{m:0}}>
 
 
 const itemData = [
-  {
-     img: 'https://i.imgur.com/kbSPsGT.jpg',
-     title: 'BakerPark',
-     tag: 'out',
-     tag2: 'USA',
-     mSrc: 'javascript:;',
 
- },
  {
      img: 'https://i.imgur.com/WhuLrnP.jpg',
      title: 'wtc',
@@ -202,6 +199,14 @@ const itemData = [
     tag2: 'USA',
     tag4: 'jesus',
     mSrc: '/#/jesus',
+},
+{
+    img: 'https://i.imgur.com/kbSPsGT.jpg',
+    title: 'BakerPark',
+    tag: 'out',
+    tag2: 'USA',
+    mSrc: 'javascript:;',
+
 },
  {
     img: 'https://i.imgur.com/tH38LlF.jpg',

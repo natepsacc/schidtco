@@ -10,11 +10,14 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import TimeImage from './overimage.js';
 import Box from '@mui/material/Box';
+import { alpha } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 
 
 window.onscroll = function() {scrollFunction()};
+
+
 
 function scrollFunction() {
 
@@ -139,10 +142,14 @@ function Whoami(){
     width: { xs: "fit-content", sm: "45%", md: "35%" },
     ml: { xs: "-1%", sm: "45%", md: "45%" },
     mt: { xs: "-12%", sm: "-8%", md: "5%" },
-    textAlign: { xs: "center", sm: "right", md: "right" }
-
+    textAlign: { xs: "center", sm: "right", md: "right" },
+    backgroundColor: 'rgba(255,255,255,0.6)',
+    border: 4,
+    borderColor: 'blue',
+    borderRadius:10,
+    p:2.4,
   }}>
-  <h1> Nathan Schmidt</h1> is a photographer and programmer raised in Wyoming living in New York City.
+  <h1> Nathan Schmidt</h1> is a cowboy, photographer and programmer raised in Wyoming living in New York City.
   He is currently learning <a>python for data science</a> and shooting on a Sony A7 with remarkably cheap lenses.
   </Box>
 )
