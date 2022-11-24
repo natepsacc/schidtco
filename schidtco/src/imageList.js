@@ -74,7 +74,11 @@ const imageClick = (props) => {
    ClassName='boxes'
    onClick={toggleClicked}
      sx={{
-        p:10,
+        p:{
+            mobile:4,
+            bigMobile: 2,
+            desktop: 10
+          },
        m:{
          mobile: 5,
          bigMobile: 3,
@@ -93,8 +97,8 @@ const imageClick = (props) => {
        height: 'fit-content',
        display: "grid",
        gridTemplateColumns:{
-         mobile: clicked ? 'repeat(2, fit-content)' : 'repeat(1, 85vw)',
-         bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 85vw)',
+         mobile: clicked ? 'repeat(2, fit-content)' : 'repeat(1, 75vw)',
+         bigMobile: clicked ? 'repeat(2, 50%)' : 'repeat(1, 75vw)',
          desktop: clicked ? 'repeat(4, 25%)': 'repeat(1, calc(100% - 100px))'  ,
        },
        [`& .${imageListItemClasses.root}`]: {
@@ -208,6 +212,8 @@ const itemData = [
     mSrc: 'javascript:;',
 
 },
+
+
  {
     img: 'https://i.imgur.com/tH38LlF.jpg',
     title: 'Surfer 2',
