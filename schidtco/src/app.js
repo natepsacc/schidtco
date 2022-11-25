@@ -28,6 +28,7 @@ function scrollFunction() {
   //  document.getElementById("TitleLogo").style.animation = "";
 
 		document.getElementById("nav").style.top = "2vh";
+		document.getElementById("introdiv").style.opacity = "0";
 
 
 
@@ -39,6 +40,7 @@ function scrollFunction() {
 
 
 		document.getElementById("nav").style.top = "25vh";
+		document.getElementById("introdiv").style.opacity = "100";
 
 
   }
@@ -137,7 +139,7 @@ function App() {
 
 function Whoami(){
   return(
-  <Box className='introdiv' sx={{
+  <Box className='introdiv' id="introdiv" sx={{
   //  backgroundColor: { xs: "blue", sm: "red", md: "yellow" },
     width: { xs: "fit-content", sm: "45%", md: "35%" },
     ml: { xs: "-1%", sm: "45%", md: "45%" },
